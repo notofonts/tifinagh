@@ -2,61 +2,10 @@
 
 Fontbakery version: 0.8.10
 
-<details><summary><b>[12] NotoSansTifinagh-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<details><summary><b>[8] NotoSansTifinagh-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x0030 (DIGIT ZERO)
-
-
-	- 0x0031 (DIGIT ONE)
-
-
-	- 0x0032 (DIGIT TWO)
-
-
-	- 0x0033 (DIGIT THREE)
-
-
-	- 0x0034 (DIGIT FOUR)
-
-
-	- 0x0035 (DIGIT FIVE)
-
-
-	- 0x0036 (DIGIT SIX)
-
-
-	- 0x0037 (DIGIT SEVEN)
-
-
-	- 0x0038 (DIGIT EIGHT)
-
-
-	- 0x0039 (DIGIT NINE)
- 
-
-	- And 314 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Name table entries should not contain line-breaks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/line_breaks">com.google.fonts/check/name/line_breaks</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name entry DESCRIPTION on platform WINDOWS contains a line-break. [code: line-break]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
-
-
-* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Tifinagh [code: render-own-name]
-</div></details><details><summary>🔥 <b>FAIL:</b> Name table records must not have trailing spaces. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/name/trailing_spaces">com.google.fonts/check/name/trailing_spaces</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name table record with key = (3, 1, 1033, 10) has trailing spaces that must be removed: 'Designed b[...]il Patel.
-' [code: trailing-space]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1190, but got 1069 instead [code: ascent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -66,15 +15,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 	- dotbelowcomb
 
+	- gravecomb
+
+	- tildecomb
+
 	- uni0302
 
 	- uni0304
 
 	- uni0306
 
-	- uni0307 
+	- uni0307
 
-	- And uni0331 [code: unattached-dotted-circle-marks]
+	- uni0308
+
+	- uni030A 
+
+	- And 7 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -95,44 +54,76 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 599 but it should be 679 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- labializationBerbertifi
+
+	- uni00A0.1
+
+	- yaBerbertifi
+
+	- yaHawadtifi
+
+	- yaSILtifi
+
+	- yaaBerbertifi
+
+	- yabBerbertifi
+
+	- yachAPTtifi
+
+	- yachBerbertifi
+
+	- yachBerbertifi.RTL 
+
+	- And 102 more.
+
+Use -F or --full-lists to disable shortening of long lists.
+ [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
-	* uni2D42 (U+2D42): X=106.0,Y=714.5 (should be at cap-height 714?) 
+The following glyphs do not have the recommended number of contours:
 
-	* And uni2D42 (U+2D42): X=201.5,Y=-0.5 (should be at baseline 0?) [code: found-misalignments]
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+
+	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* uni2D33 (U+2D33) contains a short segment L<<30.0,0.0>--<30.0,8.0>>
+	* two (U+0032) contains a short segment L<<159.0,84.0>--<159.0,80.0>>
 
-	* uni2D33 (U+2D33) contains a short segment L<<645.0,8.0>--<645.0,0.0>>
+	* at (U+0040) contains a short segment B<<613.0,293.0>-<612.0,275.0>-<612.0,267.5>>
 
-	* uni2D34 (U+2D34) contains a short segment L<<30.0,706.0>--<30.0,714.0>>
+	* at (U+0040) contains a short segment B<<612.0,267.5>-<612.0,260.0>-<612.0,257.0>>
 
-	* uni2D34 (U+2D34) contains a short segment L<<645.0,714.0>--<645.0,706.0>>
+	* M (U+004D) contains a short segment L<<177.0,626.0>--<173.0,626.0>>
 
-	* uni2D37 (U+2D37) contains a short segment L<<40.0,0.0>--<40.0,8.0>>
+	* M (U+004D) contains a short segment L<<450.0,129.0>--<454.0,129.0>>
 
-	* uni2D37 (U+2D37) contains a short segment L<<649.0,8.0>--<649.0,0.0>>
+	* N (U+004E) contains a short segment L<<176.0,593.0>--<172.0,593.0>>
 
-	* uni2D38 (U+2D38) contains a short segment L<<40.0,706.0>--<40.0,714.0>>
+	* N (U+004E) contains a short segment L<<582.0,123.0>--<586.0,123.0>>
 
-	* uni2D38 (U+2D38) contains a short segment L<<649.0,714.0>--<649.0,706.0>>
+	* Q (U+0051) contains a short segment B<<416.0,-9.0>-<410.0,-9.0>-<403.5,-9.5>>
 
-	* uni2D3D (U+2D3D) contains a short segment L<<657.0,8.0>--<657.0,0.0>>
+	* Q (U+0051) contains a short segment B<<403.5,-9.5>-<397.0,-10.0>-<391.0,-10.0>>
 
-	* uni2D3F (U+2D3F) contains a short segment L<<654.0,714.0>--<654.0,706.0>> 
+	* W (U+0057) contains a short segment B<<468.0,577.5>-<463.0,600.0>-<461.0,609.0>> 
 
-	* And 19 more.
+	* And 90 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -140,64 +131,33 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* caron (U+02C7): L<<114.0,714.0>--<114.0,694.0>> -> L<<114.0,694.0>--<97.0,484.0>> 
+	* Ccaron (U+010C): L<<199.0,662.0>--<191.0,872.0>> -> L<<191.0,872.0>--<191.0,892.0>>
 
-	* And caron (U+02C7): L<<28.0,484.0>--<20.0,694.0>> -> L<<20.0,694.0>--<20.0,714.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[12] NotoSansTifinaghAPT-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* Ccaron (U+010C): L<<285.0,892.0>--<285.0,872.0>> -> L<<285.0,872.0>--<268.0,662.0>>
 
+	* Dcaron (U+010E): L<<180.0,662.0>--<172.0,872.0>> -> L<<172.0,872.0>--<172.0,892.0>>
 
-* 🔥 **FAIL** Missing required codepoints:
+	* Dcaron (U+010E): L<<266.0,892.0>--<266.0,872.0>> -> L<<266.0,872.0>--<249.0,662.0>>
 
-	- 0x0030 (DIGIT ZERO)
+	* Ecaron (U+011A): L<<124.0,662.0>--<116.0,872.0>> -> L<<116.0,872.0>--<116.0,892.0>>
 
+	* Ecaron (U+011A): L<<210.0,892.0>--<210.0,872.0>> -> L<<210.0,872.0>--<193.0,662.0>>
 
-	- 0x0031 (DIGIT ONE)
+	* Ncaron (U+0147): L<<199.0,662.0>--<191.0,872.0>> -> L<<191.0,872.0>--<191.0,892.0>>
 
+	* Ncaron (U+0147): L<<285.0,892.0>--<285.0,872.0>> -> L<<285.0,872.0>--<268.0,662.0>>
 
-	- 0x0032 (DIGIT TWO)
+	* Rcaron (U+0158): L<<130.0,662.0>--<122.0,872.0>> -> L<<122.0,872.0>--<122.0,892.0>>
 
+	* Rcaron (U+0158): L<<216.0,892.0>--<216.0,872.0>> -> L<<216.0,872.0>--<199.0,662.0>> 
 
-	- 0x0033 (DIGIT THREE)
+	* And 26 more.
 
-
-	- 0x0034 (DIGIT FOUR)
-
-
-	- 0x0035 (DIGIT FIVE)
-
-
-	- 0x0036 (DIGIT SIX)
+Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
+</div></details><br></div></details><details><summary><b>[8] NotoSansTifinaghAPT-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-	- 0x0037 (DIGIT SEVEN)
-
-
-	- 0x0038 (DIGIT EIGHT)
-
-
-	- 0x0039 (DIGIT NINE)
- 
-
-	- And 314 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Name table entries should not contain line-breaks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/line_breaks">com.google.fonts/check/name/line_breaks</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name entry DESCRIPTION on platform WINDOWS contains a line-break. [code: line-break]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
-
-
-* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Tifinagh APT [code: render-own-name]
-</div></details><details><summary>🔥 <b>FAIL:</b> Name table records must not have trailing spaces. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/name/trailing_spaces">com.google.fonts/check/name/trailing_spaces</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name table record with key = (3, 1, 1033, 10) has trailing spaces that must be removed: 'Designed b[...]il Patel.
-' [code: trailing-space]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1190, but got 1069 instead [code: ascent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -207,15 +167,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 	- dotbelowcomb
 
+	- gravecomb
+
+	- tildecomb
+
 	- uni0302
 
 	- uni0304
 
 	- uni0306
 
-	- uni0307 
+	- uni0307
 
-	- And uni0331 [code: unattached-dotted-circle-marks]
+	- uni0308
+
+	- uni030A 
+
+	- And 7 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -227,44 +197,76 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 599 but it should be 679 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- labializationBerbertifi
+
+	- uni00A0.1
+
+	- uni2D47.RTL
+
+	- uni2D4D.RTL
+
+	- uni2D5A.RTL
+
+	- uni2D5E.RTL
+
+	- uni2D5F.RTL
+
+	- uni2D62.RTL
+
+	- yaBerbertifi
+
+	- yaHawadtifi 
+
+	- And 98 more.
+
+Use -F or --full-lists to disable shortening of long lists.
+ [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
-	* uni2D42 (U+2D42): X=106.0,Y=714.5 (should be at cap-height 714?) 
+The following glyphs do not have the recommended number of contours:
 
-	* And uni2D42 (U+2D42): X=201.5,Y=-0.5 (should be at baseline 0?) [code: found-misalignments]
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+
+	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* uni2D33 (U+2D33) contains a short segment L<<30.0,0.0>--<30.0,8.0>>
+	* two (U+0032) contains a short segment L<<159.0,84.0>--<159.0,80.0>>
 
-	* uni2D33 (U+2D33) contains a short segment L<<645.0,8.0>--<645.0,0.0>>
+	* at (U+0040) contains a short segment B<<613.0,293.0>-<612.0,275.0>-<612.0,267.5>>
 
-	* uni2D34 (U+2D34) contains a short segment L<<30.0,706.0>--<30.0,714.0>>
+	* at (U+0040) contains a short segment B<<612.0,267.5>-<612.0,260.0>-<612.0,257.0>>
 
-	* uni2D34 (U+2D34) contains a short segment L<<645.0,714.0>--<645.0,706.0>>
+	* M (U+004D) contains a short segment L<<177.0,626.0>--<173.0,626.0>>
 
-	* uni2D37 (U+2D37) contains a short segment L<<40.0,0.0>--<40.0,8.0>>
+	* M (U+004D) contains a short segment L<<450.0,129.0>--<454.0,129.0>>
 
-	* uni2D37 (U+2D37) contains a short segment L<<649.0,8.0>--<649.0,0.0>>
+	* N (U+004E) contains a short segment L<<176.0,593.0>--<172.0,593.0>>
 
-	* uni2D38 (U+2D38) contains a short segment L<<40.0,706.0>--<40.0,714.0>>
+	* N (U+004E) contains a short segment L<<582.0,123.0>--<586.0,123.0>>
 
-	* uni2D38 (U+2D38) contains a short segment L<<649.0,714.0>--<649.0,706.0>>
+	* Q (U+0051) contains a short segment B<<416.0,-9.0>-<410.0,-9.0>-<403.5,-9.5>>
 
-	* uni2D3D (U+2D3D) contains a short segment L<<657.0,8.0>--<657.0,0.0>>
+	* Q (U+0051) contains a short segment B<<403.5,-9.5>-<397.0,-10.0>-<391.0,-10.0>>
 
-	* uni2D3F (U+2D3F) contains a short segment L<<654.0,714.0>--<654.0,706.0>> 
+	* W (U+0057) contains a short segment B<<468.0,577.5>-<463.0,600.0>-<461.0,609.0>> 
 
-	* And 19 more.
+	* And 90 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -272,64 +274,33 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* caron (U+02C7): L<<114.0,714.0>--<114.0,694.0>> -> L<<114.0,694.0>--<97.0,484.0>> 
+	* Ccaron (U+010C): L<<199.0,662.0>--<191.0,872.0>> -> L<<191.0,872.0>--<191.0,892.0>>
 
-	* And caron (U+02C7): L<<28.0,484.0>--<20.0,694.0>> -> L<<20.0,694.0>--<20.0,714.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[12] NotoSansTifinaghAdrar-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* Ccaron (U+010C): L<<285.0,892.0>--<285.0,872.0>> -> L<<285.0,872.0>--<268.0,662.0>>
 
+	* Dcaron (U+010E): L<<180.0,662.0>--<172.0,872.0>> -> L<<172.0,872.0>--<172.0,892.0>>
 
-* 🔥 **FAIL** Missing required codepoints:
+	* Dcaron (U+010E): L<<266.0,892.0>--<266.0,872.0>> -> L<<266.0,872.0>--<249.0,662.0>>
 
-	- 0x0030 (DIGIT ZERO)
+	* Ecaron (U+011A): L<<124.0,662.0>--<116.0,872.0>> -> L<<116.0,872.0>--<116.0,892.0>>
 
+	* Ecaron (U+011A): L<<210.0,892.0>--<210.0,872.0>> -> L<<210.0,872.0>--<193.0,662.0>>
 
-	- 0x0031 (DIGIT ONE)
+	* Ncaron (U+0147): L<<199.0,662.0>--<191.0,872.0>> -> L<<191.0,872.0>--<191.0,892.0>>
 
+	* Ncaron (U+0147): L<<285.0,892.0>--<285.0,872.0>> -> L<<285.0,872.0>--<268.0,662.0>>
 
-	- 0x0032 (DIGIT TWO)
+	* Rcaron (U+0158): L<<130.0,662.0>--<122.0,872.0>> -> L<<122.0,872.0>--<122.0,892.0>>
 
+	* Rcaron (U+0158): L<<216.0,892.0>--<216.0,872.0>> -> L<<216.0,872.0>--<199.0,662.0>> 
 
-	- 0x0033 (DIGIT THREE)
+	* And 26 more.
 
-
-	- 0x0034 (DIGIT FOUR)
-
-
-	- 0x0035 (DIGIT FIVE)
-
-
-	- 0x0036 (DIGIT SIX)
+Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
+</div></details><br></div></details><details><summary><b>[8] NotoSansTifinaghAdrar-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-	- 0x0037 (DIGIT SEVEN)
-
-
-	- 0x0038 (DIGIT EIGHT)
-
-
-	- 0x0039 (DIGIT NINE)
- 
-
-	- And 314 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Name table entries should not contain line-breaks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/line_breaks">com.google.fonts/check/name/line_breaks</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name entry DESCRIPTION on platform WINDOWS contains a line-break. [code: line-break]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
-
-
-* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Tifinagh Adrar [code: render-own-name]
-</div></details><details><summary>🔥 <b>FAIL:</b> Name table records must not have trailing spaces. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/name/trailing_spaces">com.google.fonts/check/name/trailing_spaces</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name table record with key = (3, 1, 1033, 10) has trailing spaces that must be removed: 'Designed b[...]il Patel.
-' [code: trailing-space]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1190, but got 1069 instead [code: ascent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -339,15 +310,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 	- dotbelowcomb
 
+	- gravecomb
+
+	- tildecomb
+
 	- uni0302
 
 	- uni0304
 
 	- uni0306
 
-	- uni0307 
+	- uni0307
 
-	- And uni0331 [code: unattached-dotted-circle-marks]
+	- uni0308
+
+	- uni030A 
+
+	- And 7 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -359,44 +340,76 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 599 but it should be 682 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- labializationBerbertifi
+
+	- uni00A0.1
+
+	- uni2D47.RTL
+
+	- uni2D4D.RTL
+
+	- uni2D62.RTL
+
+	- yaBerbertifi
+
+	- yaHawadtifi
+
+	- yaSILtifi
+
+	- yaaBerbertifi
+
+	- yabBerbertifi 
+
+	- And 98 more.
+
+Use -F or --full-lists to disable shortening of long lists.
+ [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
-	* uni2D42 (U+2D42): X=106.0,Y=714.5 (should be at cap-height 714?) 
+The following glyphs do not have the recommended number of contours:
 
-	* And uni2D42 (U+2D42): X=201.5,Y=-0.5 (should be at baseline 0?) [code: found-misalignments]
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+
+	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* uni2D33 (U+2D33) contains a short segment L<<30.0,0.0>--<30.0,8.0>>
+	* two (U+0032) contains a short segment L<<159.0,84.0>--<159.0,80.0>>
 
-	* uni2D33 (U+2D33) contains a short segment L<<645.0,8.0>--<645.0,0.0>>
+	* at (U+0040) contains a short segment B<<613.0,293.0>-<612.0,275.0>-<612.0,267.5>>
 
-	* uni2D34 (U+2D34) contains a short segment L<<30.0,706.0>--<30.0,714.0>>
+	* at (U+0040) contains a short segment B<<612.0,267.5>-<612.0,260.0>-<612.0,257.0>>
 
-	* uni2D34 (U+2D34) contains a short segment L<<645.0,714.0>--<645.0,706.0>>
+	* M (U+004D) contains a short segment L<<177.0,626.0>--<173.0,626.0>>
 
-	* uni2D37 (U+2D37) contains a short segment L<<40.0,0.0>--<40.0,8.0>>
+	* M (U+004D) contains a short segment L<<450.0,129.0>--<454.0,129.0>>
 
-	* uni2D37 (U+2D37) contains a short segment L<<649.0,8.0>--<649.0,0.0>>
+	* N (U+004E) contains a short segment L<<176.0,593.0>--<172.0,593.0>>
 
-	* uni2D38 (U+2D38) contains a short segment L<<40.0,706.0>--<40.0,714.0>>
+	* N (U+004E) contains a short segment L<<582.0,123.0>--<586.0,123.0>>
 
-	* uni2D38 (U+2D38) contains a short segment L<<649.0,714.0>--<649.0,706.0>>
+	* Q (U+0051) contains a short segment B<<416.0,-9.0>-<410.0,-9.0>-<403.5,-9.5>>
 
-	* uni2D3D (U+2D3D) contains a short segment L<<657.0,8.0>--<657.0,0.0>>
+	* Q (U+0051) contains a short segment B<<403.5,-9.5>-<397.0,-10.0>-<391.0,-10.0>>
 
-	* uni2D3F (U+2D3F) contains a short segment L<<654.0,714.0>--<654.0,706.0>> 
+	* W (U+0057) contains a short segment B<<468.0,577.5>-<463.0,600.0>-<461.0,609.0>> 
 
-	* And 19 more.
+	* And 90 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -404,64 +417,33 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* caron (U+02C7): L<<114.0,714.0>--<114.0,694.0>> -> L<<114.0,694.0>--<97.0,484.0>> 
+	* Ccaron (U+010C): L<<199.0,662.0>--<191.0,872.0>> -> L<<191.0,872.0>--<191.0,892.0>>
 
-	* And caron (U+02C7): L<<28.0,484.0>--<20.0,694.0>> -> L<<20.0,694.0>--<20.0,714.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[12] NotoSansTifinaghAgrawImazighen-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* Ccaron (U+010C): L<<285.0,892.0>--<285.0,872.0>> -> L<<285.0,872.0>--<268.0,662.0>>
 
+	* Dcaron (U+010E): L<<180.0,662.0>--<172.0,872.0>> -> L<<172.0,872.0>--<172.0,892.0>>
 
-* 🔥 **FAIL** Missing required codepoints:
+	* Dcaron (U+010E): L<<266.0,892.0>--<266.0,872.0>> -> L<<266.0,872.0>--<249.0,662.0>>
 
-	- 0x0030 (DIGIT ZERO)
+	* Ecaron (U+011A): L<<124.0,662.0>--<116.0,872.0>> -> L<<116.0,872.0>--<116.0,892.0>>
 
+	* Ecaron (U+011A): L<<210.0,892.0>--<210.0,872.0>> -> L<<210.0,872.0>--<193.0,662.0>>
 
-	- 0x0031 (DIGIT ONE)
+	* Ncaron (U+0147): L<<199.0,662.0>--<191.0,872.0>> -> L<<191.0,872.0>--<191.0,892.0>>
 
+	* Ncaron (U+0147): L<<285.0,892.0>--<285.0,872.0>> -> L<<285.0,872.0>--<268.0,662.0>>
 
-	- 0x0032 (DIGIT TWO)
+	* Rcaron (U+0158): L<<130.0,662.0>--<122.0,872.0>> -> L<<122.0,872.0>--<122.0,892.0>>
 
+	* Rcaron (U+0158): L<<216.0,892.0>--<216.0,872.0>> -> L<<216.0,872.0>--<199.0,662.0>> 
 
-	- 0x0033 (DIGIT THREE)
+	* And 26 more.
 
-
-	- 0x0034 (DIGIT FOUR)
-
-
-	- 0x0035 (DIGIT FIVE)
-
-
-	- 0x0036 (DIGIT SIX)
+Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
+</div></details><br></div></details><details><summary><b>[8] NotoSansTifinaghAgrawImazighen-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-	- 0x0037 (DIGIT SEVEN)
-
-
-	- 0x0038 (DIGIT EIGHT)
-
-
-	- 0x0039 (DIGIT NINE)
- 
-
-	- And 314 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Name table entries should not contain line-breaks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/line_breaks">com.google.fonts/check/name/line_breaks</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name entry DESCRIPTION on platform WINDOWS contains a line-break. [code: line-break]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
-
-
-* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Tifinagh Agraw Imazighen [code: render-own-name]
-</div></details><details><summary>🔥 <b>FAIL:</b> Name table records must not have trailing spaces. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/name/trailing_spaces">com.google.fonts/check/name/trailing_spaces</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name table record with key = (3, 1, 1033, 10) has trailing spaces that must be removed: 'Designed b[...]il Patel.
-' [code: trailing-space]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1190, but got 1069 instead [code: ascent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -471,15 +453,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 	- dotbelowcomb
 
+	- gravecomb
+
+	- tildecomb
+
 	- uni0302
 
 	- uni0304
 
 	- uni0306
 
-	- uni0307 
+	- uni0307
 
-	- And uni0331 [code: unattached-dotted-circle-marks]
+	- uni0308
+
+	- uni030A 
+
+	- And 7 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -491,44 +483,76 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 599 but it should be 683 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- labializationBerbertifi
+
+	- uni00A0.1
+
+	- uni2D4D.RTL
+
+	- uni2D55.RTL
+
+	- uni2D5E.RTL
+
+	- uni2D5F.RTL
+
+	- uni2D62.RTL
+
+	- yaBerbertifi
+
+	- yaHawadtifi
+
+	- yaSILtifi 
+
+	- And 96 more.
+
+Use -F or --full-lists to disable shortening of long lists.
+ [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
-	* uni2D42 (U+2D42): X=106.0,Y=714.5 (should be at cap-height 714?) 
+The following glyphs do not have the recommended number of contours:
 
-	* And uni2D42 (U+2D42): X=201.5,Y=-0.5 (should be at baseline 0?) [code: found-misalignments]
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+
+	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* uni2D33 (U+2D33) contains a short segment L<<30.0,0.0>--<30.0,8.0>>
+	* two (U+0032) contains a short segment L<<159.0,84.0>--<159.0,80.0>>
 
-	* uni2D33 (U+2D33) contains a short segment L<<645.0,8.0>--<645.0,0.0>>
+	* at (U+0040) contains a short segment B<<613.0,293.0>-<612.0,275.0>-<612.0,267.5>>
 
-	* uni2D34 (U+2D34) contains a short segment L<<30.0,706.0>--<30.0,714.0>>
+	* at (U+0040) contains a short segment B<<612.0,267.5>-<612.0,260.0>-<612.0,257.0>>
 
-	* uni2D34 (U+2D34) contains a short segment L<<645.0,714.0>--<645.0,706.0>>
+	* M (U+004D) contains a short segment L<<177.0,626.0>--<173.0,626.0>>
 
-	* uni2D37 (U+2D37) contains a short segment L<<40.0,0.0>--<40.0,8.0>>
+	* M (U+004D) contains a short segment L<<450.0,129.0>--<454.0,129.0>>
 
-	* uni2D37 (U+2D37) contains a short segment L<<649.0,8.0>--<649.0,0.0>>
+	* N (U+004E) contains a short segment L<<176.0,593.0>--<172.0,593.0>>
 
-	* uni2D38 (U+2D38) contains a short segment L<<40.0,706.0>--<40.0,714.0>>
+	* N (U+004E) contains a short segment L<<582.0,123.0>--<586.0,123.0>>
 
-	* uni2D38 (U+2D38) contains a short segment L<<649.0,714.0>--<649.0,706.0>>
+	* Q (U+0051) contains a short segment B<<416.0,-9.0>-<410.0,-9.0>-<403.5,-9.5>>
 
-	* uni2D3D (U+2D3D) contains a short segment L<<657.0,8.0>--<657.0,0.0>>
+	* Q (U+0051) contains a short segment B<<403.5,-9.5>-<397.0,-10.0>-<391.0,-10.0>>
 
-	* uni2D3F (U+2D3F) contains a short segment L<<654.0,714.0>--<654.0,706.0>> 
+	* W (U+0057) contains a short segment B<<468.0,577.5>-<463.0,600.0>-<461.0,609.0>> 
 
-	* And 19 more.
+	* And 90 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -536,64 +560,33 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* caron (U+02C7): L<<114.0,714.0>--<114.0,694.0>> -> L<<114.0,694.0>--<97.0,484.0>> 
+	* Ccaron (U+010C): L<<199.0,662.0>--<191.0,872.0>> -> L<<191.0,872.0>--<191.0,892.0>>
 
-	* And caron (U+02C7): L<<28.0,484.0>--<20.0,694.0>> -> L<<20.0,694.0>--<20.0,714.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[12] NotoSansTifinaghAhaggar-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* Ccaron (U+010C): L<<285.0,892.0>--<285.0,872.0>> -> L<<285.0,872.0>--<268.0,662.0>>
 
+	* Dcaron (U+010E): L<<180.0,662.0>--<172.0,872.0>> -> L<<172.0,872.0>--<172.0,892.0>>
 
-* 🔥 **FAIL** Missing required codepoints:
+	* Dcaron (U+010E): L<<266.0,892.0>--<266.0,872.0>> -> L<<266.0,872.0>--<249.0,662.0>>
 
-	- 0x0030 (DIGIT ZERO)
+	* Ecaron (U+011A): L<<124.0,662.0>--<116.0,872.0>> -> L<<116.0,872.0>--<116.0,892.0>>
 
+	* Ecaron (U+011A): L<<210.0,892.0>--<210.0,872.0>> -> L<<210.0,872.0>--<193.0,662.0>>
 
-	- 0x0031 (DIGIT ONE)
+	* Ncaron (U+0147): L<<199.0,662.0>--<191.0,872.0>> -> L<<191.0,872.0>--<191.0,892.0>>
 
+	* Ncaron (U+0147): L<<285.0,892.0>--<285.0,872.0>> -> L<<285.0,872.0>--<268.0,662.0>>
 
-	- 0x0032 (DIGIT TWO)
+	* Rcaron (U+0158): L<<130.0,662.0>--<122.0,872.0>> -> L<<122.0,872.0>--<122.0,892.0>>
 
+	* Rcaron (U+0158): L<<216.0,892.0>--<216.0,872.0>> -> L<<216.0,872.0>--<199.0,662.0>> 
 
-	- 0x0033 (DIGIT THREE)
+	* And 26 more.
 
-
-	- 0x0034 (DIGIT FOUR)
-
-
-	- 0x0035 (DIGIT FIVE)
-
-
-	- 0x0036 (DIGIT SIX)
+Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
+</div></details><br></div></details><details><summary><b>[8] NotoSansTifinaghAhaggar-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-	- 0x0037 (DIGIT SEVEN)
-
-
-	- 0x0038 (DIGIT EIGHT)
-
-
-	- 0x0039 (DIGIT NINE)
- 
-
-	- And 314 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Name table entries should not contain line-breaks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/line_breaks">com.google.fonts/check/name/line_breaks</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name entry DESCRIPTION on platform WINDOWS contains a line-break. [code: line-break]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
-
-
-* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Tifinagh Ahaggar [code: render-own-name]
-</div></details><details><summary>🔥 <b>FAIL:</b> Name table records must not have trailing spaces. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/name/trailing_spaces">com.google.fonts/check/name/trailing_spaces</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name table record with key = (3, 1, 1033, 10) has trailing spaces that must be removed: 'Designed b[...]il Patel.
-' [code: trailing-space]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1190, but got 1069 instead [code: ascent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -603,15 +596,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 	- dotbelowcomb
 
+	- gravecomb
+
+	- tildecomb
+
 	- uni0302
 
 	- uni0304
 
 	- uni0306
 
-	- uni0307 
+	- uni0307
 
-	- And uni0331 [code: unattached-dotted-circle-marks]
+	- uni0308
+
+	- uni030A 
+
+	- And 7 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -623,44 +626,76 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 599 but it should be 682 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- labializationBerbertifi
+
+	- uni00A0.1
+
+	- uni2D47.RTL
+
+	- uni2D4D.RTL
+
+	- yaBerbertifi
+
+	- yaHawadtifi
+
+	- yaSILtifi
+
+	- yaaBerbertifi
+
+	- yabBerbertifi
+
+	- yachAPTtifi 
+
+	- And 95 more.
+
+Use -F or --full-lists to disable shortening of long lists.
+ [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
-	* uni2D42 (U+2D42): X=106.0,Y=714.5 (should be at cap-height 714?) 
+The following glyphs do not have the recommended number of contours:
 
-	* And uni2D42 (U+2D42): X=201.5,Y=-0.5 (should be at baseline 0?) [code: found-misalignments]
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+
+	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* uni2D33 (U+2D33) contains a short segment L<<30.0,0.0>--<30.0,8.0>>
+	* two (U+0032) contains a short segment L<<159.0,84.0>--<159.0,80.0>>
 
-	* uni2D33 (U+2D33) contains a short segment L<<645.0,8.0>--<645.0,0.0>>
+	* at (U+0040) contains a short segment B<<613.0,293.0>-<612.0,275.0>-<612.0,267.5>>
 
-	* uni2D34 (U+2D34) contains a short segment L<<30.0,706.0>--<30.0,714.0>>
+	* at (U+0040) contains a short segment B<<612.0,267.5>-<612.0,260.0>-<612.0,257.0>>
 
-	* uni2D34 (U+2D34) contains a short segment L<<645.0,714.0>--<645.0,706.0>>
+	* M (U+004D) contains a short segment L<<177.0,626.0>--<173.0,626.0>>
 
-	* uni2D37 (U+2D37) contains a short segment L<<40.0,0.0>--<40.0,8.0>>
+	* M (U+004D) contains a short segment L<<450.0,129.0>--<454.0,129.0>>
 
-	* uni2D37 (U+2D37) contains a short segment L<<649.0,8.0>--<649.0,0.0>>
+	* N (U+004E) contains a short segment L<<176.0,593.0>--<172.0,593.0>>
 
-	* uni2D38 (U+2D38) contains a short segment L<<40.0,706.0>--<40.0,714.0>>
+	* N (U+004E) contains a short segment L<<582.0,123.0>--<586.0,123.0>>
 
-	* uni2D38 (U+2D38) contains a short segment L<<649.0,714.0>--<649.0,706.0>>
+	* Q (U+0051) contains a short segment B<<416.0,-9.0>-<410.0,-9.0>-<403.5,-9.5>>
 
-	* uni2D3D (U+2D3D) contains a short segment L<<657.0,8.0>--<657.0,0.0>>
+	* Q (U+0051) contains a short segment B<<403.5,-9.5>-<397.0,-10.0>-<391.0,-10.0>>
 
-	* uni2D3F (U+2D3F) contains a short segment L<<654.0,714.0>--<654.0,706.0>> 
+	* W (U+0057) contains a short segment B<<468.0,577.5>-<463.0,600.0>-<461.0,609.0>> 
 
-	* And 19 more.
+	* And 90 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -668,64 +703,33 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* caron (U+02C7): L<<114.0,714.0>--<114.0,694.0>> -> L<<114.0,694.0>--<97.0,484.0>> 
+	* Ccaron (U+010C): L<<199.0,662.0>--<191.0,872.0>> -> L<<191.0,872.0>--<191.0,892.0>>
 
-	* And caron (U+02C7): L<<28.0,484.0>--<20.0,694.0>> -> L<<20.0,694.0>--<20.0,714.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[12] NotoSansTifinaghAir-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* Ccaron (U+010C): L<<285.0,892.0>--<285.0,872.0>> -> L<<285.0,872.0>--<268.0,662.0>>
 
+	* Dcaron (U+010E): L<<180.0,662.0>--<172.0,872.0>> -> L<<172.0,872.0>--<172.0,892.0>>
 
-* 🔥 **FAIL** Missing required codepoints:
+	* Dcaron (U+010E): L<<266.0,892.0>--<266.0,872.0>> -> L<<266.0,872.0>--<249.0,662.0>>
 
-	- 0x0030 (DIGIT ZERO)
+	* Ecaron (U+011A): L<<124.0,662.0>--<116.0,872.0>> -> L<<116.0,872.0>--<116.0,892.0>>
 
+	* Ecaron (U+011A): L<<210.0,892.0>--<210.0,872.0>> -> L<<210.0,872.0>--<193.0,662.0>>
 
-	- 0x0031 (DIGIT ONE)
+	* Ncaron (U+0147): L<<199.0,662.0>--<191.0,872.0>> -> L<<191.0,872.0>--<191.0,892.0>>
 
+	* Ncaron (U+0147): L<<285.0,892.0>--<285.0,872.0>> -> L<<285.0,872.0>--<268.0,662.0>>
 
-	- 0x0032 (DIGIT TWO)
+	* Rcaron (U+0158): L<<130.0,662.0>--<122.0,872.0>> -> L<<122.0,872.0>--<122.0,892.0>>
 
+	* Rcaron (U+0158): L<<216.0,892.0>--<216.0,872.0>> -> L<<216.0,872.0>--<199.0,662.0>> 
 
-	- 0x0033 (DIGIT THREE)
+	* And 26 more.
 
-
-	- 0x0034 (DIGIT FOUR)
-
-
-	- 0x0035 (DIGIT FIVE)
-
-
-	- 0x0036 (DIGIT SIX)
+Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
+</div></details><br></div></details><details><summary><b>[8] NotoSansTifinaghAir-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-	- 0x0037 (DIGIT SEVEN)
-
-
-	- 0x0038 (DIGIT EIGHT)
-
-
-	- 0x0039 (DIGIT NINE)
- 
-
-	- And 314 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Name table entries should not contain line-breaks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/line_breaks">com.google.fonts/check/name/line_breaks</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name entry DESCRIPTION on platform WINDOWS contains a line-break. [code: line-break]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
-
-
-* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Tifinagh Air [code: render-own-name]
-</div></details><details><summary>🔥 <b>FAIL:</b> Name table records must not have trailing spaces. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/name/trailing_spaces">com.google.fonts/check/name/trailing_spaces</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name table record with key = (3, 1, 1033, 10) has trailing spaces that must be removed: 'Designed b[...]il Patel.
-' [code: trailing-space]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1190, but got 1069 instead [code: ascent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -735,15 +739,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 	- dotbelowcomb
 
+	- gravecomb
+
+	- tildecomb
+
 	- uni0302
 
 	- uni0304
 
 	- uni0306
 
-	- uni0307 
+	- uni0307
 
-	- And uni0331 [code: unattached-dotted-circle-marks]
+	- uni0308
+
+	- uni030A 
+
+	- And 7 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -755,44 +769,76 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 599 but it should be 682 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- labializationBerbertifi
+
+	- uni00A0.1
+
+	- uni2D47.RTL
+
+	- uni2D4D.RTL
+
+	- yaBerbertifi
+
+	- yaHawadtifi
+
+	- yaSILtifi
+
+	- yaaBerbertifi
+
+	- yabBerbertifi
+
+	- yachAPTtifi 
+
+	- And 95 more.
+
+Use -F or --full-lists to disable shortening of long lists.
+ [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
-	* uni2D42 (U+2D42): X=106.0,Y=714.5 (should be at cap-height 714?) 
+The following glyphs do not have the recommended number of contours:
 
-	* And uni2D42 (U+2D42): X=201.5,Y=-0.5 (should be at baseline 0?) [code: found-misalignments]
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+
+	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* uni2D33 (U+2D33) contains a short segment L<<30.0,0.0>--<30.0,8.0>>
+	* two (U+0032) contains a short segment L<<159.0,84.0>--<159.0,80.0>>
 
-	* uni2D33 (U+2D33) contains a short segment L<<645.0,8.0>--<645.0,0.0>>
+	* at (U+0040) contains a short segment B<<613.0,293.0>-<612.0,275.0>-<612.0,267.5>>
 
-	* uni2D34 (U+2D34) contains a short segment L<<30.0,706.0>--<30.0,714.0>>
+	* at (U+0040) contains a short segment B<<612.0,267.5>-<612.0,260.0>-<612.0,257.0>>
 
-	* uni2D34 (U+2D34) contains a short segment L<<645.0,714.0>--<645.0,706.0>>
+	* M (U+004D) contains a short segment L<<177.0,626.0>--<173.0,626.0>>
 
-	* uni2D37 (U+2D37) contains a short segment L<<40.0,0.0>--<40.0,8.0>>
+	* M (U+004D) contains a short segment L<<450.0,129.0>--<454.0,129.0>>
 
-	* uni2D37 (U+2D37) contains a short segment L<<649.0,8.0>--<649.0,0.0>>
+	* N (U+004E) contains a short segment L<<176.0,593.0>--<172.0,593.0>>
 
-	* uni2D38 (U+2D38) contains a short segment L<<40.0,706.0>--<40.0,714.0>>
+	* N (U+004E) contains a short segment L<<582.0,123.0>--<586.0,123.0>>
 
-	* uni2D38 (U+2D38) contains a short segment L<<649.0,714.0>--<649.0,706.0>>
+	* Q (U+0051) contains a short segment B<<416.0,-9.0>-<410.0,-9.0>-<403.5,-9.5>>
 
-	* uni2D3D (U+2D3D) contains a short segment L<<657.0,8.0>--<657.0,0.0>>
+	* Q (U+0051) contains a short segment B<<403.5,-9.5>-<397.0,-10.0>-<391.0,-10.0>>
 
-	* uni2D3F (U+2D3F) contains a short segment L<<654.0,714.0>--<654.0,706.0>> 
+	* W (U+0057) contains a short segment B<<468.0,577.5>-<463.0,600.0>-<461.0,609.0>> 
 
-	* And 19 more.
+	* And 90 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -800,64 +846,33 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* caron (U+02C7): L<<114.0,714.0>--<114.0,694.0>> -> L<<114.0,694.0>--<97.0,484.0>> 
+	* Ccaron (U+010C): L<<199.0,662.0>--<191.0,872.0>> -> L<<191.0,872.0>--<191.0,892.0>>
 
-	* And caron (U+02C7): L<<28.0,484.0>--<20.0,694.0>> -> L<<20.0,694.0>--<20.0,714.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[12] NotoSansTifinaghAzawagh-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* Ccaron (U+010C): L<<285.0,892.0>--<285.0,872.0>> -> L<<285.0,872.0>--<268.0,662.0>>
 
+	* Dcaron (U+010E): L<<180.0,662.0>--<172.0,872.0>> -> L<<172.0,872.0>--<172.0,892.0>>
 
-* 🔥 **FAIL** Missing required codepoints:
+	* Dcaron (U+010E): L<<266.0,892.0>--<266.0,872.0>> -> L<<266.0,872.0>--<249.0,662.0>>
 
-	- 0x0030 (DIGIT ZERO)
+	* Ecaron (U+011A): L<<124.0,662.0>--<116.0,872.0>> -> L<<116.0,872.0>--<116.0,892.0>>
 
+	* Ecaron (U+011A): L<<210.0,892.0>--<210.0,872.0>> -> L<<210.0,872.0>--<193.0,662.0>>
 
-	- 0x0031 (DIGIT ONE)
+	* Ncaron (U+0147): L<<199.0,662.0>--<191.0,872.0>> -> L<<191.0,872.0>--<191.0,892.0>>
 
+	* Ncaron (U+0147): L<<285.0,892.0>--<285.0,872.0>> -> L<<285.0,872.0>--<268.0,662.0>>
 
-	- 0x0032 (DIGIT TWO)
+	* Rcaron (U+0158): L<<130.0,662.0>--<122.0,872.0>> -> L<<122.0,872.0>--<122.0,892.0>>
 
+	* Rcaron (U+0158): L<<216.0,892.0>--<216.0,872.0>> -> L<<216.0,872.0>--<199.0,662.0>> 
 
-	- 0x0033 (DIGIT THREE)
+	* And 26 more.
 
-
-	- 0x0034 (DIGIT FOUR)
-
-
-	- 0x0035 (DIGIT FIVE)
-
-
-	- 0x0036 (DIGIT SIX)
+Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
+</div></details><br></div></details><details><summary><b>[8] NotoSansTifinaghAzawagh-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-	- 0x0037 (DIGIT SEVEN)
-
-
-	- 0x0038 (DIGIT EIGHT)
-
-
-	- 0x0039 (DIGIT NINE)
- 
-
-	- And 314 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Name table entries should not contain line-breaks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/line_breaks">com.google.fonts/check/name/line_breaks</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name entry DESCRIPTION on platform WINDOWS contains a line-break. [code: line-break]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
-
-
-* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Tifinagh Azawagh [code: render-own-name]
-</div></details><details><summary>🔥 <b>FAIL:</b> Name table records must not have trailing spaces. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/name/trailing_spaces">com.google.fonts/check/name/trailing_spaces</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name table record with key = (3, 1, 1033, 10) has trailing spaces that must be removed: 'Designed b[...]il Patel.
-' [code: trailing-space]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1190, but got 1069 instead [code: ascent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -867,15 +882,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 	- dotbelowcomb
 
+	- gravecomb
+
+	- tildecomb
+
 	- uni0302
 
 	- uni0304
 
 	- uni0306
 
-	- uni0307 
+	- uni0307
 
-	- And uni0331 [code: unattached-dotted-circle-marks]
+	- uni0308
+
+	- uni030A 
+
+	- And 7 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -887,44 +912,76 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 599 but it should be 682 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- labializationBerbertifi
+
+	- uni00A0.1
+
+	- uni2D47.RTL
+
+	- uni2D4D.RTL
+
+	- yaBerbertifi
+
+	- yaHawadtifi
+
+	- yaSILtifi
+
+	- yaaBerbertifi
+
+	- yabBerbertifi
+
+	- yachAPTtifi 
+
+	- And 95 more.
+
+Use -F or --full-lists to disable shortening of long lists.
+ [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
-	* uni2D42 (U+2D42): X=106.0,Y=714.5 (should be at cap-height 714?) 
+The following glyphs do not have the recommended number of contours:
 
-	* And uni2D42 (U+2D42): X=201.5,Y=-0.5 (should be at baseline 0?) [code: found-misalignments]
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+
+	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* uni2D33 (U+2D33) contains a short segment L<<30.0,0.0>--<30.0,8.0>>
+	* two (U+0032) contains a short segment L<<159.0,84.0>--<159.0,80.0>>
 
-	* uni2D33 (U+2D33) contains a short segment L<<645.0,8.0>--<645.0,0.0>>
+	* at (U+0040) contains a short segment B<<613.0,293.0>-<612.0,275.0>-<612.0,267.5>>
 
-	* uni2D34 (U+2D34) contains a short segment L<<30.0,706.0>--<30.0,714.0>>
+	* at (U+0040) contains a short segment B<<612.0,267.5>-<612.0,260.0>-<612.0,257.0>>
 
-	* uni2D34 (U+2D34) contains a short segment L<<645.0,714.0>--<645.0,706.0>>
+	* M (U+004D) contains a short segment L<<177.0,626.0>--<173.0,626.0>>
 
-	* uni2D37 (U+2D37) contains a short segment L<<40.0,0.0>--<40.0,8.0>>
+	* M (U+004D) contains a short segment L<<450.0,129.0>--<454.0,129.0>>
 
-	* uni2D37 (U+2D37) contains a short segment L<<649.0,8.0>--<649.0,0.0>>
+	* N (U+004E) contains a short segment L<<176.0,593.0>--<172.0,593.0>>
 
-	* uni2D38 (U+2D38) contains a short segment L<<40.0,706.0>--<40.0,714.0>>
+	* N (U+004E) contains a short segment L<<582.0,123.0>--<586.0,123.0>>
 
-	* uni2D38 (U+2D38) contains a short segment L<<649.0,714.0>--<649.0,706.0>>
+	* Q (U+0051) contains a short segment B<<416.0,-9.0>-<410.0,-9.0>-<403.5,-9.5>>
 
-	* uni2D3D (U+2D3D) contains a short segment L<<657.0,8.0>--<657.0,0.0>>
+	* Q (U+0051) contains a short segment B<<403.5,-9.5>-<397.0,-10.0>-<391.0,-10.0>>
 
-	* uni2D3F (U+2D3F) contains a short segment L<<654.0,714.0>--<654.0,706.0>> 
+	* W (U+0057) contains a short segment B<<468.0,577.5>-<463.0,600.0>-<461.0,609.0>> 
 
-	* And 19 more.
+	* And 90 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -932,64 +989,33 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* caron (U+02C7): L<<114.0,714.0>--<114.0,694.0>> -> L<<114.0,694.0>--<97.0,484.0>> 
+	* Ccaron (U+010C): L<<199.0,662.0>--<191.0,872.0>> -> L<<191.0,872.0>--<191.0,892.0>>
 
-	* And caron (U+02C7): L<<28.0,484.0>--<20.0,694.0>> -> L<<20.0,694.0>--<20.0,714.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[12] NotoSansTifinaghGhat-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* Ccaron (U+010C): L<<285.0,892.0>--<285.0,872.0>> -> L<<285.0,872.0>--<268.0,662.0>>
 
+	* Dcaron (U+010E): L<<180.0,662.0>--<172.0,872.0>> -> L<<172.0,872.0>--<172.0,892.0>>
 
-* 🔥 **FAIL** Missing required codepoints:
+	* Dcaron (U+010E): L<<266.0,892.0>--<266.0,872.0>> -> L<<266.0,872.0>--<249.0,662.0>>
 
-	- 0x0030 (DIGIT ZERO)
+	* Ecaron (U+011A): L<<124.0,662.0>--<116.0,872.0>> -> L<<116.0,872.0>--<116.0,892.0>>
 
+	* Ecaron (U+011A): L<<210.0,892.0>--<210.0,872.0>> -> L<<210.0,872.0>--<193.0,662.0>>
 
-	- 0x0031 (DIGIT ONE)
+	* Ncaron (U+0147): L<<199.0,662.0>--<191.0,872.0>> -> L<<191.0,872.0>--<191.0,892.0>>
 
+	* Ncaron (U+0147): L<<285.0,892.0>--<285.0,872.0>> -> L<<285.0,872.0>--<268.0,662.0>>
 
-	- 0x0032 (DIGIT TWO)
+	* Rcaron (U+0158): L<<130.0,662.0>--<122.0,872.0>> -> L<<122.0,872.0>--<122.0,892.0>>
 
+	* Rcaron (U+0158): L<<216.0,892.0>--<216.0,872.0>> -> L<<216.0,872.0>--<199.0,662.0>> 
 
-	- 0x0033 (DIGIT THREE)
+	* And 26 more.
 
-
-	- 0x0034 (DIGIT FOUR)
-
-
-	- 0x0035 (DIGIT FIVE)
-
-
-	- 0x0036 (DIGIT SIX)
+Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
+</div></details><br></div></details><details><summary><b>[8] NotoSansTifinaghGhat-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-	- 0x0037 (DIGIT SEVEN)
-
-
-	- 0x0038 (DIGIT EIGHT)
-
-
-	- 0x0039 (DIGIT NINE)
- 
-
-	- And 314 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Name table entries should not contain line-breaks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/line_breaks">com.google.fonts/check/name/line_breaks</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name entry DESCRIPTION on platform WINDOWS contains a line-break. [code: line-break]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
-
-
-* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Tifinagh Ghat [code: render-own-name]
-</div></details><details><summary>🔥 <b>FAIL:</b> Name table records must not have trailing spaces. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/name/trailing_spaces">com.google.fonts/check/name/trailing_spaces</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name table record with key = (3, 1, 1033, 10) has trailing spaces that must be removed: 'Designed b[...]il Patel.
-' [code: trailing-space]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1190, but got 1069 instead [code: ascent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -999,15 +1025,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 	- dotbelowcomb
 
+	- gravecomb
+
+	- tildecomb
+
 	- uni0302
 
 	- uni0304
 
 	- uni0306
 
-	- uni0307 
+	- uni0307
 
-	- And uni0331 [code: unattached-dotted-circle-marks]
+	- uni0308
+
+	- uni030A 
+
+	- And 7 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1019,44 +1055,76 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 599 but it should be 683 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- labializationBerbertifi
+
+	- uni00A0.1
+
+	- uni2D47.RTL
+
+	- uni2D4D.RTL
+
+	- uni2D62.RTL
+
+	- yaBerbertifi
+
+	- yaHawadtifi
+
+	- yaSILtifi
+
+	- yaaBerbertifi
+
+	- yabBerbertifi 
+
+	- And 96 more.
+
+Use -F or --full-lists to disable shortening of long lists.
+ [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
-	* uni2D42 (U+2D42): X=106.0,Y=714.5 (should be at cap-height 714?) 
+The following glyphs do not have the recommended number of contours:
 
-	* And uni2D42 (U+2D42): X=201.5,Y=-0.5 (should be at baseline 0?) [code: found-misalignments]
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+
+	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* uni2D33 (U+2D33) contains a short segment L<<30.0,0.0>--<30.0,8.0>>
+	* two (U+0032) contains a short segment L<<159.0,84.0>--<159.0,80.0>>
 
-	* uni2D33 (U+2D33) contains a short segment L<<645.0,8.0>--<645.0,0.0>>
+	* at (U+0040) contains a short segment B<<613.0,293.0>-<612.0,275.0>-<612.0,267.5>>
 
-	* uni2D34 (U+2D34) contains a short segment L<<30.0,706.0>--<30.0,714.0>>
+	* at (U+0040) contains a short segment B<<612.0,267.5>-<612.0,260.0>-<612.0,257.0>>
 
-	* uni2D34 (U+2D34) contains a short segment L<<645.0,714.0>--<645.0,706.0>>
+	* M (U+004D) contains a short segment L<<177.0,626.0>--<173.0,626.0>>
 
-	* uni2D37 (U+2D37) contains a short segment L<<40.0,0.0>--<40.0,8.0>>
+	* M (U+004D) contains a short segment L<<450.0,129.0>--<454.0,129.0>>
 
-	* uni2D37 (U+2D37) contains a short segment L<<649.0,8.0>--<649.0,0.0>>
+	* N (U+004E) contains a short segment L<<176.0,593.0>--<172.0,593.0>>
 
-	* uni2D38 (U+2D38) contains a short segment L<<40.0,706.0>--<40.0,714.0>>
+	* N (U+004E) contains a short segment L<<582.0,123.0>--<586.0,123.0>>
 
-	* uni2D38 (U+2D38) contains a short segment L<<649.0,714.0>--<649.0,706.0>>
+	* Q (U+0051) contains a short segment B<<416.0,-9.0>-<410.0,-9.0>-<403.5,-9.5>>
 
-	* uni2D3D (U+2D3D) contains a short segment L<<657.0,8.0>--<657.0,0.0>>
+	* Q (U+0051) contains a short segment B<<403.5,-9.5>-<397.0,-10.0>-<391.0,-10.0>>
 
-	* uni2D3F (U+2D3F) contains a short segment L<<654.0,714.0>--<654.0,706.0>> 
+	* W (U+0057) contains a short segment B<<468.0,577.5>-<463.0,600.0>-<461.0,609.0>> 
 
-	* And 19 more.
+	* And 90 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -1064,64 +1132,33 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* caron (U+02C7): L<<114.0,714.0>--<114.0,694.0>> -> L<<114.0,694.0>--<97.0,484.0>> 
+	* Ccaron (U+010C): L<<199.0,662.0>--<191.0,872.0>> -> L<<191.0,872.0>--<191.0,892.0>>
 
-	* And caron (U+02C7): L<<28.0,484.0>--<20.0,694.0>> -> L<<20.0,694.0>--<20.0,714.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[12] NotoSansTifinaghHawad-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* Ccaron (U+010C): L<<285.0,892.0>--<285.0,872.0>> -> L<<285.0,872.0>--<268.0,662.0>>
 
+	* Dcaron (U+010E): L<<180.0,662.0>--<172.0,872.0>> -> L<<172.0,872.0>--<172.0,892.0>>
 
-* 🔥 **FAIL** Missing required codepoints:
+	* Dcaron (U+010E): L<<266.0,892.0>--<266.0,872.0>> -> L<<266.0,872.0>--<249.0,662.0>>
 
-	- 0x0030 (DIGIT ZERO)
+	* Ecaron (U+011A): L<<124.0,662.0>--<116.0,872.0>> -> L<<116.0,872.0>--<116.0,892.0>>
 
+	* Ecaron (U+011A): L<<210.0,892.0>--<210.0,872.0>> -> L<<210.0,872.0>--<193.0,662.0>>
 
-	- 0x0031 (DIGIT ONE)
+	* Ncaron (U+0147): L<<199.0,662.0>--<191.0,872.0>> -> L<<191.0,872.0>--<191.0,892.0>>
 
+	* Ncaron (U+0147): L<<285.0,892.0>--<285.0,872.0>> -> L<<285.0,872.0>--<268.0,662.0>>
 
-	- 0x0032 (DIGIT TWO)
+	* Rcaron (U+0158): L<<130.0,662.0>--<122.0,872.0>> -> L<<122.0,872.0>--<122.0,892.0>>
 
+	* Rcaron (U+0158): L<<216.0,892.0>--<216.0,872.0>> -> L<<216.0,872.0>--<199.0,662.0>> 
 
-	- 0x0033 (DIGIT THREE)
+	* And 26 more.
 
-
-	- 0x0034 (DIGIT FOUR)
-
-
-	- 0x0035 (DIGIT FIVE)
-
-
-	- 0x0036 (DIGIT SIX)
+Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
+</div></details><br></div></details><details><summary><b>[8] NotoSansTifinaghHawad-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-	- 0x0037 (DIGIT SEVEN)
-
-
-	- 0x0038 (DIGIT EIGHT)
-
-
-	- 0x0039 (DIGIT NINE)
- 
-
-	- And 314 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Name table entries should not contain line-breaks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/line_breaks">com.google.fonts/check/name/line_breaks</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name entry DESCRIPTION on platform WINDOWS contains a line-break. [code: line-break]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
-
-
-* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Tifinagh Hawad [code: render-own-name]
-</div></details><details><summary>🔥 <b>FAIL:</b> Name table records must not have trailing spaces. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/name/trailing_spaces">com.google.fonts/check/name/trailing_spaces</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name table record with key = (3, 1, 1033, 10) has trailing spaces that must be removed: 'Designed b[...]il Patel.
-' [code: trailing-space]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1190, but got 1069 instead [code: ascent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -1131,15 +1168,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 	- dotbelowcomb
 
+	- gravecomb
+
+	- tildecomb
+
 	- uni0302
 
 	- uni0304
 
 	- uni0306
 
-	- uni0307 
+	- uni0307
 
-	- And uni0331 [code: unattached-dotted-circle-marks]
+	- uni0308
+
+	- uni030A 
+
+	- And 7 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1151,44 +1198,76 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 599 but it should be 682 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- labializationBerbertifi
+
+	- uni00A0.1
+
+	- uni2D47.RTL
+
+	- uni2D4D.RTL
+
+	- uni2D5A.RTL
+
+	- uni2D5E.RTL
+
+	- uni2D5F.RTL
+
+	- uni2D62.RTL
+
+	- yaBerbertifi
+
+	- yaHawadtifi 
+
+	- And 98 more.
+
+Use -F or --full-lists to disable shortening of long lists.
+ [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
-	* uni2D42 (U+2D42): X=106.0,Y=714.5 (should be at cap-height 714?) 
+The following glyphs do not have the recommended number of contours:
 
-	* And uni2D42 (U+2D42): X=201.5,Y=-0.5 (should be at baseline 0?) [code: found-misalignments]
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+
+	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* uni2D33 (U+2D33) contains a short segment L<<30.0,0.0>--<30.0,8.0>>
+	* two (U+0032) contains a short segment L<<159.0,84.0>--<159.0,80.0>>
 
-	* uni2D33 (U+2D33) contains a short segment L<<645.0,8.0>--<645.0,0.0>>
+	* at (U+0040) contains a short segment B<<613.0,293.0>-<612.0,275.0>-<612.0,267.5>>
 
-	* uni2D34 (U+2D34) contains a short segment L<<30.0,706.0>--<30.0,714.0>>
+	* at (U+0040) contains a short segment B<<612.0,267.5>-<612.0,260.0>-<612.0,257.0>>
 
-	* uni2D34 (U+2D34) contains a short segment L<<645.0,714.0>--<645.0,706.0>>
+	* M (U+004D) contains a short segment L<<177.0,626.0>--<173.0,626.0>>
 
-	* uni2D37 (U+2D37) contains a short segment L<<40.0,0.0>--<40.0,8.0>>
+	* M (U+004D) contains a short segment L<<450.0,129.0>--<454.0,129.0>>
 
-	* uni2D37 (U+2D37) contains a short segment L<<649.0,8.0>--<649.0,0.0>>
+	* N (U+004E) contains a short segment L<<176.0,593.0>--<172.0,593.0>>
 
-	* uni2D38 (U+2D38) contains a short segment L<<40.0,706.0>--<40.0,714.0>>
+	* N (U+004E) contains a short segment L<<582.0,123.0>--<586.0,123.0>>
 
-	* uni2D38 (U+2D38) contains a short segment L<<649.0,714.0>--<649.0,706.0>>
+	* Q (U+0051) contains a short segment B<<416.0,-9.0>-<410.0,-9.0>-<403.5,-9.5>>
 
-	* uni2D3D (U+2D3D) contains a short segment L<<657.0,8.0>--<657.0,0.0>>
+	* Q (U+0051) contains a short segment B<<403.5,-9.5>-<397.0,-10.0>-<391.0,-10.0>>
 
-	* uni2D3F (U+2D3F) contains a short segment L<<654.0,714.0>--<654.0,706.0>> 
+	* W (U+0057) contains a short segment B<<468.0,577.5>-<463.0,600.0>-<461.0,609.0>> 
 
-	* And 19 more.
+	* And 90 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -1196,64 +1275,33 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* caron (U+02C7): L<<114.0,714.0>--<114.0,694.0>> -> L<<114.0,694.0>--<97.0,484.0>> 
+	* Ccaron (U+010C): L<<199.0,662.0>--<191.0,872.0>> -> L<<191.0,872.0>--<191.0,892.0>>
 
-	* And caron (U+02C7): L<<28.0,484.0>--<20.0,694.0>> -> L<<20.0,694.0>--<20.0,714.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[12] NotoSansTifinaghRhissaIxa-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* Ccaron (U+010C): L<<285.0,892.0>--<285.0,872.0>> -> L<<285.0,872.0>--<268.0,662.0>>
 
+	* Dcaron (U+010E): L<<180.0,662.0>--<172.0,872.0>> -> L<<172.0,872.0>--<172.0,892.0>>
 
-* 🔥 **FAIL** Missing required codepoints:
+	* Dcaron (U+010E): L<<266.0,892.0>--<266.0,872.0>> -> L<<266.0,872.0>--<249.0,662.0>>
 
-	- 0x0030 (DIGIT ZERO)
+	* Ecaron (U+011A): L<<124.0,662.0>--<116.0,872.0>> -> L<<116.0,872.0>--<116.0,892.0>>
 
+	* Ecaron (U+011A): L<<210.0,892.0>--<210.0,872.0>> -> L<<210.0,872.0>--<193.0,662.0>>
 
-	- 0x0031 (DIGIT ONE)
+	* Ncaron (U+0147): L<<199.0,662.0>--<191.0,872.0>> -> L<<191.0,872.0>--<191.0,892.0>>
 
+	* Ncaron (U+0147): L<<285.0,892.0>--<285.0,872.0>> -> L<<285.0,872.0>--<268.0,662.0>>
 
-	- 0x0032 (DIGIT TWO)
+	* Rcaron (U+0158): L<<130.0,662.0>--<122.0,872.0>> -> L<<122.0,872.0>--<122.0,892.0>>
 
+	* Rcaron (U+0158): L<<216.0,892.0>--<216.0,872.0>> -> L<<216.0,872.0>--<199.0,662.0>> 
 
-	- 0x0033 (DIGIT THREE)
+	* And 26 more.
 
-
-	- 0x0034 (DIGIT FOUR)
-
-
-	- 0x0035 (DIGIT FIVE)
-
-
-	- 0x0036 (DIGIT SIX)
+Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
+</div></details><br></div></details><details><summary><b>[8] NotoSansTifinaghRhissaIxa-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-	- 0x0037 (DIGIT SEVEN)
-
-
-	- 0x0038 (DIGIT EIGHT)
-
-
-	- 0x0039 (DIGIT NINE)
- 
-
-	- And 314 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Name table entries should not contain line-breaks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/line_breaks">com.google.fonts/check/name/line_breaks</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name entry DESCRIPTION on platform WINDOWS contains a line-break. [code: line-break]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
-
-
-* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Tifinagh Rhissa Ixa [code: render-own-name]
-</div></details><details><summary>🔥 <b>FAIL:</b> Name table records must not have trailing spaces. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/name/trailing_spaces">com.google.fonts/check/name/trailing_spaces</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name table record with key = (3, 1, 1033, 10) has trailing spaces that must be removed: 'Designed b[...]il Patel.
-' [code: trailing-space]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1190, but got 1069 instead [code: ascent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -1263,15 +1311,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 	- dotbelowcomb
 
+	- gravecomb
+
+	- tildecomb
+
 	- uni0302
 
 	- uni0304
 
 	- uni0306
 
-	- uni0307 
+	- uni0307
 
-	- And uni0331 [code: unattached-dotted-circle-marks]
+	- uni0308
+
+	- uni030A 
+
+	- And 7 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1283,44 +1341,76 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 599 but it should be 684 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- labializationBerbertifi
+
+	- uni00A0.1
+
+	- uni2D4D.RTL
+
+	- uni2D5A.RTL
+
+	- uni2D5F.RTL
+
+	- uni2D62.RTL
+
+	- yaBerbertifi
+
+	- yaHawadtifi
+
+	- yaSILtifi
+
+	- yaaBerbertifi 
+
+	- And 97 more.
+
+Use -F or --full-lists to disable shortening of long lists.
+ [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
-	* uni2D42 (U+2D42): X=106.0,Y=714.5 (should be at cap-height 714?) 
+The following glyphs do not have the recommended number of contours:
 
-	* And uni2D42 (U+2D42): X=201.5,Y=-0.5 (should be at baseline 0?) [code: found-misalignments]
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+
+	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* uni2D33 (U+2D33) contains a short segment L<<30.0,0.0>--<30.0,8.0>>
+	* two (U+0032) contains a short segment L<<159.0,84.0>--<159.0,80.0>>
 
-	* uni2D33 (U+2D33) contains a short segment L<<645.0,8.0>--<645.0,0.0>>
+	* at (U+0040) contains a short segment B<<613.0,293.0>-<612.0,275.0>-<612.0,267.5>>
 
-	* uni2D34 (U+2D34) contains a short segment L<<30.0,706.0>--<30.0,714.0>>
+	* at (U+0040) contains a short segment B<<612.0,267.5>-<612.0,260.0>-<612.0,257.0>>
 
-	* uni2D34 (U+2D34) contains a short segment L<<645.0,714.0>--<645.0,706.0>>
+	* M (U+004D) contains a short segment L<<177.0,626.0>--<173.0,626.0>>
 
-	* uni2D37 (U+2D37) contains a short segment L<<40.0,0.0>--<40.0,8.0>>
+	* M (U+004D) contains a short segment L<<450.0,129.0>--<454.0,129.0>>
 
-	* uni2D37 (U+2D37) contains a short segment L<<649.0,8.0>--<649.0,0.0>>
+	* N (U+004E) contains a short segment L<<176.0,593.0>--<172.0,593.0>>
 
-	* uni2D38 (U+2D38) contains a short segment L<<40.0,706.0>--<40.0,714.0>>
+	* N (U+004E) contains a short segment L<<582.0,123.0>--<586.0,123.0>>
 
-	* uni2D38 (U+2D38) contains a short segment L<<649.0,714.0>--<649.0,706.0>>
+	* Q (U+0051) contains a short segment B<<416.0,-9.0>-<410.0,-9.0>-<403.5,-9.5>>
 
-	* uni2D3D (U+2D3D) contains a short segment L<<657.0,8.0>--<657.0,0.0>>
+	* Q (U+0051) contains a short segment B<<403.5,-9.5>-<397.0,-10.0>-<391.0,-10.0>>
 
-	* uni2D3F (U+2D3F) contains a short segment L<<654.0,714.0>--<654.0,706.0>> 
+	* W (U+0057) contains a short segment B<<468.0,577.5>-<463.0,600.0>-<461.0,609.0>> 
 
-	* And 19 more.
+	* And 90 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -1328,64 +1418,33 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* caron (U+02C7): L<<114.0,714.0>--<114.0,694.0>> -> L<<114.0,694.0>--<97.0,484.0>> 
+	* Ccaron (U+010C): L<<199.0,662.0>--<191.0,872.0>> -> L<<191.0,872.0>--<191.0,892.0>>
 
-	* And caron (U+02C7): L<<28.0,484.0>--<20.0,694.0>> -> L<<20.0,694.0>--<20.0,714.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[12] NotoSansTifinaghSIL-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* Ccaron (U+010C): L<<285.0,892.0>--<285.0,872.0>> -> L<<285.0,872.0>--<268.0,662.0>>
 
+	* Dcaron (U+010E): L<<180.0,662.0>--<172.0,872.0>> -> L<<172.0,872.0>--<172.0,892.0>>
 
-* 🔥 **FAIL** Missing required codepoints:
+	* Dcaron (U+010E): L<<266.0,892.0>--<266.0,872.0>> -> L<<266.0,872.0>--<249.0,662.0>>
 
-	- 0x0030 (DIGIT ZERO)
+	* Ecaron (U+011A): L<<124.0,662.0>--<116.0,872.0>> -> L<<116.0,872.0>--<116.0,892.0>>
 
+	* Ecaron (U+011A): L<<210.0,892.0>--<210.0,872.0>> -> L<<210.0,872.0>--<193.0,662.0>>
 
-	- 0x0031 (DIGIT ONE)
+	* Ncaron (U+0147): L<<199.0,662.0>--<191.0,872.0>> -> L<<191.0,872.0>--<191.0,892.0>>
 
+	* Ncaron (U+0147): L<<285.0,892.0>--<285.0,872.0>> -> L<<285.0,872.0>--<268.0,662.0>>
 
-	- 0x0032 (DIGIT TWO)
+	* Rcaron (U+0158): L<<130.0,662.0>--<122.0,872.0>> -> L<<122.0,872.0>--<122.0,892.0>>
 
+	* Rcaron (U+0158): L<<216.0,892.0>--<216.0,872.0>> -> L<<216.0,872.0>--<199.0,662.0>> 
 
-	- 0x0033 (DIGIT THREE)
+	* And 26 more.
 
-
-	- 0x0034 (DIGIT FOUR)
-
-
-	- 0x0035 (DIGIT FIVE)
-
-
-	- 0x0036 (DIGIT SIX)
+Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
+</div></details><br></div></details><details><summary><b>[8] NotoSansTifinaghSIL-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-	- 0x0037 (DIGIT SEVEN)
-
-
-	- 0x0038 (DIGIT EIGHT)
-
-
-	- 0x0039 (DIGIT NINE)
- 
-
-	- And 314 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Name table entries should not contain line-breaks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/line_breaks">com.google.fonts/check/name/line_breaks</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name entry DESCRIPTION on platform WINDOWS contains a line-break. [code: line-break]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
-
-
-* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Tifinagh SIL [code: render-own-name]
-</div></details><details><summary>🔥 <b>FAIL:</b> Name table records must not have trailing spaces. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/name/trailing_spaces">com.google.fonts/check/name/trailing_spaces</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name table record with key = (3, 1, 1033, 10) has trailing spaces that must be removed: 'Designed b[...]il Patel.
-' [code: trailing-space]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1190, but got 1069 instead [code: ascent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -1395,15 +1454,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 	- dotbelowcomb
 
+	- gravecomb
+
+	- tildecomb
+
 	- uni0302
 
 	- uni0304
 
 	- uni0306
 
-	- uni0307 
+	- uni0307
 
-	- And uni0331 [code: unattached-dotted-circle-marks]
+	- uni0308
+
+	- uni030A 
+
+	- And 7 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1415,44 +1484,76 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 599 but it should be 680 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- labializationBerbertifi
+
+	- uni00A0.1
+
+	- uni2D5A.RTL
+
+	- yaBerbertifi
+
+	- yaHawadtifi
+
+	- yaSILtifi
+
+	- yaaBerbertifi
+
+	- yabBerbertifi
+
+	- yachAPTtifi
+
+	- yachBerbertifi 
+
+	- And 93 more.
+
+Use -F or --full-lists to disable shortening of long lists.
+ [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
-	* uni2D42 (U+2D42): X=106.0,Y=714.5 (should be at cap-height 714?) 
+The following glyphs do not have the recommended number of contours:
 
-	* And uni2D42 (U+2D42): X=201.5,Y=-0.5 (should be at baseline 0?) [code: found-misalignments]
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+
+	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* uni2D33 (U+2D33) contains a short segment L<<30.0,0.0>--<30.0,8.0>>
+	* two (U+0032) contains a short segment L<<159.0,84.0>--<159.0,80.0>>
 
-	* uni2D33 (U+2D33) contains a short segment L<<645.0,8.0>--<645.0,0.0>>
+	* at (U+0040) contains a short segment B<<613.0,293.0>-<612.0,275.0>-<612.0,267.5>>
 
-	* uni2D34 (U+2D34) contains a short segment L<<30.0,706.0>--<30.0,714.0>>
+	* at (U+0040) contains a short segment B<<612.0,267.5>-<612.0,260.0>-<612.0,257.0>>
 
-	* uni2D34 (U+2D34) contains a short segment L<<645.0,714.0>--<645.0,706.0>>
+	* M (U+004D) contains a short segment L<<177.0,626.0>--<173.0,626.0>>
 
-	* uni2D37 (U+2D37) contains a short segment L<<40.0,0.0>--<40.0,8.0>>
+	* M (U+004D) contains a short segment L<<450.0,129.0>--<454.0,129.0>>
 
-	* uni2D37 (U+2D37) contains a short segment L<<649.0,8.0>--<649.0,0.0>>
+	* N (U+004E) contains a short segment L<<176.0,593.0>--<172.0,593.0>>
 
-	* uni2D38 (U+2D38) contains a short segment L<<40.0,706.0>--<40.0,714.0>>
+	* N (U+004E) contains a short segment L<<582.0,123.0>--<586.0,123.0>>
 
-	* uni2D38 (U+2D38) contains a short segment L<<649.0,714.0>--<649.0,706.0>>
+	* Q (U+0051) contains a short segment B<<416.0,-9.0>-<410.0,-9.0>-<403.5,-9.5>>
 
-	* uni2D3D (U+2D3D) contains a short segment L<<657.0,8.0>--<657.0,0.0>>
+	* Q (U+0051) contains a short segment B<<403.5,-9.5>-<397.0,-10.0>-<391.0,-10.0>>
 
-	* uni2D3F (U+2D3F) contains a short segment L<<654.0,714.0>--<654.0,706.0>> 
+	* W (U+0057) contains a short segment B<<468.0,577.5>-<463.0,600.0>-<461.0,609.0>> 
 
-	* And 19 more.
+	* And 90 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -1460,64 +1561,33 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* caron (U+02C7): L<<114.0,714.0>--<114.0,694.0>> -> L<<114.0,694.0>--<97.0,484.0>> 
+	* Ccaron (U+010C): L<<199.0,662.0>--<191.0,872.0>> -> L<<191.0,872.0>--<191.0,892.0>>
 
-	* And caron (U+02C7): L<<28.0,484.0>--<20.0,694.0>> -> L<<20.0,694.0>--<20.0,714.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[12] NotoSansTifinaghTawellemmet-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* Ccaron (U+010C): L<<285.0,892.0>--<285.0,872.0>> -> L<<285.0,872.0>--<268.0,662.0>>
 
+	* Dcaron (U+010E): L<<180.0,662.0>--<172.0,872.0>> -> L<<172.0,872.0>--<172.0,892.0>>
 
-* 🔥 **FAIL** Missing required codepoints:
+	* Dcaron (U+010E): L<<266.0,892.0>--<266.0,872.0>> -> L<<266.0,872.0>--<249.0,662.0>>
 
-	- 0x0030 (DIGIT ZERO)
+	* Ecaron (U+011A): L<<124.0,662.0>--<116.0,872.0>> -> L<<116.0,872.0>--<116.0,892.0>>
 
+	* Ecaron (U+011A): L<<210.0,892.0>--<210.0,872.0>> -> L<<210.0,872.0>--<193.0,662.0>>
 
-	- 0x0031 (DIGIT ONE)
+	* Ncaron (U+0147): L<<199.0,662.0>--<191.0,872.0>> -> L<<191.0,872.0>--<191.0,892.0>>
 
+	* Ncaron (U+0147): L<<285.0,892.0>--<285.0,872.0>> -> L<<285.0,872.0>--<268.0,662.0>>
 
-	- 0x0032 (DIGIT TWO)
+	* Rcaron (U+0158): L<<130.0,662.0>--<122.0,872.0>> -> L<<122.0,872.0>--<122.0,892.0>>
 
+	* Rcaron (U+0158): L<<216.0,892.0>--<216.0,872.0>> -> L<<216.0,872.0>--<199.0,662.0>> 
 
-	- 0x0033 (DIGIT THREE)
+	* And 26 more.
 
-
-	- 0x0034 (DIGIT FOUR)
-
-
-	- 0x0035 (DIGIT FIVE)
-
-
-	- 0x0036 (DIGIT SIX)
+Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
+</div></details><br></div></details><details><summary><b>[8] NotoSansTifinaghTawellemmet-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-	- 0x0037 (DIGIT SEVEN)
-
-
-	- 0x0038 (DIGIT EIGHT)
-
-
-	- 0x0039 (DIGIT NINE)
- 
-
-	- And 314 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Name table entries should not contain line-breaks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/line_breaks">com.google.fonts/check/name/line_breaks</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name entry DESCRIPTION on platform WINDOWS contains a line-break. [code: line-break]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
-
-
-* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Tifinagh Tawellemmet [code: render-own-name]
-</div></details><details><summary>🔥 <b>FAIL:</b> Name table records must not have trailing spaces. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/name/trailing_spaces">com.google.fonts/check/name/trailing_spaces</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name table record with key = (3, 1, 1033, 10) has trailing spaces that must be removed: 'Designed b[...]il Patel.
-' [code: trailing-space]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1190, but got 1069 instead [code: ascent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -1527,15 +1597,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 	- dotbelowcomb
 
+	- gravecomb
+
+	- tildecomb
+
 	- uni0302
 
 	- uni0304
 
 	- uni0306
 
-	- uni0307 
+	- uni0307
 
-	- And uni0331 [code: unattached-dotted-circle-marks]
+	- uni0308
+
+	- uni030A 
+
+	- And 7 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1547,44 +1627,76 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 599 but it should be 679 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- labializationBerbertifi
+
+	- uni00A0.1
+
+	- uni03070304
+
+	- uni2D47.RTL
+
+	- uni2D4D.RTL
+
+	- yaBerbertifi
+
+	- yaHawadtifi
+
+	- yaSILtifi
+
+	- yaaBerbertifi
+
+	- yabBerbertifi 
+
+	- And 96 more.
+
+Use -F or --full-lists to disable shortening of long lists.
+ [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
-	* uni2D42 (U+2D42): X=106.0,Y=714.5 (should be at cap-height 714?) 
+The following glyphs do not have the recommended number of contours:
 
-	* And uni2D42 (U+2D42): X=201.5,Y=-0.5 (should be at baseline 0?) [code: found-misalignments]
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+
+	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* uni2D33 (U+2D33) contains a short segment L<<30.0,0.0>--<30.0,8.0>>
+	* two (U+0032) contains a short segment L<<159.0,84.0>--<159.0,80.0>>
 
-	* uni2D33 (U+2D33) contains a short segment L<<645.0,8.0>--<645.0,0.0>>
+	* at (U+0040) contains a short segment B<<613.0,293.0>-<612.0,275.0>-<612.0,267.5>>
 
-	* uni2D34 (U+2D34) contains a short segment L<<30.0,706.0>--<30.0,714.0>>
+	* at (U+0040) contains a short segment B<<612.0,267.5>-<612.0,260.0>-<612.0,257.0>>
 
-	* uni2D34 (U+2D34) contains a short segment L<<645.0,714.0>--<645.0,706.0>>
+	* M (U+004D) contains a short segment L<<177.0,626.0>--<173.0,626.0>>
 
-	* uni2D37 (U+2D37) contains a short segment L<<40.0,0.0>--<40.0,8.0>>
+	* M (U+004D) contains a short segment L<<450.0,129.0>--<454.0,129.0>>
 
-	* uni2D37 (U+2D37) contains a short segment L<<649.0,8.0>--<649.0,0.0>>
+	* N (U+004E) contains a short segment L<<176.0,593.0>--<172.0,593.0>>
 
-	* uni2D38 (U+2D38) contains a short segment L<<40.0,706.0>--<40.0,714.0>>
+	* N (U+004E) contains a short segment L<<582.0,123.0>--<586.0,123.0>>
 
-	* uni2D38 (U+2D38) contains a short segment L<<649.0,714.0>--<649.0,706.0>>
+	* Q (U+0051) contains a short segment B<<416.0,-9.0>-<410.0,-9.0>-<403.5,-9.5>>
 
-	* uni2D3D (U+2D3D) contains a short segment L<<657.0,8.0>--<657.0,0.0>>
+	* Q (U+0051) contains a short segment B<<403.5,-9.5>-<397.0,-10.0>-<391.0,-10.0>>
 
-	* uni2D3F (U+2D3F) contains a short segment L<<654.0,714.0>--<654.0,706.0>> 
+	* W (U+0057) contains a short segment B<<468.0,577.5>-<463.0,600.0>-<461.0,609.0>> 
 
-	* And 19 more.
+	* And 90 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -1592,16 +1704,36 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* caron (U+02C7): L<<114.0,714.0>--<114.0,694.0>> -> L<<114.0,694.0>--<97.0,484.0>> 
+	* Ccaron (U+010C): L<<199.0,662.0>--<191.0,872.0>> -> L<<191.0,872.0>--<191.0,892.0>>
 
-	* And caron (U+02C7): L<<28.0,484.0>--<20.0,694.0>> -> L<<20.0,694.0>--<20.0,714.0>> [code: found-colinear-vectors]
+	* Ccaron (U+010C): L<<285.0,892.0>--<285.0,872.0>> -> L<<285.0,872.0>--<268.0,662.0>>
+
+	* Dcaron (U+010E): L<<180.0,662.0>--<172.0,872.0>> -> L<<172.0,872.0>--<172.0,892.0>>
+
+	* Dcaron (U+010E): L<<266.0,892.0>--<266.0,872.0>> -> L<<266.0,872.0>--<249.0,662.0>>
+
+	* Ecaron (U+011A): L<<124.0,662.0>--<116.0,872.0>> -> L<<116.0,872.0>--<116.0,892.0>>
+
+	* Ecaron (U+011A): L<<210.0,892.0>--<210.0,872.0>> -> L<<210.0,872.0>--<193.0,662.0>>
+
+	* Ncaron (U+0147): L<<199.0,662.0>--<191.0,872.0>> -> L<<191.0,872.0>--<191.0,892.0>>
+
+	* Ncaron (U+0147): L<<285.0,892.0>--<285.0,872.0>> -> L<<285.0,872.0>--<268.0,662.0>>
+
+	* Rcaron (U+0158): L<<130.0,662.0>--<122.0,872.0>> -> L<<122.0,872.0>--<122.0,892.0>>
+
+	* Rcaron (U+0158): L<<216.0,892.0>--<216.0,872.0>> -> L<<216.0,872.0>--<199.0,662.0>> 
+
+	* And 26 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><br></div></details>
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 72 | 72 | 1344 | 74 | 997 | 0 |
-| 0% | 3% | 3% | 53% | 3% | 39% | 0% |
+| 0 | 24 | 72 | 1332 | 74 | 1057 | 0 |
+| 0% | 1% | 3% | 52% | 3% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
