@@ -49,7 +49,7 @@ value = GOOG;
 },
 {
 name = description;
-value = "Designed by Mark Jamra, Neil Patel.\012";
+value = "Designed by Mark Jamra, Neil Patel.";
 },
 {
 name = license;
