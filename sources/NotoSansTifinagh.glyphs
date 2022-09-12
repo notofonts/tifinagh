@@ -128,10 +128,6 @@ name = lookup_rtlaSIL;
 {
 code = "lookup rtlaTuareg {\012\012sub yal_yal-tifi by yal_yal-tifi.RTL;\012sub yal_yan-tifi by yal_yan-tifi.RTL;\012sub yan_yal-tifi by yan_yal-tifi.RTL;\012sub yan_yan-tifi by yan_yan-tifi.RTL;\012sub yach-tifi by yach-tifi.RTL;\012sub yarr-tifi by yarr-tifi.RTL;\012sub yass-tifi by yass-tifi.RTL;\012sub yatt-tifi by yatt-tifi.RTL;\012sub yay-tifi by yay-tifi.RTL;\012sub yan_yat-tifi by yan_yatTawellemmet-tifi.RTL;\012sub yar_yat-tifi by yar_yat-tifi.RTL;\012\012} rtlaTuareg;";
 name = lookup_rtlaTuareg;
-},
-{
-code = "lookup liga {\012\012	sub yal-tifi yal-tifi by yal_yal-tifi;\012	sub yal-tifi yan-tifi by yal_yan-tifi;\012	\012	sub yan-tifi yal-tifi by yan_yal-tifi;\012	sub yan-tifi yan-tifi by yan_yan-tifi;\012	\012	} liga;";
-name = lookup_liga;
 }
 );
 features = (
@@ -142,10 +138,6 @@ name = ccmp;
 {
 code = "lookup rtlaMain;";
 name = rtla;
-},
-{
-code = "lookup liga;";
-name = liga;
 }
 );
 fontMaster = (
