@@ -84,6 +84,10 @@ disablesNiceNames = 1;
 familyName = "Noto Sans Tifinagh";
 featurePrefixes = (
 {
+code = "languagesystem DFLT dflt;\012\012languagesystem tfng dflt;\012\012languagesystem latn dflt;";
+name = LanguageSystems;
+},
+{
 code = "lookup ccmp0 {\012\012	sub yal-tifi yal-tifi by yal_yal-tifi;\012	sub yal-tifi yan-tifi by yal_yan-tifi;\012	\012	sub yan-tifi yal-tifi by yan_yal-tifi;\012	sub yan-tifi yan-tifi by yan_yan-tifi;\012	\012	} ccmp0;\012";
 name = lookup_ccmp0;
 },
