@@ -48,6 +48,10 @@ name = "Use Line Breaks";
 value = 1;
 },
 {
+name = "Disable Last Change";
+value = 1;
+},
+{
 name = vendorID;
 value = GOOG;
 },
@@ -799,7 +803,6 @@ glyphs = (
 {
 color = 0;
 glyphname = "ya-tifi";
-lastChange = "2022-09-12 13:17:54 +0000";
 layers = (
 {
 anchors = (
@@ -854,7 +857,6 @@ unicode = 2D30;
 {
 color = 0;
 glyphname = "yab-tifi";
-lastChange = "2019-10-07 17:57:14 +0000";
 layers = (
 {
 anchors = (
@@ -891,7 +893,6 @@ unicode = 2D31;
 {
 color = 0;
 glyphname = "yabh-tifi";
-lastChange = "2022-09-12 13:18:00 +0000";
 layers = (
 {
 anchors = (
@@ -968,7 +969,6 @@ unicode = 2D32;
 {
 color = 0;
 glyphname = "yag-tifi";
-lastChange = "2022-09-12 13:18:06 +0000";
 layers = (
 {
 anchors = (
@@ -1142,7 +1142,6 @@ unicode = 2D33;
 {
 color = 0;
 glyphname = "yaghh-tifi";
-lastChange = "2022-09-12 13:18:11 +0000";
 layers = (
 {
 anchors = (
@@ -1278,7 +1277,6 @@ unicode = 2D34;
 {
 color = 0;
 glyphname = "yajBerberacademy-tifi";
-lastChange = "2022-09-12 13:18:14 +0000";
 layers = (
 {
 anchors = (
@@ -1390,7 +1388,6 @@ unicode = 2D35;
 {
 color = 0;
 glyphname = "yaj-tifi";
-lastChange = "2022-09-12 13:18:20 +0000";
 layers = (
 {
 anchors = (
@@ -1454,7 +1451,6 @@ unicode = 2D36;
 {
 color = 0;
 glyphname = "yad-tifi";
-lastChange = "2022-09-12 13:18:22 +0000";
 layers = (
 {
 anchors = (
@@ -1533,7 +1529,6 @@ unicode = 2D37;
 {
 color = 0;
 glyphname = "yadh-tifi";
-lastChange = "2022-09-12 13:18:25 +0000";
 layers = (
 {
 anchors = (
@@ -1587,7 +1582,6 @@ unicode = 2D38;
 {
 color = 0;
 glyphname = "yadd-tifi";
-lastChange = "2022-09-12 13:18:36 +0000";
 layers = (
 {
 anchors = (
@@ -1629,7 +1623,6 @@ unicode = 2D39;
 {
 color = 0;
 glyphname = "yaddh-tifi";
-lastChange = "2022-09-12 13:18:54 +0000";
 layers = (
 {
 anchors = (
@@ -1667,7 +1660,6 @@ unicode = 2D3A;
 {
 color = 0;
 glyphname = "yey-tifi";
-lastChange = "2022-09-12 13:19:01 +0000";
 layers = (
 {
 anchors = (
@@ -1846,7 +1838,6 @@ unicode = 2D3B;
 {
 color = 0;
 glyphname = "yaf-tifi";
-lastChange = "2022-09-12 13:19:04 +0000";
 layers = (
 {
 anchors = (
@@ -1892,7 +1883,6 @@ unicode = 2D3C;
 {
 color = 0;
 glyphname = "yak-tifi";
-lastChange = "2022-09-12 13:19:07 +0000";
 layers = (
 {
 anchors = (
@@ -1990,7 +1980,6 @@ unicode = 2D3D;
 {
 color = 0;
 glyphname = "yakTuareg-tifi";
-lastChange = "2022-09-12 13:19:09 +0000";
 layers = (
 {
 anchors = (
@@ -2062,7 +2051,6 @@ unicode = 2D3E;
 {
 color = 0;
 glyphname = "yakhh-tifi";
-lastChange = "2022-09-12 13:19:14 +0000";
 layers = (
 {
 anchors = (
@@ -2161,7 +2149,6 @@ unicode = 2D3F;
 {
 color = 0;
 glyphname = "yah-tifi";
-lastChange = "2022-09-12 13:19:19 +0000";
 layers = (
 {
 anchors = (
@@ -2198,7 +2185,6 @@ unicode = 2D40;
 {
 color = 0;
 glyphname = "yahBerberacademy-tifi";
-lastChange = "2022-09-12 13:19:24 +0000";
 layers = (
 {
 anchors = (
@@ -2244,7 +2230,6 @@ unicode = 2D41;
 {
 color = 0;
 glyphname = "yahTuareg-tifi";
-lastChange = "2022-09-12 13:19:28 +0000";
 layers = (
 {
 anchors = (
@@ -2333,7 +2318,6 @@ unicode = 2D42;
 {
 color = 0;
 glyphname = "yahh-tifi";
-lastChange = "2022-09-12 13:19:32 +0000";
 layers = (
 {
 anchors = (
@@ -2411,7 +2395,6 @@ unicode = 2D43;
 {
 color = 0;
 glyphname = "yaa-tifi";
-lastChange = "2022-09-12 13:19:34 +0000";
 layers = (
 {
 anchors = (
@@ -2449,7 +2432,6 @@ unicode = 2D44;
 {
 color = 0;
 glyphname = "yakh-tifi";
-lastChange = "2022-09-12 13:19:39 +0000";
 layers = (
 {
 anchors = (
@@ -2577,7 +2559,6 @@ unicode = 2D45;
 {
 color = 0;
 glyphname = "yakhTuareg-tifi";
-lastChange = "2022-09-12 13:19:42 +0000";
 layers = (
 {
 anchors = (
@@ -2666,7 +2647,6 @@ unicode = 2D46;
 {
 color = 0;
 glyphname = "yaq-tifi";
-lastChange = "2022-09-12 13:19:45 +0000";
 layers = (
 {
 anchors = (
@@ -2761,7 +2741,6 @@ unicode = 2D47;
 {
 color = 0;
 glyphname = "yaqTuareg-tifi";
-lastChange = "2022-09-12 13:19:48 +0000";
 layers = (
 {
 anchors = (
@@ -2833,7 +2812,6 @@ unicode = 2D48;
 {
 color = 0;
 glyphname = "yi-tifi";
-lastChange = "2022-09-12 13:19:49 +0000";
 layers = (
 {
 anchors = (
@@ -2937,7 +2915,6 @@ unicode = 2D49;
 {
 color = 0;
 glyphname = "yazh-tifi";
-lastChange = "2022-09-12 13:19:53 +0000";
 layers = (
 {
 anchors = (
@@ -2981,7 +2958,6 @@ unicode = 2D4A;
 {
 color = 0;
 glyphname = "yazhAhaggar-tifi";
-lastChange = "2022-09-12 13:19:56 +0000";
 layers = (
 {
 anchors = (
@@ -3079,7 +3055,6 @@ unicode = 2D4B;
 {
 color = 0;
 glyphname = "yazhTuareg-tifi";
-lastChange = "2022-09-12 13:19:59 +0000";
 layers = (
 {
 anchors = (
@@ -3142,7 +3117,6 @@ unicode = 2D4C;
 {
 color = 0;
 glyphname = "yal-tifi";
-lastChange = "2022-09-12 13:20:04 +0000";
 layers = (
 {
 anchors = (
@@ -3229,7 +3203,6 @@ unicode = 2D4D;
 {
 color = 0;
 glyphname = "yam-tifi";
-lastChange = "2022-09-12 13:20:14 +0000";
 layers = (
 {
 anchors = (
@@ -3263,7 +3236,6 @@ unicode = 2D4E;
 {
 color = 0;
 glyphname = "yan-tifi";
-lastChange = "2022-09-12 13:20:18 +0000";
 layers = (
 {
 anchors = (
@@ -3293,7 +3265,6 @@ unicode = 2D4F;
 {
 color = 0;
 glyphname = "yagnTuareg-tifi";
-lastChange = "2022-09-12 13:20:21 +0000";
 layers = (
 {
 anchors = (
@@ -3339,7 +3310,6 @@ unicode = 2D50;
 {
 color = 0;
 glyphname = "yangTuareg-tifi";
-lastChange = "2022-09-12 13:20:24 +0000";
 layers = (
 {
 anchors = (
@@ -3386,7 +3356,6 @@ unicode = 2D51;
 {
 color = 0;
 glyphname = "yap-tifi";
-lastChange = "2022-09-12 13:20:27 +0000";
 layers = (
 {
 anchors = (
@@ -3517,7 +3486,6 @@ unicode = 2D52;
 {
 color = 0;
 glyphname = "yu-tifi";
-lastChange = "2022-09-12 13:20:30 +0000";
 layers = (
 {
 anchors = (
@@ -3606,7 +3574,6 @@ unicode = 2D53;
 {
 color = 0;
 glyphname = "yar-tifi";
-lastChange = "2022-09-12 13:20:34 +0000";
 layers = (
 {
 anchors = (
@@ -3667,7 +3634,6 @@ unicode = 2D54;
 {
 color = 0;
 glyphname = "yarr-tifi";
-lastChange = "2022-09-12 13:20:39 +0000";
 layers = (
 {
 anchors = (
@@ -3703,7 +3669,6 @@ unicode = 2D55;
 {
 color = 0;
 glyphname = "yagh-tifi";
-lastChange = "2022-09-12 13:20:42 +0000";
 layers = (
 {
 anchors = (
@@ -3741,7 +3706,6 @@ unicode = 2D56;
 {
 color = 0;
 glyphname = "yaghTuareg-tifi";
-lastChange = "2022-09-12 13:20:45 +0000";
 layers = (
 {
 anchors = (
@@ -3813,7 +3777,6 @@ unicode = 2D57;
 {
 color = 0;
 glyphname = "yaghAyer-tifi";
-lastChange = "2022-09-12 13:20:50 +0000";
 layers = (
 {
 anchors = (
@@ -3919,7 +3882,6 @@ unicode = 2D58;
 {
 color = 0;
 glyphname = "yas-tifi";
-lastChange = "2022-09-12 13:20:55 +0000";
 layers = (
 {
 anchors = (
@@ -3968,7 +3930,6 @@ unicode = 2D59;
 {
 color = 0;
 glyphname = "yass-tifi";
-lastChange = "2022-09-12 13:20:59 +0000";
 layers = (
 {
 anchors = (
@@ -3995,7 +3956,6 @@ unicode = 2D5A;
 {
 color = 0;
 glyphname = "yash-tifi";
-lastChange = "2022-09-12 13:21:04 +0000";
 layers = (
 {
 anchors = (
@@ -4144,7 +4104,6 @@ unicode = 2D5B;
 {
 color = 0;
 glyphname = "yat-tifi";
-lastChange = "2022-09-12 13:21:08 +0000";
 layers = (
 {
 anchors = (
@@ -4188,7 +4147,6 @@ unicode = 2D5C;
 {
 color = 0;
 glyphname = "yath-tifi";
-lastChange = "2022-09-12 13:21:11 +0000";
 layers = (
 {
 anchors = (
@@ -4313,7 +4271,6 @@ unicode = 2D5D;
 {
 color = 0;
 glyphname = "yach-tifi";
-lastChange = "2022-09-12 13:21:16 +0000";
 layers = (
 {
 anchors = (
@@ -4557,7 +4514,6 @@ unicode = 2D5E;
 {
 color = 0;
 glyphname = "yatt-tifi";
-lastChange = "2022-09-12 13:21:19 +0000";
 layers = (
 {
 anchors = (
@@ -4624,7 +4580,6 @@ unicode = 2D5F;
 {
 color = 0;
 glyphname = "yav-tifi";
-lastChange = "2022-09-12 13:21:22 +0000";
 layers = (
 {
 anchors = (
@@ -4728,7 +4683,6 @@ unicode = 2D60;
 {
 color = 0;
 glyphname = "yaw-tifi";
-lastChange = "2022-09-12 13:21:24 +0000";
 layers = (
 {
 anchors = (
@@ -4762,7 +4716,6 @@ unicode = 2D61;
 {
 color = 0;
 glyphname = "yay-tifi";
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 anchors = (
@@ -4846,7 +4799,6 @@ unicode = 2D62;
 {
 color = 0;
 glyphname = "yaz-tifi";
-lastChange = "2022-09-12 13:21:29 +0000";
 layers = (
 {
 anchors = (
@@ -4968,7 +4920,6 @@ unicode = 2D63;
 {
 color = 0;
 glyphname = "yazTawellemmet-tifi";
-lastChange = "2022-09-12 13:21:33 +0000";
 layers = (
 {
 anchors = (
@@ -5042,7 +4993,6 @@ unicode = 2D64;
 {
 color = 0;
 glyphname = "yazz-tifi";
-lastChange = "2022-09-12 13:21:38 +0000";
 layers = (
 {
 anchors = (
@@ -5183,7 +5133,6 @@ unicode = 2D65;
 {
 color = 0;
 glyphname = "ye-tifi";
-lastChange = "2022-09-12 13:21:41 +0000";
 layers = (
 {
 anchors = (
@@ -5255,7 +5204,6 @@ unicode = 2D66;
 {
 color = 0;
 glyphname = "yo-tifi";
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 anchors = (
@@ -5294,7 +5242,6 @@ unicode = 2D67;
 {
 color = 0;
 glyphname = "labialization-tifi";
-lastChange = "2022-09-12 13:21:52 +0000";
 layers = (
 {
 anchors = (
@@ -5328,7 +5275,6 @@ unicode = 2D6F;
 {
 color = 0;
 glyphname = "yadd-tifi.RTL";
-lastChange = "2022-09-12 13:21:57 +0000";
 layers = (
 {
 anchors = (
@@ -5352,7 +5298,6 @@ note = uni2D39;
 {
 color = 0;
 glyphname = "yaddh-tifi.RTL";
-lastChange = "2022-09-12 13:22:00 +0000";
 layers = (
 {
 anchors = (
@@ -5376,7 +5321,6 @@ note = uni2D3A;
 {
 color = 0;
 glyphname = "yak-tifi.RTL";
-lastChange = "2022-09-12 13:22:03 +0000";
 layers = (
 {
 anchors = (
@@ -5453,7 +5397,6 @@ note = uni2D3D;
 {
 color = 0;
 glyphname = "yakTuareg-tifi.RTL";
-lastChange = "2022-09-12 13:22:10 +0000";
 layers = (
 {
 anchors = (
@@ -5477,7 +5420,6 @@ note = uni2D3E;
 {
 color = 0;
 glyphname = "yakhh-tifi.RTL";
-lastChange = "2022-09-12 13:22:13 +0000";
 layers = (
 {
 anchors = (
@@ -5543,7 +5485,6 @@ note = uni2D3F;
 {
 color = 0;
 glyphname = "yahBerberacademy-tifi.RTL";
-lastChange = "2022-09-12 13:22:17 +0000";
 layers = (
 {
 anchors = (
@@ -5577,7 +5518,6 @@ note = uni2D41;
 {
 color = 0;
 glyphname = "yahh-tifi.RTL";
-lastChange = "2022-09-12 13:22:20 +0000";
 layers = (
 {
 anchors = (
@@ -5661,7 +5601,6 @@ note = uni2D43;
 {
 color = 0;
 glyphname = "yaq-tifi.RTL";
-lastChange = "2022-09-12 13:22:22 +0000";
 layers = (
 {
 anchors = (
@@ -5756,7 +5695,6 @@ note = uni2D47;
 {
 color = 0;
 glyphname = "yi-tifi.RTL";
-lastChange = "2022-09-12 13:22:25 +0000";
 layers = (
 {
 anchors = (
@@ -5824,7 +5762,6 @@ note = uni2D49;
 {
 color = 0;
 glyphname = "yal-tifi.RTL";
-lastChange = "2022-09-12 13:22:29 +0000";
 layers = (
 {
 anchors = (
@@ -5883,7 +5820,6 @@ note = uni2D4D;
 {
 color = 0;
 glyphname = "yam-tifi.RTL";
-lastChange = "2022-09-12 13:22:32 +0000";
 layers = (
 {
 anchors = (
@@ -5907,7 +5843,6 @@ note = uni2D4E;
 {
 color = 0;
 glyphname = "yap-tifi.RTL";
-lastChange = "2022-09-12 13:22:36 +0000";
 layers = (
 {
 anchors = (
@@ -5989,7 +5924,6 @@ rightKerningGroup = yap;
 {
 color = 0;
 glyphname = "yarr-tifi.RTL";
-lastChange = "2022-09-12 13:22:39 +0000";
 layers = (
 {
 anchors = (
@@ -6014,7 +5948,6 @@ rightKerningGroup = yar;
 {
 color = 0;
 glyphname = "yass-tifi.RTL";
-lastChange = "2022-09-12 13:22:43 +0000";
 layers = (
 {
 anchors = (
@@ -6039,7 +5972,6 @@ rightKerningGroup = yar;
 {
 color = 0;
 glyphname = "yash-tifi.RTL";
-lastChange = "2022-09-12 13:22:47 +0000";
 layers = (
 {
 anchors = (
@@ -6101,7 +6033,6 @@ note = uni2D5B;
 {
 color = 0;
 glyphname = "yach-tifi.RTL";
-lastChange = "2022-09-12 13:22:49 +0000";
 layers = (
 {
 anchors = (
@@ -6241,7 +6172,6 @@ note = uni2D5E;
 {
 color = 0;
 glyphname = "yatt-tifi.RTL";
-lastChange = "2022-09-12 13:22:53 +0000";
 layers = (
 {
 anchors = (
@@ -6286,7 +6216,6 @@ note = uni2D5F;
 {
 color = 0;
 glyphname = "yay-tifi.RTL";
-lastChange = "2022-09-12 13:22:56 +0000";
 layers = (
 {
 anchors = (
@@ -6344,7 +6273,6 @@ note = uni2D62;
 {
 color = 0;
 glyphname = "ye-tifi.RTL";
-lastChange = "2022-09-12 13:23:00 +0000";
 layers = (
 {
 anchors = (
@@ -6400,7 +6328,6 @@ note = uni2D66;
 {
 color = 3;
 glyphname = "yab_yat-tifi";
-lastChange = "2022-09-12 13:23:04 +0000";
 layers = (
 {
 anchors = (
@@ -6444,7 +6371,6 @@ rightKerningGroup = ligyat;
 {
 color = 3;
 glyphname = "yag_yat-tifi";
-lastChange = "2022-09-12 13:23:09 +0000";
 layers = (
 {
 anchors = (
@@ -6619,7 +6545,6 @@ rightKerningGroup = ligyat;
 {
 color = 0;
 glyphname = "yaf_yat-tifi";
-lastChange = "2022-09-12 13:23:14 +0000";
 layers = (
 {
 anchors = (
@@ -6672,7 +6597,6 @@ note = uni2D3C2D5C;
 {
 color = 4;
 glyphname = "yaf_yatAdrar-tifi";
-lastChange = "2022-09-12 13:23:19 +0000";
 layers = (
 {
 anchors = (
@@ -6722,7 +6646,6 @@ note = uni2D4A;
 {
 color = 3;
 glyphname = "yaf_yatAhaggar-tifi";
-lastChange = "2022-09-12 13:23:23 +0000";
 layers = (
 {
 anchors = (
@@ -6767,7 +6690,6 @@ note = uni2D4F2D3C;
 {
 color = 8;
 glyphname = "yaf_yatTawellemmet-tifi";
-lastChange = "2022-09-12 13:23:28 +0000";
 layers = (
 {
 anchors = (
@@ -6821,7 +6743,6 @@ note = uni2D4F2D3C;
 {
 color = 0;
 glyphname = "yah_yat-tifi";
-lastChange = "2022-09-12 13:23:47 +0000";
 layers = (
 {
 anchors = (
@@ -6865,7 +6786,6 @@ rightKerningGroup = ligyat;
 {
 color = 0;
 glyphname = "yazhTuareg_yat-tifi";
-lastChange = "2022-09-12 13:23:53 +0000";
 layers = (
 {
 anchors = (
@@ -6954,7 +6874,6 @@ note = uni2D4C2D5C;
 {
 color = 0;
 glyphname = "yal_yal-tifi";
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 anchors = (
@@ -7017,7 +6936,6 @@ rightKerningGroup = yan_yan;
 {
 color = 0;
 glyphname = "yal_yan-tifi";
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 anchors = (
@@ -7071,7 +6989,6 @@ rightKerningGroup = yan_yan;
 {
 color = 0;
 glyphname = "yal_yat-tifi";
-lastChange = "2022-09-12 13:23:59 +0000";
 layers = (
 {
 anchors = (
@@ -7116,7 +7033,6 @@ note = uni2D4D2D5C;
 {
 color = 8;
 glyphname = "yal_yatTawellemmet-tifi";
-lastChange = "2022-09-12 13:24:02 +0000";
 layers = (
 {
 anchors = (
@@ -7230,7 +7146,6 @@ rightKerningGroup = yath;
 {
 color = 8;
 glyphname = "yam_yab-tifi";
-lastChange = "2022-09-12 13:24:06 +0000";
 layers = (
 {
 anchors = (
@@ -7270,7 +7185,6 @@ rightKerningGroup = yar;
 {
 color = 0;
 glyphname = "yam_yah-tifi";
-lastChange = "2022-09-12 13:24:13 +0000";
 layers = (
 {
 anchors = (
@@ -7346,7 +7260,6 @@ note = uni2D4E2D40;
 {
 color = 0;
 glyphname = "yam_yas-tifi";
-lastChange = "2022-09-12 13:24:18 +0000";
 layers = (
 {
 anchors = (
@@ -7451,7 +7364,6 @@ note = uni2D4E2D59;
 {
 color = 0;
 glyphname = "yam_yat-tifi";
-lastChange = "2022-09-12 13:24:22 +0000";
 layers = (
 {
 anchors = (
@@ -7492,7 +7404,6 @@ note = uni2D4E2D5C;
 {
 color = 4;
 glyphname = "yam_yatAdrar-tifi";
-lastChange = "2022-09-12 13:24:26 +0000";
 layers = (
 {
 anchors = (
@@ -7533,7 +7444,6 @@ note = uni2D4E2D5C;
 {
 color = 8;
 glyphname = "yam_yatSIL-tifi";
-lastChange = "2022-09-12 13:24:29 +0000";
 layers = (
 {
 anchors = (
@@ -7599,7 +7509,6 @@ note = uni2D5F;
 {
 color = 3;
 glyphname = "yan_yab-tifi";
-lastChange = "2022-09-12 13:24:33 +0000";
 layers = (
 {
 anchors = (
@@ -7718,7 +7627,6 @@ rightKerningGroup = yar;
 {
 color = 0;
 glyphname = "yan_yag-tifi";
-lastChange = "2022-09-12 13:24:35 +0000";
 layers = (
 {
 anchors = (
@@ -7805,7 +7713,6 @@ note = uni2D4F2D34;
 {
 color = 0;
 glyphname = "yan_yaj-tifi";
-lastChange = "2022-09-12 13:24:39 +0000";
 layers = (
 {
 anchors = (
@@ -7878,7 +7785,6 @@ note = uni2D4F2D36;
 {
 color = 8;
 glyphname = "yan_yad-tifi";
-lastChange = "2022-09-12 13:24:49 +0000";
 layers = (
 {
 anchors = (
@@ -7922,7 +7828,6 @@ note = uni2D61;
 {
 color = 0;
 glyphname = "yan_yadh-tifi";
-lastChange = "2022-09-12 13:24:51 +0000";
 layers = (
 {
 anchors = (
@@ -7958,7 +7863,6 @@ rightKerningGroup = yadh;
 {
 color = 0;
 glyphname = "yan_yadd-tifi";
-lastChange = "2022-09-12 13:24:58 +0000";
 layers = (
 {
 anchors = (
@@ -7997,7 +7901,6 @@ note = uni2D4F2D39;
 {
 color = 0;
 glyphname = "yan_yaf-tifi";
-lastChange = "2022-09-12 13:25:05 +0000";
 layers = (
 {
 anchors = (
@@ -8042,7 +7945,6 @@ note = uni2D4F2D3C;
 {
 color = 0;
 glyphname = "yan_yakTuareg-tifi";
-lastChange = "2022-09-12 13:25:10 +0000";
 layers = (
 {
 anchors = (
@@ -8173,7 +8075,6 @@ note = uni2D4F2D3E;
 {
 color = 0;
 glyphname = "yan_yah-tifi";
-lastChange = "2022-09-12 13:25:13 +0000";
 layers = (
 {
 anchors = (
@@ -8292,7 +8193,6 @@ rightKerningGroup = yar;
 {
 color = 0;
 glyphname = "yan_yazhTuareg-tifi";
-lastChange = "2022-09-12 13:25:27 +0000";
 layers = (
 {
 anchors = (
@@ -8337,7 +8237,6 @@ note = uni2D4F2D4C;
 {
 color = 0;
 glyphname = "yan_yal-tifi";
-lastChange = "2022-09-12 13:25:30 +0000";
 layers = (
 {
 layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
@@ -8379,7 +8278,6 @@ rightKerningGroup = yan_yan;
 {
 color = 0;
 glyphname = "yan_yan-tifi";
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
@@ -8412,7 +8310,6 @@ rightKerningGroup = yan_yan;
 {
 color = 0;
 glyphname = "yan_yaghTuareg-tifi";
-lastChange = "2022-09-12 13:25:34 +0000";
 layers = (
 {
 anchors = (
@@ -8475,7 +8372,6 @@ note = uni2D4F2D57;
 {
 color = 0;
 glyphname = "yan_yas-tifi";
-lastChange = "2022-09-12 13:25:37 +0000";
 layers = (
 {
 anchors = (
@@ -8528,7 +8424,6 @@ rightKerningGroup = yar;
 {
 color = 0;
 glyphname = "yan_yat-tifi";
-lastChange = "2022-09-12 13:25:41 +0000";
 layers = (
 {
 anchors = (
@@ -8561,7 +8456,6 @@ note = uni2D4F2D5C;
 {
 color = 3;
 glyphname = "yan_yach-tifi";
-lastChange = "2022-09-12 13:25:45 +0000";
 layers = (
 {
 anchors = (
@@ -8665,7 +8559,6 @@ note = uni2D63;
 {
 color = 3;
 glyphname = "yan_yaz-tifi";
-lastChange = "2022-09-12 13:25:48 +0000";
 layers = (
 {
 anchors = (
@@ -8771,7 +8664,6 @@ note = uni2D43;
 {
 color = 8;
 glyphname = "yan_yabTuareg-tifi";
-lastChange = "2022-09-12 13:25:51 +0000";
 layers = (
 {
 anchors = (
@@ -8820,7 +8712,6 @@ note = uni2D3C;
 {
 color = 4;
 glyphname = "yan_yadAdrar-tifi";
-lastChange = "2022-09-12 13:25:54 +0000";
 layers = (
 {
 anchors = (
@@ -8920,7 +8811,6 @@ note = uni2D37;
 {
 color = 4;
 glyphname = "yan_yafAdrar-tifi";
-lastChange = "2022-09-12 13:25:57 +0000";
 layers = (
 {
 anchors = (
@@ -8974,7 +8864,6 @@ note = uni2D4A;
 {
 color = 8;
 glyphname = "yan_yafTawellemmet-tifi";
-lastChange = "2022-09-12 13:26:00 +0000";
 layers = (
 {
 anchors = (
@@ -9020,7 +8909,6 @@ note = uni2D3C;
 {
 color = 8;
 glyphname = "yan_yagTawellemmet-tifi";
-lastChange = "2022-09-12 13:26:05 +0000";
 layers = (
 {
 anchors = (
@@ -9117,7 +9005,6 @@ note = uni2D4F2D57;
 {
 color = 6;
 glyphname = "yan_yakAPT-tifi";
-lastChange = "2022-09-12 13:26:09 +0000";
 layers = (
 {
 anchors = (
@@ -9163,7 +9050,6 @@ note = uni2D51;
 {
 color = 6;
 glyphname = "yan_yatAPT-tifi";
-lastChange = "2022-09-12 13:26:13 +0000";
 layers = (
 {
 anchors = (
@@ -9202,7 +9088,6 @@ note = uni2D4F2D36;
 {
 color = 8;
 glyphname = "yan_yatTawellemmet-tifi";
-lastChange = "2022-09-12 13:26:15 +0000";
 layers = (
 {
 anchors = (
@@ -9235,7 +9120,6 @@ note = uni2D5C2D59;
 {
 color = 0;
 glyphname = "yan_yazTawellemmet-tifi";
-lastChange = "2022-09-12 13:26:19 +0000";
 layers = (
 {
 anchors = (
@@ -9303,7 +9187,6 @@ note = uni2D4F2D64;
 {
 color = 0;
 glyphname = "yu_yat-tifi";
-lastChange = "2022-09-12 13:26:23 +0000";
 layers = (
 {
 anchors = (
@@ -9374,7 +9257,6 @@ note = uni2D532D5C;
 {
 color = 10;
 glyphname = "yar_yab-tifi";
-lastChange = "2022-09-12 13:26:26 +0000";
 layers = (
 {
 anchors = (
@@ -9477,7 +9359,6 @@ rightKerningGroup = yar;
 {
 color = 10;
 glyphname = "yar_yaj-tifi";
-lastChange = "2022-09-12 13:26:30 +0000";
 layers = (
 {
 anchors = (
@@ -9573,7 +9454,6 @@ rightKerningGroup = yar;
 {
 color = 10;
 glyphname = "yar_yad-tifi";
-lastChange = "2022-09-12 13:26:34 +0000";
 layers = (
 {
 anchors = (
@@ -9669,7 +9549,6 @@ rightKerningGroup = yar;
 {
 color = 3;
 glyphname = "yar_yak-tifi";
-lastChange = "2022-09-12 13:26:38 +0000";
 layers = (
 {
 anchors = (
@@ -9752,7 +9631,6 @@ rightKerningGroup = yar;
 {
 color = 3;
 glyphname = "yar_yan-tifi";
-lastChange = "2022-09-12 13:26:45 +0000";
 layers = (
 {
 anchors = (
@@ -9861,7 +9739,6 @@ note = uni2D4F2D40;
 {
 color = 10;
 glyphname = "yar_yas-tifi";
-lastChange = "2022-09-12 13:26:50 +0000";
 layers = (
 {
 anchors = (
@@ -9972,7 +9849,6 @@ rightKerningGroup = yar;
 {
 color = 0;
 glyphname = "yar_yat-tifi";
-lastChange = "2022-09-12 13:26:53 +0000";
 layers = (
 {
 anchors = (
@@ -10016,7 +9892,6 @@ rightKerningGroup = ligyat;
 {
 color = 8;
 glyphname = "yar_yatTawellemmet-tifi";
-lastChange = "2022-09-12 13:26:58 +0000";
 layers = (
 {
 anchors = (
@@ -10092,7 +9967,6 @@ rightKerningGroup = yar;
 {
 color = 3;
 glyphname = "yagh_yat-tifi";
-lastChange = "2022-09-12 13:27:01 +0000";
 layers = (
 {
 anchors = (
@@ -10164,7 +10038,6 @@ note = uni2D36;
 {
 color = 0;
 glyphname = "yas_yan-tifi";
-lastChange = "2022-09-12 13:27:13 +0000";
 layers = (
 {
 anchors = (
@@ -10200,7 +10073,6 @@ rightKerningGroup = yar;
 {
 color = 0;
 glyphname = "yas_yat-tifi";
-lastChange = "2022-09-12 13:27:18 +0000";
 layers = (
 {
 anchors = (
@@ -10244,7 +10116,6 @@ rightKerningGroup = ligyat;
 {
 color = 4;
 glyphname = "yas_yatAdrar-tifi";
-lastChange = "2022-09-12 13:27:22 +0000";
 layers = (
 {
 anchors = (
@@ -10404,7 +10275,6 @@ rightKerningGroup = yar;
 {
 color = 8;
 glyphname = "yas_yatTawellemmet-tifi";
-lastChange = "2022-09-12 13:27:26 +0000";
 layers = (
 {
 anchors = (
@@ -10564,7 +10434,6 @@ rightKerningGroup = yar;
 {
 color = 0;
 glyphname = "yash_yat-tifi";
-lastChange = "2022-09-12 13:27:30 +0000";
 layers = (
 {
 anchors = (
@@ -10821,7 +10690,6 @@ rightKerningGroup = ligyat;
 {
 color = 0;
 glyphname = "yat_yas-tifi";
-lastChange = "2022-09-12 13:27:34 +0000";
 layers = (
 {
 anchors = (
@@ -10856,7 +10724,6 @@ note = uni2D5C2D59;
 {
 color = 10;
 glyphname = "yaw_yat-tifi";
-lastChange = "2022-09-12 13:27:41 +0000";
 layers = (
 {
 anchors = (
@@ -10927,7 +10794,6 @@ note = uni2D532D5C;
 {
 color = 0;
 glyphname = "yay_yat-tifi";
-lastChange = "2022-09-12 13:27:43 +0000";
 layers = (
 {
 anchors = (
@@ -11017,7 +10883,6 @@ note = uni2D622D5C;
 {
 color = 0;
 glyphname = "yazz_yat-tifi";
-lastChange = "2022-09-12 13:27:47 +0000";
 layers = (
 {
 anchors = (
@@ -11106,7 +10971,6 @@ note = uni2D4C2D5C;
 {
 color = 3;
 glyphname = "yab_yat-tifi.RTL";
-lastChange = "2022-09-12 13:27:49 +0000";
 layers = (
 {
 anchors = (
@@ -11132,7 +10996,6 @@ rightKerningGroup = yar;
 {
 color = 3;
 glyphname = "yag_yat-tifi.RTL";
-lastChange = "2022-09-12 13:27:55 +0000";
 layers = (
 {
 anchors = (
@@ -11249,7 +11112,6 @@ note = uni2D33;
 {
 color = 0;
 glyphname = "yah_yat-tifi.RTL";
-lastChange = "2022-09-12 13:27:57 +0000";
 layers = (
 {
 anchors = (
@@ -11275,7 +11137,6 @@ rightKerningGroup = yar;
 {
 color = 0;
 glyphname = "yal_yal-tifi.RTL";
-lastChange = "2019-10-04 14:05:43 +0000";
 layers = (
 {
 components = (
@@ -11300,7 +11161,6 @@ note = uni2D4D2D4D;
 {
 color = 0;
 glyphname = "yal_yan-tifi.RTL";
-lastChange = "2019-10-04 14:05:47 +0000";
 layers = (
 {
 components = (
@@ -11325,7 +11185,6 @@ note = uni2D4D2D4F;
 {
 color = 0;
 glyphname = "yam_yah-tifi.RTL";
-lastChange = "2022-09-12 13:28:01 +0000";
 layers = (
 {
 anchors = (
@@ -11349,7 +11208,6 @@ note = uni2D4E2D40;
 {
 color = 0;
 glyphname = "yam_yas-tifi.RTL";
-lastChange = "2022-09-12 13:28:03 +0000";
 layers = (
 {
 anchors = (
@@ -11394,7 +11252,6 @@ note = uni2D4E2D59;
 {
 color = 0;
 glyphname = "yam_yat-tifi.RTL";
-lastChange = "2022-09-12 13:28:08 +0000";
 layers = (
 {
 anchors = (
@@ -11418,7 +11275,6 @@ note = uni2D4E2D5C;
 {
 color = 4;
 glyphname = "yam_yatAdrar-tifi.RTL";
-lastChange = "2022-09-12 13:28:12 +0000";
 layers = (
 {
 anchors = (
@@ -11442,7 +11298,6 @@ note = uni2D4E2D5C;
 {
 color = 8;
 glyphname = "yam_yatSIL-tifi.RTL";
-lastChange = "2022-09-12 13:28:16 +0000";
 layers = (
 {
 anchors = (
@@ -11487,7 +11342,6 @@ note = uni2D5F;
 {
 color = 3;
 glyphname = "yan_yab-tifi.RTL";
-lastChange = "2022-09-12 13:28:19 +0000";
 layers = (
 {
 anchors = (
@@ -11560,7 +11414,6 @@ rightKerningGroup = yan_yab;
 {
 color = 0;
 glyphname = "yan_yaj-tifi.RTL";
-lastChange = "2022-09-12 13:28:23 +0000";
 layers = (
 {
 anchors = (
@@ -11584,7 +11437,6 @@ note = uni2D4F2D36;
 {
 color = 0;
 glyphname = "yan_yadd-tifi.RTL";
-lastChange = "2022-09-12 13:28:26 +0000";
 layers = (
 {
 anchors = (
@@ -11608,7 +11460,6 @@ note = uni2D4F2D39;
 {
 color = 0;
 glyphname = "yan_yah-tifi.RTL";
-lastChange = "2022-09-12 13:28:29 +0000";
 layers = (
 {
 anchors = (
@@ -11681,7 +11532,6 @@ rightKerningGroup = yan_yab;
 {
 color = 0;
 glyphname = "yan_yal-tifi.RTL";
-lastChange = "2022-09-12 13:28:35 +0000";
 layers = (
 {
 anchors = (
@@ -11706,7 +11556,6 @@ note = uni2D4F2D4D;
 {
 color = 0;
 glyphname = "yan_yan-tifi.RTL";
-lastChange = "2022-09-12 13:28:39 +0000";
 layers = (
 {
 anchors = (
@@ -11731,7 +11580,6 @@ note = uni2D4F2D4F;
 {
 color = 0;
 glyphname = "yan_yaghTuareg-tifi.RTL";
-lastChange = "2022-09-12 13:28:33 +0000";
 layers = (
 {
 anchors = (
@@ -11755,7 +11603,6 @@ note = uni2D4F2D57;
 {
 color = 0;
 glyphname = "yan_yas-tifi.RTL";
-lastChange = "2019-10-03 22:08:47 +0000";
 layers = (
 {
 components = (
@@ -11775,7 +11622,6 @@ rightKerningGroup = yar;
 {
 color = 8;
 glyphname = "yan_yatTawellemmet-tifi.RTL";
-lastChange = "2022-09-12 13:28:41 +0000";
 layers = (
 {
 anchors = (
@@ -11799,7 +11645,6 @@ note = uni2D5C2D59;
 {
 color = 0;
 glyphname = "yan_yazTawellemmet-tifi.RTL";
-lastChange = "2022-09-12 13:28:43 +0000";
 layers = (
 {
 anchors = (
@@ -11852,7 +11697,6 @@ note = uni2D4F2D64;
 {
 color = 0;
 glyphname = "yu_yat-tifi.RTL";
-lastChange = "2022-09-12 13:28:45 +0000";
 layers = (
 {
 anchors = (
@@ -11876,7 +11720,6 @@ note = uni2D532D5C;
 {
 color = 10;
 glyphname = "yar_yad-tifi.RTL";
-lastChange = "2022-09-12 13:28:50 +0000";
 layers = (
 {
 anchors = (
@@ -11906,7 +11749,6 @@ rightKerningGroup = yar;
 {
 color = 3;
 glyphname = "yar_yan-tifi.RTL";
-lastChange = "2022-09-12 13:28:52 +0000";
 layers = (
 {
 anchors = (
@@ -11978,7 +11820,6 @@ rightKerningGroup = yar;
 {
 color = 0;
 glyphname = "yar_yat-tifi.RTL";
-lastChange = "2022-09-12 13:28:55 +0000";
 layers = (
 {
 anchors = (
@@ -12004,7 +11845,6 @@ rightKerningGroup = yar;
 {
 color = 0;
 glyphname = "yas_yat-tifi.RTL";
-lastChange = "2022-09-12 13:28:58 +0000";
 layers = (
 {
 anchors = (
@@ -12030,7 +11870,6 @@ rightKerningGroup = yar;
 {
 color = 4;
 glyphname = "yas_yatAdrar-tifi.RTL";
-lastChange = "2022-09-12 13:29:02 +0000";
 layers = (
 {
 anchors = (
@@ -12122,7 +11961,6 @@ rightKerningGroup = yar;
 {
 color = 8;
 glyphname = "yas_yatTawellemmet-tifi.RTL";
-lastChange = "2022-09-12 13:29:05 +0000";
 layers = (
 {
 anchors = (
@@ -12214,7 +12052,6 @@ rightKerningGroup = yar;
 {
 color = 0;
 glyphname = "yash_yat-tifi.RTL";
-lastChange = "2022-09-12 13:29:10 +0000";
 layers = (
 {
 anchors = (
@@ -12239,7 +12076,6 @@ note = uni2D5B2D5C;
 {
 color = 0;
 glyphname = "yat_yas-tifi.RTL";
-lastChange = "2022-09-12 13:29:12 +0000";
 layers = (
 {
 anchors = (
@@ -12263,7 +12099,6 @@ note = uni2D5C2D59;
 {
 color = 10;
 glyphname = "yaw_yat-tifi.RTL";
-lastChange = "2022-09-12 13:29:14 +0000";
 layers = (
 {
 anchors = (
@@ -12287,7 +12122,6 @@ note = uni2D532D5C;
 {
 color = 0;
 glyphname = "yay_yat-tifi.RTL";
-lastChange = "2022-09-12 13:29:16 +0000";
 layers = (
 {
 anchors = (
@@ -12420,7 +12254,6 @@ note = uni2D622D5C;
 },
 {
 glyphname = CR;
-lastChange = "2019-12-16 15:37:20 +0000";
 layers = (
 {
 layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
@@ -12432,7 +12265,6 @@ unicode = 000D;
 },
 {
 glyphname = NULL;
-lastChange = "2019-12-16 15:37:32 +0000";
 layers = (
 {
 layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
@@ -12444,7 +12276,6 @@ unicode = 0000;
 },
 {
 glyphname = righttoleftoverride;
-lastChange = "2019-10-09 14:07:10 +0000";
 layers = (
 {
 layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
@@ -12455,7 +12286,6 @@ unicode = 202E;
 },
 {
 glyphname = uni200C;
-lastChange = "2019-10-11 18:11:58 +0000";
 layers = (
 {
 layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
@@ -12467,7 +12297,6 @@ unicode = 200C;
 },
 {
 glyphname = uni200D;
-lastChange = "2019-10-11 18:12:02 +0000";
 layers = (
 {
 layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
@@ -12479,7 +12308,6 @@ unicode = 200D;
 },
 {
 glyphname = .notdef;
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
@@ -12510,7 +12338,6 @@ note = ".notdef";
 },
 {
 glyphname = space;
-lastChange = "2019-09-24 20:24:48 +0000";
 layers = (
 {
 layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
@@ -12522,7 +12349,6 @@ unicode = 0020;
 },
 {
 glyphname = uni00A0;
-lastChange = "2019-09-24 20:24:52 +0000";
 layers = (
 {
 layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
@@ -12535,7 +12361,6 @@ unicode = 00A0;
 {
 color = 0;
 glyphname = "separator-tifi";
-lastChange = "2019-10-06 16:00:28 +0000";
 layers = (
 {
 background = {
@@ -12586,7 +12411,6 @@ unicode = 2D70;
 {
 color = 0;
 glyphname = "separator-tifi.RTL";
-lastChange = "2019-10-06 16:00:51 +0000";
 layers = (
 {
 background = {
@@ -12626,7 +12450,6 @@ note = uni2D70;
 },
 {
 glyphname = dottedCircle;
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
@@ -12913,7 +12736,6 @@ unicode = 25CC;
 {
 color = 0;
 glyphname = "consonantjoiner-tifi";
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
@@ -13030,7 +12852,6 @@ unicode = 2D7F;
 {
 color = 7;
 glyphname = dieresiscomb;
-lastChange = "2019-12-16 16:08:03 +0000";
 layers = (
 {
 anchors = (
@@ -13123,7 +12944,6 @@ unicode = 0308;
 {
 color = 0;
 glyphname = dotaccentcomb;
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 anchors = (
@@ -13182,7 +13002,6 @@ unicode = 0307;
 {
 color = 0;
 glyphname = dotaccentcomb_macroncomb;
-lastChange = "2022-09-12 13:17:06 +0000";
 layers = (
 {
 anchors = (
@@ -13210,7 +13029,6 @@ note = uni0307;
 {
 color = 6;
 glyphname = acutecomb;
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 anchors = (
@@ -13261,7 +13079,6 @@ unicode = 0301;
 {
 color = 0;
 glyphname = circumflexcomb;
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 anchors = (
@@ -13336,7 +13153,6 @@ unicode = 0302;
 {
 color = 0;
 glyphname = brevecomb;
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 anchors = (
@@ -13418,7 +13234,6 @@ unicode = 0306;
 {
 color = 0;
 glyphname = macroncomb;
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 anchors = (
@@ -13448,7 +13263,6 @@ unicode = 0304;
 {
 color = 0;
 glyphname = hookabovecomb;
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 background = {
@@ -13521,7 +13335,6 @@ unicode = 0309;
 {
 color = 0;
 glyphname = dotbelowcomb;
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 anchors = (
@@ -13580,7 +13393,6 @@ unicode = 0323;
 {
 color = 0;
 glyphname = macronbelowcomb;
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 anchors = (
@@ -13610,7 +13422,6 @@ unicode = 0331;
 {
 color = 6;
 glyphname = caron;
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
@@ -13636,7 +13447,6 @@ unicode = 02C7;
 {
 color = 1;
 glyphname = "labializationBerber-tifi";
-lastChange = "2019-10-11 17:40:08 +0000";
 layers = (
 {
 layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
@@ -13684,7 +13494,6 @@ note = uni0306;
 {
 color = 1;
 glyphname = "yaBerber-tifi";
-lastChange = "2019-10-11 17:59:51 +0000";
 layers = (
 {
 anchors = (
@@ -13721,7 +13530,6 @@ note = uni2D30;
 {
 color = 7;
 glyphname = "yaHawad-tifi";
-lastChange = "2019-09-25 17:53:37 +0000";
 layers = (
 {
 background = {
@@ -13810,7 +13618,6 @@ rightKerningGroup = yath;
 {
 color = 8;
 glyphname = "yaSIL-tifi";
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 components = (
@@ -13847,7 +13654,6 @@ note = uni2D30;
 {
 color = 1;
 glyphname = "yaaBerber-tifi";
-lastChange = "2022-09-12 13:29:32 +0000";
 layers = (
 {
 anchors = (
@@ -13903,7 +13709,6 @@ note = uni2D30;
 {
 color = 1;
 glyphname = "yabBerber-tifi";
-lastChange = "2022-09-12 13:29:36 +0000";
 layers = (
 {
 anchors = (
@@ -13943,7 +13748,6 @@ rightKerningGroup = yar;
 {
 color = 6;
 glyphname = "yachAPT-tifi";
-lastChange = "2022-09-12 13:29:39 +0000";
 layers = (
 {
 anchors = (
@@ -13976,7 +13780,6 @@ note = uni2D4F2D5C;
 {
 color = 1;
 glyphname = "yachBerber-tifi";
-lastChange = "2022-09-12 13:29:43 +0000";
 layers = (
 {
 anchors = (
@@ -14119,7 +13922,6 @@ note = uni2D5B;
 {
 color = 7;
 glyphname = "yachHawad-tifi";
-lastChange = "2022-09-12 13:29:46 +0000";
 layers = (
 {
 anchors = (
@@ -14154,7 +13956,6 @@ rightKerningGroup = yagTuareg1;
 {
 color = 6;
 glyphname = "yadAPT-tifi";
-lastChange = "2022-09-12 13:29:50 +0000";
 layers = (
 {
 anchors = (
@@ -14195,7 +13996,6 @@ note = uni2D39;
 {
 color = 3;
 glyphname = "yadTuareg-tifi";
-lastChange = "2022-09-12 13:29:52 +0000";
 layers = (
 {
 anchors = (
@@ -14228,7 +14028,6 @@ note = uni2D61;
 {
 color = 6;
 glyphname = "yaddAPT-tifi";
-lastChange = "2022-09-12 13:29:56 +0000";
 layers = (
 {
 anchors = (
@@ -14275,7 +14074,6 @@ note = uni2D39;
 {
 color = 4;
 glyphname = "yafAdrar-tifi";
-lastChange = "2022-09-12 13:29:59 +0000";
 layers = (
 {
 anchors = (
@@ -14318,7 +14116,6 @@ rightKerningGroup = yazh;
 {
 color = 1;
 glyphname = "yafBerber-tifi";
-lastChange = "2022-09-12 13:30:03 +0000";
 layers = (
 {
 anchors = (
@@ -14364,7 +14161,6 @@ note = uni2D3C;
 {
 color = 8;
 glyphname = "yafTawellemmet-tifi";
-lastChange = "2022-09-12 13:30:05 +0000";
 layers = (
 {
 anchors = (
@@ -14410,7 +14206,6 @@ note = uni2D4F2D3C;
 {
 color = 8;
 glyphname = "yagTuareg1-tifi";
-lastChange = "2022-09-12 13:30:09 +0000";
 layers = (
 {
 anchors = (
@@ -14475,7 +14270,6 @@ rightKerningGroup = yagTuareg1;
 {
 color = 8;
 glyphname = "yagTuareg2-tifi";
-lastChange = "2022-09-12 13:30:16 +0000";
 layers = (
 {
 anchors = (
@@ -14538,7 +14332,6 @@ note = uni2D4F2D57;
 {
 color = 8;
 glyphname = "yaghTawellemmet-tifi";
-lastChange = "2022-09-12 13:30:19 +0000";
 layers = (
 {
 anchors = (
@@ -14561,7 +14354,6 @@ note = uni2D4A;
 {
 color = 1;
 glyphname = "yaghhBerber-tifi";
-lastChange = "2022-09-12 13:30:23 +0000";
 layers = (
 {
 anchors = (
@@ -14650,7 +14442,6 @@ note = uni2D43;
 {
 color = 8;
 glyphname = "yahTawellemmet-tifi";
-lastChange = "2022-09-12 13:30:25 +0000";
 layers = (
 {
 anchors = (
@@ -14706,7 +14497,6 @@ note = uni2D4A;
 {
 color = 1;
 glyphname = "yakBerber-tifi";
-lastChange = "2022-09-12 13:30:28 +0000";
 layers = (
 {
 anchors = (
@@ -14774,7 +14564,6 @@ note = uni2D4F2D64;
 {
 color = 8;
 glyphname = "yakhTawellemmet-tifi";
-lastChange = "2022-09-12 13:30:31 +0000";
 layers = (
 {
 anchors = (
@@ -14856,7 +14645,6 @@ note = uni2D4D;
 {
 color = 1;
 glyphname = "yalBerber-tifi";
-lastChange = "2022-09-12 13:30:33 +0000";
 layers = (
 {
 anchors = (
@@ -14933,7 +14721,6 @@ note = uni2D4D;
 {
 color = 6;
 glyphname = "yapAPT-tifi";
-lastChange = "2022-09-12 13:30:35 +0000";
 layers = (
 {
 anchors = (
@@ -14964,7 +14751,6 @@ note = uni2D5C2D59;
 {
 color = 1;
 glyphname = "yaqBerber-tifi";
-lastChange = "2022-09-12 13:30:39 +0000";
 layers = (
 {
 anchors = (
@@ -15011,7 +14797,6 @@ note = uni2D4A;
 {
 color = 7;
 glyphname = "yaqHawad-tifi";
-lastChange = "2022-09-12 13:30:42 +0000";
 layers = (
 {
 anchors = (
@@ -15082,7 +14867,6 @@ note = uni2D57;
 {
 color = 1;
 glyphname = "yarrBerber-tifi";
-lastChange = "2022-09-12 13:30:45 +0000";
 layers = (
 {
 anchors = (
@@ -15159,7 +14943,6 @@ rightKerningGroup = yar;
 {
 color = 1;
 glyphname = "yasBerber-tifi";
-lastChange = "2022-09-12 13:30:49 +0000";
 layers = (
 {
 anchors = (
@@ -15344,7 +15127,6 @@ note = uni2D33;
 {
 color = 3;
 glyphname = "yashAdrar-tifi";
-lastChange = "2022-09-12 13:30:52 +0000";
 layers = (
 {
 anchors = (
@@ -15498,7 +15280,6 @@ rightKerningGroup = yashAdrar;
 {
 color = 8;
 glyphname = "yashTawellemmet-tifi";
-lastChange = "2022-09-12 13:30:56 +0000";
 layers = (
 {
 anchors = (
@@ -15690,7 +15471,6 @@ note = uni2D63;
 {
 color = 6;
 glyphname = "yassAPT-tifi";
-lastChange = "2022-09-12 13:31:01 +0000";
 layers = (
 {
 anchors = (
@@ -15742,7 +15522,6 @@ rightKerningGroup = yar;
 {
 color = 7;
 glyphname = "yassHawad-tifi";
-lastChange = "2022-09-12 13:31:06 +0000";
 layers = (
 {
 anchors = (
@@ -15790,7 +15569,6 @@ rightKerningGroup = yar;
 {
 color = 0;
 glyphname = "yattAPT-tifi";
-lastChange = "2022-09-12 13:31:09 +0000";
 layers = (
 {
 anchors = (
@@ -15837,7 +15615,6 @@ note = uni2D5C;
 {
 color = 1;
 glyphname = "yattBerber-tifi";
-lastChange = "2022-09-12 13:31:13 +0000";
 layers = (
 {
 anchors = (
@@ -15902,7 +15679,6 @@ note = uni2D5F;
 {
 color = 7;
 glyphname = "yattHawad-tifi";
-lastChange = "2022-09-12 13:31:22 +0000";
 layers = (
 {
 anchors = (
@@ -15945,7 +15721,6 @@ rightKerningGroup = yat;
 {
 color = 6;
 glyphname = "yavAPT-tifi";
-lastChange = "2022-09-12 13:31:25 +0000";
 layers = (
 {
 anchors = (
@@ -16041,7 +15816,6 @@ note = uni2D63;
 {
 color = 6;
 glyphname = "yawAPT-tifi";
-lastChange = "2022-09-12 13:31:28 +0000";
 layers = (
 {
 anchors = (
@@ -16079,7 +15853,6 @@ note = uni2D61;
 {
 color = 1;
 glyphname = "yawBerber-tifi";
-lastChange = "2022-09-12 13:31:32 +0000";
 layers = (
 {
 anchors = (
@@ -16117,7 +15890,6 @@ note = uni2D61;
 {
 color = 1;
 glyphname = "yayBerber-tifi";
-lastChange = "2022-09-12 13:31:34 +0000";
 layers = (
 {
 anchors = (
@@ -16150,7 +15922,6 @@ note = uni2D61;
 {
 color = 7;
 glyphname = "yayHawad-tifi";
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 anchors = (
@@ -16255,7 +16026,6 @@ rightKerningGroup = yiHawad;
 {
 color = 10;
 glyphname = "yayRhissaIxa-tifi";
-lastChange = "2022-09-12 13:31:40 +0000";
 layers = (
 {
 anchors = (
@@ -16379,7 +16149,6 @@ rightKerningGroup = yashAdrar;
 {
 color = 1;
 glyphname = "yazBerber-tifi";
-lastChange = "2022-09-12 13:31:43 +0000";
 layers = (
 {
 anchors = (
@@ -16494,7 +16263,6 @@ note = uni2D63;
 {
 color = 6;
 glyphname = "yazzAPT-tifi";
-lastChange = "2022-09-12 13:31:46 +0000";
 layers = (
 {
 anchors = (
@@ -16619,7 +16387,6 @@ note = uni2D63;
 {
 color = 1;
 glyphname = "yazzBerber-tifi";
-lastChange = "2022-09-12 13:31:49 +0000";
 layers = (
 {
 anchors = (
@@ -16750,7 +16517,6 @@ rightKerningGroup = yath;
 {
 color = 7;
 glyphname = "yazzHawad-tifi";
-lastChange = "2022-09-12 13:31:51 +0000";
 layers = (
 {
 anchors = (
@@ -16871,7 +16637,6 @@ rightKerningGroup = yaz;
 {
 color = 8;
 glyphname = "yazzSIL-tifi";
-lastChange = "2022-09-12 13:31:53 +0000";
 layers = (
 {
 anchors = (
@@ -16944,7 +16709,6 @@ rightKerningGroup = yazT;
 {
 color = 7;
 glyphname = "yeHawad-tifi";
-lastChange = "2022-09-12 13:31:55 +0000";
 layers = (
 {
 anchors = (
@@ -17055,7 +16819,6 @@ rightKerningGroup = yiHawad;
 {
 color = 1;
 glyphname = "yeRhissaIxa-tifi";
-lastChange = "2022-09-12 13:32:00 +0000";
 layers = (
 {
 anchors = (
@@ -17185,7 +16948,6 @@ rightKerningGroup = yap;
 {
 color = 8;
 glyphname = "yeTawellemmet-tifi";
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 anchors = (
@@ -17274,7 +17036,6 @@ note = uni2D62;
 {
 color = 6;
 glyphname = "yeyAPT-tifi";
-lastChange = "2022-09-12 13:32:06 +0000";
 layers = (
 {
 anchors = (
@@ -17376,7 +17137,6 @@ rightKerningGroup = yar;
 {
 color = 1;
 glyphname = "yeyBerber-tifi";
-lastChange = "2022-09-12 13:32:09 +0000";
 layers = (
 {
 anchors = (
@@ -17520,7 +17280,6 @@ note = uni2D3B;
 {
 color = 7;
 glyphname = "yeyHawad-tifi";
-lastChange = "2022-09-12 13:32:12 +0000";
 layers = (
 {
 anchors = (
@@ -17640,7 +17399,6 @@ rightKerningGroup = yath;
 {
 color = 8;
 glyphname = "yeyTawellemmet-tifi";
-lastChange = "2022-09-12 13:32:14 +0000";
 layers = (
 {
 anchors = (
@@ -17683,7 +17441,6 @@ note = uni2D30;
 {
 color = 1;
 glyphname = "yiBerber-tifi";
-lastChange = "2022-09-12 13:32:16 +0000";
 layers = (
 {
 anchors = (
@@ -17766,7 +17523,6 @@ note = uni2D62;
 {
 color = 7;
 glyphname = "yiHawad-tifi";
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 anchors = (
@@ -17877,7 +17633,6 @@ rightKerningGroup = yiHawad;
 {
 color = 1;
 glyphname = "yiRhissaIxa-tifi";
-lastChange = "2022-09-12 13:32:20 +0000";
 layers = (
 {
 anchors = (
@@ -18007,7 +17762,6 @@ rightKerningGroup = yap;
 {
 color = 8;
 glyphname = "yiTawellemmet-tifi";
-lastChange = "2022-09-12 13:32:22 +0000";
 layers = (
 {
 anchors = (
@@ -18107,7 +17861,6 @@ note = uni2D62;
 {
 color = 8;
 glyphname = "yoTawellemmet-tifi";
-lastChange = "2022-09-12 13:32:24 +0000";
 layers = (
 {
 anchors = (
@@ -18190,7 +17943,6 @@ note = uni2D4D;
 {
 color = 6;
 glyphname = "yuAPT-tifi";
-lastChange = "2022-09-12 13:32:26 +0000";
 layers = (
 {
 anchors = (
@@ -18267,7 +18019,6 @@ note = uni2D4D;
 {
 color = 1;
 glyphname = "yuBerber-tifi";
-lastChange = "2022-09-12 13:32:28 +0000";
 layers = (
 {
 anchors = (
@@ -18321,7 +18072,6 @@ note = uni2D53;
 {
 color = 7;
 glyphname = "yuHawad-tifi";
-lastChange = "2019-09-25 17:53:48 +0000";
 layers = (
 {
 background = {
@@ -18410,7 +18160,6 @@ rightKerningGroup = yath;
 {
 color = 8;
 glyphname = "yuTawellemmet-tifi";
-lastChange = "2019-10-04 15:10:37 +0000";
 layers = (
 {
 components = (
@@ -18431,7 +18180,6 @@ note = uni2D61;
 {
 color = 1;
 glyphname = "yachBerber-tifi.RTL";
-lastChange = "2022-09-12 13:32:35 +0000";
 layers = (
 {
 anchors = (
@@ -18517,7 +18265,6 @@ note = uni2D5B;
 {
 color = 6;
 glyphname = "yadAPT-tifi.RTL";
-lastChange = "2022-09-12 13:32:37 +0000";
 layers = (
 {
 anchors = (
@@ -18541,7 +18288,6 @@ note = uni2D39;
 {
 color = 6;
 glyphname = "yaddAPT-tifi.RTL";
-lastChange = "2022-09-12 13:32:40 +0000";
 layers = (
 {
 anchors = (
@@ -18565,7 +18311,6 @@ note = uni2D39;
 {
 color = 1;
 glyphname = "yaghhBerber-tifi.RTL";
-lastChange = "2022-09-12 13:32:42 +0000";
 layers = (
 {
 anchors = (
@@ -18654,7 +18399,6 @@ note = uni2D43;
 {
 color = 1;
 glyphname = "yakBerber-tifi.RTL";
-lastChange = "2022-09-12 13:32:46 +0000";
 layers = (
 {
 anchors = (
@@ -18684,7 +18428,6 @@ note = uni2D4F2D64;
 {
 color = 6;
 glyphname = "yapAPT-tifi.RTL";
-lastChange = "2022-09-12 13:32:50 +0000";
 layers = (
 {
 anchors = (
@@ -18708,7 +18451,6 @@ note = uni2D5C2D59;
 {
 color = 1;
 glyphname = "yasBerber-tifi.RTL";
-lastChange = "2022-09-12 13:32:54 +0000";
 layers = (
 {
 anchors = (
@@ -18750,7 +18492,6 @@ note = uni2D33;
 {
 color = 8;
 glyphname = "yashTawellemmet-tifi.RTL";
-lastChange = "2022-09-12 13:32:58 +0000";
 layers = (
 {
 anchors = (
@@ -18868,7 +18609,6 @@ note = uni2D63;
 {
 color = 1;
 glyphname = "yattBerber-tifi.RTL";
-lastChange = "2022-09-12 13:33:00 +0000";
 layers = (
 {
 anchors = (
@@ -18913,7 +18653,6 @@ note = uni2D5F;
 {
 color = 7;
 glyphname = "yayHawad-tifi.RTL";
-lastChange = "2022-09-12 13:33:02 +0000";
 layers = (
 {
 anchors = (
@@ -18983,7 +18722,6 @@ rightKerningGroup = yiHawad;
 {
 color = 10;
 glyphname = "yayRhissaIxa-tifi.RTL";
-lastChange = "2022-09-12 13:33:05 +0000";
 layers = (
 {
 anchors = (
@@ -19066,7 +18804,6 @@ rightKerningGroup = yashAdrar;
 {
 color = 0;
 glyphname = "yazTawellemmet-tifi.RTL";
-lastChange = "2022-09-12 13:33:07 +0000";
 layers = (
 {
 anchors = (
@@ -19124,7 +18861,6 @@ note = uni2D64;
 {
 color = 8;
 glyphname = "yazzSIL-tifi.RTL";
-lastChange = "2022-09-12 13:33:09 +0000";
 layers = (
 {
 anchors = (
@@ -19182,7 +18918,6 @@ note = uni2D64;
 {
 color = 7;
 glyphname = "yeHawad-tifi.RTL";
-lastChange = "2019-10-09 15:15:32 +0000";
 layers = (
 {
 background = {
@@ -19246,7 +18981,6 @@ rightKerningGroup = yiHawad;
 {
 color = 1;
 glyphname = "yeRhissaIxa-tifi.RTL";
-lastChange = "2022-09-12 13:33:13 +0000";
 layers = (
 {
 anchors = (
@@ -19328,7 +19062,6 @@ rightKerningGroup = yap;
 {
 color = 8;
 glyphname = "yeTawellemmet-tifi.RTL";
-lastChange = "2019-10-07 21:36:56 +0000";
 layers = (
 {
 background = {
@@ -19380,7 +19113,6 @@ note = uni2D62;
 {
 color = 6;
 glyphname = "yeyAPT-tifi.RTL";
-lastChange = "2022-09-12 13:33:16 +0000";
 layers = (
 {
 anchors = (
@@ -19449,7 +19181,6 @@ note = uni2D5B;
 {
 color = 1;
 glyphname = "yiBerber-tifi.RTL";
-lastChange = "2022-09-12 13:33:18 +0000";
 layers = (
 {
 anchors = (
@@ -19507,7 +19238,6 @@ note = uni2D62;
 {
 color = 7;
 glyphname = "yiHawad-tifi.RTL";
-lastChange = "2019-10-04 14:09:29 +0000";
 layers = (
 {
 background = {
@@ -19571,7 +19301,6 @@ rightKerningGroup = yiHawad;
 {
 color = 1;
 glyphname = "yiRhissaIxa-tifi.RTL";
-lastChange = "2022-09-12 13:33:24 +0000";
 layers = (
 {
 anchors = (
@@ -19653,7 +19382,6 @@ rightKerningGroup = yap;
 {
 color = 8;
 glyphname = "yiTawellemmet-tifi.RTL";
-lastChange = "2022-09-12 13:33:26 +0000";
 layers = (
 {
 anchors = (
