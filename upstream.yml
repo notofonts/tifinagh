@@ -1,0 +1,25 @@
+name: Noto Sans Tifinagh
+designer:
+
+# In most cases this should be based on the GitHub https repo url:
+# this https://github.com/{owner}/{repo}.git
+repository_url: https://github.com/notofonts/tifinagh.git
+
+# Optional, to get font from a tagged 'release':
+# https://github.com/{owner}/{repo}/releases/download/{version}/project.zip
+archive: https://github.com/notofonts/tifinagh/releases/download/NotoSansTifinagh-v2.004/NotoSansTifinagh-v2.004.zip
+
+# The branch name used to update google fonts. e.g.: `main`
+branch: main
+
+# Choose multiple of: DISPLAY, SERIF, SANS_SERIF, HANDWRITING, MONOSPACE. Currently, the last item will be used
+# by Google Fonts
+category:
+- SANS_SERIF
+files:
+  # These are some examples as comments, please modify, add, delete as necessary:
+  OFL.txt: OFL.txt
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  ARTICLE.en_us.html: article/ARTICLE.en_us.html
+  NotoSansTifinagh/googlefonts/ttf/NotoSansTifinagh-Regular.ttf: NotoSansTifinagh-Regular.ttf
+
