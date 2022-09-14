@@ -1,5 +1,8 @@
 {
 .appVersion = "3109";
+DisplayStrings = (
+"/dottedCircle"
+);
 copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tifinagh)";
 customParameters = (
 {
@@ -12452,6 +12455,16 @@ note = uni2D70;
 glyphname = dottedCircle;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{297, 42}";
+},
+{
+name = top;
+position = "{297, 540}";
+}
+);
 layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
 paths = (
 {
