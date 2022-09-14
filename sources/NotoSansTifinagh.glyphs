@@ -44,6 +44,14 @@ name = "Use Typo Metrics";
 value = 1;
 },
 {
+name = "Use Line Breaks";
+value = 1;
+},
+{
+name = "Disable Last Change";
+value = 1;
+},
+{
 name = vendorID;
 value = GOOG;
 },
@@ -84,59 +92,538 @@ disablesNiceNames = 1;
 familyName = "Noto Sans Tifinagh";
 featurePrefixes = (
 {
-code = "lookup ccmp0 {\012\012	sub yal-tifi yal-tifi by yal_yal-tifi;\012	sub yal-tifi yan-tifi by yal_yan-tifi;\012	\012	sub yan-tifi yal-tifi by yan_yal-tifi;\012	sub yan-tifi yan-tifi by yan_yan-tifi;\012	\012	} ccmp0;\012";
+code = "languagesystem DFLT dflt;
+
+languagesystem tfng dflt;
+
+languagesystem latn dflt;";
+name = LanguageSystems;
+},
+{
+code = "lookup ccmp0 {
+
+	sub yal-tifi yal-tifi by yal_yal-tifi;
+	sub yal-tifi yan-tifi by yal_yan-tifi;
+	
+	sub yan-tifi yal-tifi by yan_yal-tifi;
+	sub yan-tifi yan-tifi by yan_yan-tifi;
+	
+	} ccmp0;
+";
 name = lookup_ccmp0;
 },
 {
-code = "lookup ccmpMain {\012	sub dotaccentcomb macroncomb by dotaccentcomb_macroncomb;\012\012	sub yab-tifi uni200D yat-tifi by yab_yat-tifi;\012	sub yab-tifi consonantjoiner-tifi yat-tifi by yab_yat-tifi;\012\012	sub yaf-tifi uni200D yat-tifi by yaf_yat-tifi;\012	sub yaf-tifi consonantjoiner-tifi yat-tifi by yaf_yat-tifi;\012	\012	sub yag-tifi uni200D yat-tifi by yag_yat-tifi;\012	sub yag-tifi consonantjoiner-tifi yat-tifi by yag_yat-tifi;\012	\012	sub yagh-tifi uni200D yat-tifi by yagh_yat-tifi;\012	sub yagh-tifi consonantjoiner-tifi yat-tifi by yagh_yat-tifi;	\012		\012	sub yah-tifi uni200D yat-tifi by yah_yat-tifi;\012	sub yah-tifi consonantjoiner-tifi yat-tifi by yah_yat-tifi;\012	\012	sub yal-tifi uni200D yat-tifi by yal_yat-tifi;\012	sub yal-tifi consonantjoiner-tifi yat-tifi by yal_yat-tifi;\012	\012	sub yam-tifi uni200D yab-tifi by yam_yab-tifi;\012	sub yam-tifi consonantjoiner-tifi yab-tifi by yam_yab-tifi;\012	\012	sub yam-tifi uni200D yah-tifi by yam_yah-tifi;\012	sub yam-tifi consonantjoiner-tifi yah-tifi by yam_yah-tifi;\012\012	sub yam-tifi uni200D yas-tifi by yam_yas-tifi;\012	sub yam-tifi consonantjoiner-tifi yas-tifi by yam_yas-tifi;\012	\012	sub yam-tifi uni200D yat-tifi by yam_yat-tifi;\012	sub yam-tifi consonantjoiner-tifi yat-tifi by yam_yat-tifi;\012\012	sub yan-tifi uni200D yab-tifi by yan_yab-tifi;\012	sub yan-tifi consonantjoiner-tifi yab-tifi by yan_yab-tifi;\012	\012	sub yan-tifi uni200D yach-tifi by yan_yach-tifi;\012	sub yan-tifi consonantjoiner-tifi yach-tifi by yan_yach-tifi;	\012\012	sub yan-tifi uni200D yadd-tifi by yan_yadd-tifi;\012	sub yan-tifi consonantjoiner-tifi yadd-tifi by yan_yadd-tifi;\012\012	sub yan-tifi uni200D yadh-tifi by yan_yadh-tifi;\012	sub yan-tifi consonantjoiner-tifi yadh-tifi by yan_yadh-tifi;\012	\012	sub yan-tifi uni200D yad-tifi by yan_yad-tifi;\012	sub yan-tifi consonantjoiner-tifi yad-tifi by yan_yad-tifi;	\012	\012	sub yan-tifi uni200D yaf-tifi by yan_yaf-tifi;\012	sub yan-tifi consonantjoiner-tifi yaf-tifi by yan_yaf-tifi;\012\012	sub yan-tifi uni200D yag-tifi by yan_yag-tifi;\012	sub yan-tifi consonantjoiner-tifi yag-tifi by yan_yag-tifi;\012	\012	sub yan-tifi uni200D yah-tifi by yan_yah-tifi;\012	sub yan-tifi consonantjoiner-tifi yah-tifi by yan_yah-tifi;\012	\012	sub yan-tifi uni200D yaj-tifi by yan_yaj-tifi;\012	sub yan-tifi consonantjoiner-tifi yaj-tifi by yan_yaj-tifi;\012	\012	sub yan-tifi uni200D yakTuareg-tifi by yan_yakTuareg-tifi;\012	sub yan-tifi consonantjoiner-tifi yakTuareg-tifi by yan_yakTuareg-tifi;\012\012	sub yan-tifi uni200D yaghTuareg-tifi by yan_yaghTuareg-tifi;\012	sub yan-tifi consonantjoiner-tifi yaghTuareg-tifi by yan_yaghTuareg-tifi;\012	\012	sub yan-tifi uni200D yas-tifi by yan_yas-tifi;\012	sub yan-tifi consonantjoiner-tifi yas-tifi by yan_yas-tifi;\012	\012	sub yan-tifi uni200D yat-tifi by yan_yat-tifi;\012	sub yan-tifi consonantjoiner-tifi yat-tifi by yan_yat-tifi;\012\012	sub yan-tifi uni200D yaz-tifi by yan_yaz-tifi;\012	sub yan-tifi consonantjoiner-tifi yaz-tifi by yan_yaz-tifi;\012	\012	sub yan-tifi uni200D yazhTuareg-tifi by yan_yazhTuareg-tifi;\012	sub yan-tifi consonantjoiner-tifi yazhTuareg-tifi by yan_yazhTuareg-tifi;\012	\012	#sub yan-tifi uni200D yazTawellemmet-tifi by yan_yazTawellemmet-tifi;\012	#sub yan-tifi consonantjoiner-tifi yazTawellemmet-tifi by yan_yazTawellemmet-tifi;\012	\012	#sub yan-tifi uni200D yat-tifi by yan_yatTawellemmet-tifi;\012	#sub yan-tifi consonantjoiner-tifi yat-tifi by yan_yatTawellemmet-tifi;\012	\012	sub yar-tifi uni200D yak-tifi by yar_yak-tifi;\012	sub yar-tifi consonantjoiner-tifi yak-tifi by yar_yak-tifi;\012	\012	sub yar-tifi uni200D yan-tifi by yar_yan-tifi;\012	sub yar-tifi consonantjoiner-tifi yan-tifi by yar_yan-tifi;\012	\012	sub yar-tifi uni200D yat-tifi by yar_yat-tifi;\012	sub yar-tifi consonantjoiner-tifi yat-tifi by yar_yat-tifi;					\012\012	sub yas-tifi uni200D yan-tifi by yas_yan-tifi;\012	sub yas-tifi consonantjoiner-tifi yan-tifi by yas_yan-tifi;\012	\012	sub yas-tifi uni200D yat-tifi by yas_yat-tifi;\012	sub yas-tifi consonantjoiner-tifi yat-tifi by yas_yat-tifi;\012	\012	sub yash-tifi uni200D yat-tifi by yash_yat-tifi;\012	sub yash-tifi consonantjoiner-tifi yat-tifi by yash_yat-tifi;\012	\012	sub yat-tifi uni200D yas-tifi by yat_yas-tifi;\012	sub yat-tifi consonantjoiner-tifi yas-tifi by yat_yas-tifi;\012	\012	sub yay-tifi uni200D yat-tifi by yay_yat-tifi;\012	sub yay-tifi consonantjoiner-tifi yat-tifi by yay_yat-tifi;		\012\012	sub yazhTuareg-tifi uni200D yat-tifi by yazhTuareg_yat-tifi;\012	sub yazhTuareg-tifi consonantjoiner-tifi yat-tifi by yazhTuareg_yat-tifi;\012\012	sub yu-tifi uni200D yat-tifi by yu_yat-tifi;\012	sub yu-tifi consonantjoiner-tifi yat-tifi by yu_yat-tifi;\012	\012	sub yar-tifi uni200D yab-tifi by yar_yab-tifi;\012	sub yar-tifi consonantjoiner-tifi yab-tifi by yar_yab-tifi;\012\012	sub yar-tifi uni200D yas-tifi by yar_yas-tifi;\012	sub yar-tifi consonantjoiner-tifi yas-tifi by yar_yas-tifi;\012\012	sub yar-tifi uni200D yaj-tifi by yar_yaj-tifi;\012	sub yar-tifi consonantjoiner-tifi yaj-tifi by yar_yaj-tifi;	\012	\012	sub yar-tifi uni200D yad-tifi by yar_yad-tifi;\012	sub yar-tifi consonantjoiner-tifi yad-tifi by yar_yad-tifi;	\012	\012	sub yaw-tifi uni200D yat-tifi by yaw_yat-tifi;\012	sub yaw-tifi consonantjoiner-tifi yat-tifi by yaw_yat-tifi;\012\012	sub yazz-tifi uni200D yat-tifi by yazz_yat-tifi;\012	sub yazz-tifi consonantjoiner-tifi yat-tifi by yazz_yat-tifi;\012} ccmpMain;\012";
+code = "lookup ccmpMain {
+	sub dotaccentcomb macroncomb by dotaccentcomb_macroncomb;
+
+	sub yab-tifi uni200D yat-tifi by yab_yat-tifi;
+	sub yab-tifi consonantjoiner-tifi yat-tifi by yab_yat-tifi;
+
+	sub yaf-tifi uni200D yat-tifi by yaf_yat-tifi;
+	sub yaf-tifi consonantjoiner-tifi yat-tifi by yaf_yat-tifi;
+	
+	sub yag-tifi uni200D yat-tifi by yag_yat-tifi;
+	sub yag-tifi consonantjoiner-tifi yat-tifi by yag_yat-tifi;
+	
+	sub yagh-tifi uni200D yat-tifi by yagh_yat-tifi;
+	sub yagh-tifi consonantjoiner-tifi yat-tifi by yagh_yat-tifi;	
+		
+	sub yah-tifi uni200D yat-tifi by yah_yat-tifi;
+	sub yah-tifi consonantjoiner-tifi yat-tifi by yah_yat-tifi;
+	
+	sub yal-tifi uni200D yat-tifi by yal_yat-tifi;
+	sub yal-tifi consonantjoiner-tifi yat-tifi by yal_yat-tifi;
+	
+	sub yam-tifi uni200D yab-tifi by yam_yab-tifi;
+	sub yam-tifi consonantjoiner-tifi yab-tifi by yam_yab-tifi;
+	
+	sub yam-tifi uni200D yah-tifi by yam_yah-tifi;
+	sub yam-tifi consonantjoiner-tifi yah-tifi by yam_yah-tifi;
+
+	sub yam-tifi uni200D yas-tifi by yam_yas-tifi;
+	sub yam-tifi consonantjoiner-tifi yas-tifi by yam_yas-tifi;
+	
+	sub yam-tifi uni200D yat-tifi by yam_yat-tifi;
+	sub yam-tifi consonantjoiner-tifi yat-tifi by yam_yat-tifi;
+
+	sub yan-tifi uni200D yab-tifi by yan_yab-tifi;
+	sub yan-tifi consonantjoiner-tifi yab-tifi by yan_yab-tifi;
+	
+	sub yan-tifi uni200D yach-tifi by yan_yach-tifi;
+	sub yan-tifi consonantjoiner-tifi yach-tifi by yan_yach-tifi;	
+
+	sub yan-tifi uni200D yadd-tifi by yan_yadd-tifi;
+	sub yan-tifi consonantjoiner-tifi yadd-tifi by yan_yadd-tifi;
+
+	sub yan-tifi uni200D yadh-tifi by yan_yadh-tifi;
+	sub yan-tifi consonantjoiner-tifi yadh-tifi by yan_yadh-tifi;
+	
+	sub yan-tifi uni200D yad-tifi by yan_yad-tifi;
+	sub yan-tifi consonantjoiner-tifi yad-tifi by yan_yad-tifi;	
+	
+	sub yan-tifi uni200D yaf-tifi by yan_yaf-tifi;
+	sub yan-tifi consonantjoiner-tifi yaf-tifi by yan_yaf-tifi;
+
+	sub yan-tifi uni200D yag-tifi by yan_yag-tifi;
+	sub yan-tifi consonantjoiner-tifi yag-tifi by yan_yag-tifi;
+	
+	sub yan-tifi uni200D yah-tifi by yan_yah-tifi;
+	sub yan-tifi consonantjoiner-tifi yah-tifi by yan_yah-tifi;
+	
+	sub yan-tifi uni200D yaj-tifi by yan_yaj-tifi;
+	sub yan-tifi consonantjoiner-tifi yaj-tifi by yan_yaj-tifi;
+	
+	sub yan-tifi uni200D yakTuareg-tifi by yan_yakTuareg-tifi;
+	sub yan-tifi consonantjoiner-tifi yakTuareg-tifi by yan_yakTuareg-tifi;
+
+	sub yan-tifi uni200D yaghTuareg-tifi by yan_yaghTuareg-tifi;
+	sub yan-tifi consonantjoiner-tifi yaghTuareg-tifi by yan_yaghTuareg-tifi;
+	
+	sub yan-tifi uni200D yas-tifi by yan_yas-tifi;
+	sub yan-tifi consonantjoiner-tifi yas-tifi by yan_yas-tifi;
+	
+	sub yan-tifi uni200D yat-tifi by yan_yat-tifi;
+	sub yan-tifi consonantjoiner-tifi yat-tifi by yan_yat-tifi;
+
+	sub yan-tifi uni200D yaz-tifi by yan_yaz-tifi;
+	sub yan-tifi consonantjoiner-tifi yaz-tifi by yan_yaz-tifi;
+	
+	sub yan-tifi uni200D yazhTuareg-tifi by yan_yazhTuareg-tifi;
+	sub yan-tifi consonantjoiner-tifi yazhTuareg-tifi by yan_yazhTuareg-tifi;
+	
+	#sub yan-tifi uni200D yazTawellemmet-tifi by yan_yazTawellemmet-tifi;
+	#sub yan-tifi consonantjoiner-tifi yazTawellemmet-tifi by yan_yazTawellemmet-tifi;
+	
+	#sub yan-tifi uni200D yat-tifi by yan_yatTawellemmet-tifi;
+	#sub yan-tifi consonantjoiner-tifi yat-tifi by yan_yatTawellemmet-tifi;
+	
+	sub yar-tifi uni200D yak-tifi by yar_yak-tifi;
+	sub yar-tifi consonantjoiner-tifi yak-tifi by yar_yak-tifi;
+	
+	sub yar-tifi uni200D yan-tifi by yar_yan-tifi;
+	sub yar-tifi consonantjoiner-tifi yan-tifi by yar_yan-tifi;
+	
+	sub yar-tifi uni200D yat-tifi by yar_yat-tifi;
+	sub yar-tifi consonantjoiner-tifi yat-tifi by yar_yat-tifi;					
+
+	sub yas-tifi uni200D yan-tifi by yas_yan-tifi;
+	sub yas-tifi consonantjoiner-tifi yan-tifi by yas_yan-tifi;
+	
+	sub yas-tifi uni200D yat-tifi by yas_yat-tifi;
+	sub yas-tifi consonantjoiner-tifi yat-tifi by yas_yat-tifi;
+	
+	sub yash-tifi uni200D yat-tifi by yash_yat-tifi;
+	sub yash-tifi consonantjoiner-tifi yat-tifi by yash_yat-tifi;
+	
+	sub yat-tifi uni200D yas-tifi by yat_yas-tifi;
+	sub yat-tifi consonantjoiner-tifi yas-tifi by yat_yas-tifi;
+	
+	sub yay-tifi uni200D yat-tifi by yay_yat-tifi;
+	sub yay-tifi consonantjoiner-tifi yat-tifi by yay_yat-tifi;		
+
+	sub yazhTuareg-tifi uni200D yat-tifi by yazhTuareg_yat-tifi;
+	sub yazhTuareg-tifi consonantjoiner-tifi yat-tifi by yazhTuareg_yat-tifi;
+
+	sub yu-tifi uni200D yat-tifi by yu_yat-tifi;
+	sub yu-tifi consonantjoiner-tifi yat-tifi by yu_yat-tifi;
+	
+	sub yar-tifi uni200D yab-tifi by yar_yab-tifi;
+	sub yar-tifi consonantjoiner-tifi yab-tifi by yar_yab-tifi;
+
+	sub yar-tifi uni200D yas-tifi by yar_yas-tifi;
+	sub yar-tifi consonantjoiner-tifi yas-tifi by yar_yas-tifi;
+
+	sub yar-tifi uni200D yaj-tifi by yar_yaj-tifi;
+	sub yar-tifi consonantjoiner-tifi yaj-tifi by yar_yaj-tifi;	
+	
+	sub yar-tifi uni200D yad-tifi by yar_yad-tifi;
+	sub yar-tifi consonantjoiner-tifi yad-tifi by yar_yad-tifi;	
+	
+	sub yaw-tifi uni200D yat-tifi by yaw_yat-tifi;
+	sub yaw-tifi consonantjoiner-tifi yat-tifi by yaw_yat-tifi;
+
+	sub yazz-tifi uni200D yat-tifi by yazz_yat-tifi;
+	sub yazz-tifi consonantjoiner-tifi yat-tifi by yazz_yat-tifi;
+} ccmpMain;
+";
 name = lookup_ccmpMain;
 },
 {
-code = "lookup ccmpTawell {\012\012	sub yab-tifi uni200D yat-tifi by yab_yat-tifi;\012	sub yab-tifi consonantjoiner-tifi yat-tifi by yab_yat-tifi;\012\012	sub yaf-tifi uni200D yat-tifi by yaf_yat-tifi;\012	sub yaf-tifi consonantjoiner-tifi yat-tifi by yaf_yat-tifi;\012	\012	sub yag-tifi uni200D yat-tifi by yag_yat-tifi;\012	sub yag-tifi consonantjoiner-tifi yat-tifi by yag_yat-tifi;\012	\012	sub yagh-tifi uni200D yat-tifi by yagh_yat-tifi;\012	sub yagh-tifi consonantjoiner-tifi yat-tifi by yagh_yat-tifi;	\012		\012	sub yah-tifi uni200D yat-tifi by yah_yat-tifi;\012	sub yah-tifi consonantjoiner-tifi yat-tifi by yah_yat-tifi;\012	\012	sub yal-tifi uni200D yat-tifi by yal_yat-tifi;\012	sub yal-tifi consonantjoiner-tifi yat-tifi by yal_yat-tifi;\012	\012	sub yam-tifi uni200D yab-tifi by yam_yab-tifi;\012	sub yam-tifi consonantjoiner-tifi yab-tifi by yam_yab-tifi;\012	\012	sub yam-tifi uni200D yah-tifi by yam_yah-tifi;\012	sub yam-tifi consonantjoiner-tifi yah-tifi by yam_yah-tifi;\012\012	sub yam-tifi uni200D yas-tifi by yam_yas-tifi;\012	sub yam-tifi consonantjoiner-tifi yas-tifi by yam_yas-tifi;\012	\012	sub yam-tifi uni200D yat-tifi by yam_yat-tifi;\012	sub yam-tifi consonantjoiner-tifi yat-tifi by yam_yat-tifi;\012\012	sub yan-tifi uni200D yab-tifi by yan_yab-tifi;\012	sub yan-tifi consonantjoiner-tifi yab-tifi by yan_yab-tifi;\012	\012	sub yan-tifi uni200D yach-tifi by yan_yach-tifi;\012	sub yan-tifi consonantjoiner-tifi yach-tifi by yan_yach-tifi;	\012\012	sub yan-tifi uni200D yadd-tifi by yan_yadd-tifi;\012	sub yan-tifi consonantjoiner-tifi yadd-tifi by yan_yadd-tifi;\012\012	sub yan-tifi uni200D yadh-tifi by yan_yadh-tifi;\012	sub yan-tifi consonantjoiner-tifi yadh-tifi by yan_yadh-tifi;\012	\012	sub yan-tifi uni200D yad-tifi by yan_yad-tifi;\012	sub yan-tifi consonantjoiner-tifi yad-tifi by yan_yad-tifi;	\012	\012	sub yan-tifi uni200D yaf-tifi by yan_yaf-tifi;\012	sub yan-tifi consonantjoiner-tifi yaf-tifi by yan_yaf-tifi;\012\012	sub yan-tifi uni200D yag-tifi by yan_yag-tifi;\012	sub yan-tifi consonantjoiner-tifi yag-tifi by yan_yag-tifi;\012	\012	sub yan-tifi uni200D yah-tifi by yan_yah-tifi;\012	sub yan-tifi consonantjoiner-tifi yah-tifi by yan_yah-tifi;\012	\012	sub yan-tifi uni200D yaj-tifi by yan_yaj-tifi;\012	sub yan-tifi consonantjoiner-tifi yaj-tifi by yan_yaj-tifi;\012	\012	sub yan-tifi uni200D yakTuareg-tifi by yan_yakTuareg-tifi;\012	sub yan-tifi consonantjoiner-tifi yakTuareg-tifi by yan_yakTuareg-tifi;\012\012	sub yan-tifi uni200D yagh-tifi by yan_yaghTuareg-tifi;\012	sub yan-tifi consonantjoiner-tifi yagh-tifi by yan_yaghTuareg-tifi;\012	\012	sub yan-tifi uni200D yas-tifi by yan_yas-tifi;\012	sub yan-tifi consonantjoiner-tifi yas-tifi by yan_yas-tifi;\012	\012	sub yan-tifi uni200D yat-tifi by yan_yat-tifi;\012	sub yan-tifi consonantjoiner-tifi yat-tifi by yan_yat-tifi;\012\012	sub yan-tifi uni200D yaz-tifi by yan_yaz-tifi;\012	sub yan-tifi consonantjoiner-tifi yaz-tifi by yan_yaz-tifi;\012	\012	sub yan-tifi uni200D yazhTuareg-tifi by yan_yazhTuareg-tifi;\012	sub yan-tifi consonantjoiner-tifi yazhTuareg-tifi by yan_yazhTuareg-tifi;\012	\012	#sub yan-tifi uni200D yazTawellemmet-tifi by yan_yazTawellemmet-tifi;\012	#sub yan-tifi consonantjoiner-tifi yazTawellemmet-tifi by yan_yazTawellemmet-tifi;\012	\012	#sub yan-tifi uni200D yat-tifi by yan_yatTawellemmet-tifi;\012	#sub yan-tifi consonantjoiner-tifi yat-tifi by yan_yatTawellemmet-tifi;\012	\012	sub yar-tifi uni200D yak-tifi by yar_yak-tifi;\012	sub yar-tifi consonantjoiner-tifi yak-tifi by yar_yak-tifi;\012	\012	sub yar-tifi uni200D yan-tifi by yar_yan-tifi;\012	sub yar-tifi consonantjoiner-tifi yan-tifi by yar_yan-tifi;\012	\012	sub yar-tifi uni200D yat-tifi by yar_yat-tifi;\012	sub yar-tifi consonantjoiner-tifi yat-tifi by yar_yat-tifi;					\012\012	sub yas-tifi uni200D yan-tifi by yas_yan-tifi;\012	sub yas-tifi consonantjoiner-tifi yan-tifi by yas_yan-tifi;\012	\012	sub yas-tifi uni200D yat-tifi by yas_yat-tifi;\012	sub yas-tifi consonantjoiner-tifi yat-tifi by yas_yat-tifi;\012	\012	sub yash-tifi uni200D yat-tifi by yash_yat-tifi;\012	sub yash-tifi consonantjoiner-tifi yat-tifi by yash_yat-tifi;\012	\012	sub yat-tifi uni200D yas-tifi by yat_yas-tifi;\012	sub yat-tifi consonantjoiner-tifi yas-tifi by yat_yas-tifi;\012	\012	sub yay-tifi uni200D yat-tifi by yay_yat-tifi;\012	sub yay-tifi consonantjoiner-tifi yat-tifi by yay_yat-tifi;		\012\012	sub yazhTuareg-tifi uni200D yat-tifi by yazhTuareg_yat-tifi;\012	sub yazhTuareg-tifi consonantjoiner-tifi yat-tifi by yazhTuareg_yat-tifi;\012\012	sub yu-tifi uni200D yat-tifi by yu_yat-tifi;\012	sub yu-tifi consonantjoiner-tifi yat-tifi by yu_yat-tifi;\012	\012	sub yar-tifi uni200D yab-tifi by yar_yab-tifi;\012	sub yar-tifi consonantjoiner-tifi yab-tifi by yar_yab-tifi;\012\012	sub yar-tifi uni200D yas-tifi by yar_yas-tifi;\012	sub yar-tifi consonantjoiner-tifi yas-tifi by yar_yas-tifi;\012\012	sub yar-tifi uni200D yaj-tifi by yar_yaj-tifi;\012	sub yar-tifi consonantjoiner-tifi yaj-tifi by yar_yaj-tifi;	\012	\012	sub yar-tifi uni200D yad-tifi by yar_yad-tifi;\012	sub yar-tifi consonantjoiner-tifi yad-tifi by yar_yad-tifi;	\012	\012	sub yaw-tifi uni200D yat-tifi by yaw_yat-tifi;\012	sub yaw-tifi consonantjoiner-tifi yat-tifi by yaw_yat-tifi;\012\012	sub yazz-tifi uni200D yat-tifi by yazz_yat-tifi;\012	sub yazz-tifi consonantjoiner-tifi yat-tifi by yazz_yat-tifi;\012} ccmpTawell;";
+code = "lookup ccmpTawell {
+
+	sub yab-tifi uni200D yat-tifi by yab_yat-tifi;
+	sub yab-tifi consonantjoiner-tifi yat-tifi by yab_yat-tifi;
+
+	sub yaf-tifi uni200D yat-tifi by yaf_yat-tifi;
+	sub yaf-tifi consonantjoiner-tifi yat-tifi by yaf_yat-tifi;
+	
+	sub yag-tifi uni200D yat-tifi by yag_yat-tifi;
+	sub yag-tifi consonantjoiner-tifi yat-tifi by yag_yat-tifi;
+	
+	sub yagh-tifi uni200D yat-tifi by yagh_yat-tifi;
+	sub yagh-tifi consonantjoiner-tifi yat-tifi by yagh_yat-tifi;	
+		
+	sub yah-tifi uni200D yat-tifi by yah_yat-tifi;
+	sub yah-tifi consonantjoiner-tifi yat-tifi by yah_yat-tifi;
+	
+	sub yal-tifi uni200D yat-tifi by yal_yat-tifi;
+	sub yal-tifi consonantjoiner-tifi yat-tifi by yal_yat-tifi;
+	
+	sub yam-tifi uni200D yab-tifi by yam_yab-tifi;
+	sub yam-tifi consonantjoiner-tifi yab-tifi by yam_yab-tifi;
+	
+	sub yam-tifi uni200D yah-tifi by yam_yah-tifi;
+	sub yam-tifi consonantjoiner-tifi yah-tifi by yam_yah-tifi;
+
+	sub yam-tifi uni200D yas-tifi by yam_yas-tifi;
+	sub yam-tifi consonantjoiner-tifi yas-tifi by yam_yas-tifi;
+	
+	sub yam-tifi uni200D yat-tifi by yam_yat-tifi;
+	sub yam-tifi consonantjoiner-tifi yat-tifi by yam_yat-tifi;
+
+	sub yan-tifi uni200D yab-tifi by yan_yab-tifi;
+	sub yan-tifi consonantjoiner-tifi yab-tifi by yan_yab-tifi;
+	
+	sub yan-tifi uni200D yach-tifi by yan_yach-tifi;
+	sub yan-tifi consonantjoiner-tifi yach-tifi by yan_yach-tifi;	
+
+	sub yan-tifi uni200D yadd-tifi by yan_yadd-tifi;
+	sub yan-tifi consonantjoiner-tifi yadd-tifi by yan_yadd-tifi;
+
+	sub yan-tifi uni200D yadh-tifi by yan_yadh-tifi;
+	sub yan-tifi consonantjoiner-tifi yadh-tifi by yan_yadh-tifi;
+	
+	sub yan-tifi uni200D yad-tifi by yan_yad-tifi;
+	sub yan-tifi consonantjoiner-tifi yad-tifi by yan_yad-tifi;	
+	
+	sub yan-tifi uni200D yaf-tifi by yan_yaf-tifi;
+	sub yan-tifi consonantjoiner-tifi yaf-tifi by yan_yaf-tifi;
+
+	sub yan-tifi uni200D yag-tifi by yan_yag-tifi;
+	sub yan-tifi consonantjoiner-tifi yag-tifi by yan_yag-tifi;
+	
+	sub yan-tifi uni200D yah-tifi by yan_yah-tifi;
+	sub yan-tifi consonantjoiner-tifi yah-tifi by yan_yah-tifi;
+	
+	sub yan-tifi uni200D yaj-tifi by yan_yaj-tifi;
+	sub yan-tifi consonantjoiner-tifi yaj-tifi by yan_yaj-tifi;
+	
+	sub yan-tifi uni200D yakTuareg-tifi by yan_yakTuareg-tifi;
+	sub yan-tifi consonantjoiner-tifi yakTuareg-tifi by yan_yakTuareg-tifi;
+
+	sub yan-tifi uni200D yagh-tifi by yan_yaghTuareg-tifi;
+	sub yan-tifi consonantjoiner-tifi yagh-tifi by yan_yaghTuareg-tifi;
+	
+	sub yan-tifi uni200D yas-tifi by yan_yas-tifi;
+	sub yan-tifi consonantjoiner-tifi yas-tifi by yan_yas-tifi;
+	
+	sub yan-tifi uni200D yat-tifi by yan_yat-tifi;
+	sub yan-tifi consonantjoiner-tifi yat-tifi by yan_yat-tifi;
+
+	sub yan-tifi uni200D yaz-tifi by yan_yaz-tifi;
+	sub yan-tifi consonantjoiner-tifi yaz-tifi by yan_yaz-tifi;
+	
+	sub yan-tifi uni200D yazhTuareg-tifi by yan_yazhTuareg-tifi;
+	sub yan-tifi consonantjoiner-tifi yazhTuareg-tifi by yan_yazhTuareg-tifi;
+	
+	#sub yan-tifi uni200D yazTawellemmet-tifi by yan_yazTawellemmet-tifi;
+	#sub yan-tifi consonantjoiner-tifi yazTawellemmet-tifi by yan_yazTawellemmet-tifi;
+	
+	#sub yan-tifi uni200D yat-tifi by yan_yatTawellemmet-tifi;
+	#sub yan-tifi consonantjoiner-tifi yat-tifi by yan_yatTawellemmet-tifi;
+	
+	sub yar-tifi uni200D yak-tifi by yar_yak-tifi;
+	sub yar-tifi consonantjoiner-tifi yak-tifi by yar_yak-tifi;
+	
+	sub yar-tifi uni200D yan-tifi by yar_yan-tifi;
+	sub yar-tifi consonantjoiner-tifi yan-tifi by yar_yan-tifi;
+	
+	sub yar-tifi uni200D yat-tifi by yar_yat-tifi;
+	sub yar-tifi consonantjoiner-tifi yat-tifi by yar_yat-tifi;					
+
+	sub yas-tifi uni200D yan-tifi by yas_yan-tifi;
+	sub yas-tifi consonantjoiner-tifi yan-tifi by yas_yan-tifi;
+	
+	sub yas-tifi uni200D yat-tifi by yas_yat-tifi;
+	sub yas-tifi consonantjoiner-tifi yat-tifi by yas_yat-tifi;
+	
+	sub yash-tifi uni200D yat-tifi by yash_yat-tifi;
+	sub yash-tifi consonantjoiner-tifi yat-tifi by yash_yat-tifi;
+	
+	sub yat-tifi uni200D yas-tifi by yat_yas-tifi;
+	sub yat-tifi consonantjoiner-tifi yas-tifi by yat_yas-tifi;
+	
+	sub yay-tifi uni200D yat-tifi by yay_yat-tifi;
+	sub yay-tifi consonantjoiner-tifi yat-tifi by yay_yat-tifi;		
+
+	sub yazhTuareg-tifi uni200D yat-tifi by yazhTuareg_yat-tifi;
+	sub yazhTuareg-tifi consonantjoiner-tifi yat-tifi by yazhTuareg_yat-tifi;
+
+	sub yu-tifi uni200D yat-tifi by yu_yat-tifi;
+	sub yu-tifi consonantjoiner-tifi yat-tifi by yu_yat-tifi;
+	
+	sub yar-tifi uni200D yab-tifi by yar_yab-tifi;
+	sub yar-tifi consonantjoiner-tifi yab-tifi by yar_yab-tifi;
+
+	sub yar-tifi uni200D yas-tifi by yar_yas-tifi;
+	sub yar-tifi consonantjoiner-tifi yas-tifi by yar_yas-tifi;
+
+	sub yar-tifi uni200D yaj-tifi by yar_yaj-tifi;
+	sub yar-tifi consonantjoiner-tifi yaj-tifi by yar_yaj-tifi;	
+	
+	sub yar-tifi uni200D yad-tifi by yar_yad-tifi;
+	sub yar-tifi consonantjoiner-tifi yad-tifi by yar_yad-tifi;	
+	
+	sub yaw-tifi uni200D yat-tifi by yaw_yat-tifi;
+	sub yaw-tifi consonantjoiner-tifi yat-tifi by yaw_yat-tifi;
+
+	sub yazz-tifi uni200D yat-tifi by yazz_yat-tifi;
+	sub yazz-tifi consonantjoiner-tifi yat-tifi by yazz_yat-tifi;
+} ccmpTawell;";
 name = lookup_ccmpTawell;
 },
 {
-code = "lookup rtlaMain{\012\012sub separator-tifi by separator-tifi.RTL;\012sub yab_yat-tifi by yab_yat-tifi.RTL;\012sub yadd-tifi by yadd-tifi.RTL;\012sub yaddh-tifi by yaddh-tifi.RTL;\012sub yag_yat-tifi by yag_yat-tifi.RTL;\012sub yah_yat-tifi by	yah_yat-tifi.RTL;\012sub yahBerberacademy-tifi by yahBerberacademy-tifi.RTL;\012sub yahh-tifi by yahh-tifi.RTL;\012sub yak-tifi by yak-tifi.RTL;\012sub yakTuareg-tifi by yakTuareg-tifi.RTL;\012sub yakhh-tifi by yakhh-tifi.RTL;\012sub yam_yah-tifi by yam_yah-tifi.RTL;\012sub yam_yas-tifi by yam_yas-tifi.RTL;\012sub yam_yat-tifi by yam_yat-tifi.RTL;\012sub yam-tifi by yam-tifi.RTL;\012sub yan_yab-tifi by yan_yab-tifi.RTL;\012sub yan_yadd-tifi by yan_yadd-tifi.RTL;\012sub yan_yah-tifi by yan_yah-tifi.RTL;\012sub yan_yaj-tifi by yan_yaj-tifi.RTL;\012sub yan_yas-tifi by yan_yas-tifi.RTL;\012sub yap-tifi by yap-tifi.RTL;\012sub yar_yan-tifi by yar_yan-tifi.RTL;\012sub yas_yat-tifi by yas_yat-tifi.RTL;\012sub yash_yat-tifi by yash_yat-tifi.RTL;\012sub yash-tifi by yash-tifi.RTL;\012sub yat_yas-tifi by yat_yas-tifi.RTL;\012sub yay_yat-tifi by yay_yat-tifi.RTL;\012sub yazTawellemmet-tifi by yazTawellemmet-tifi.RTL;\012sub ye-tifi by ye-tifi.RTL;\012sub yi-tifi by yi-tifi.RTL;\012sub yu_yat-tifi by yu_yat-tifi.RTL;\012sub yar_yad-tifi by yar_yad-tifi.RTL;\012sub yaw_yat-tifi by yaw_yat-tifi.RTL;\012sub yan_yaghTuareg-tifi by yan_yaghTuareg-tifi.RTL;\012\012\012#sub yal_yal-tifi by yal_yal-tifi.RTL;\012#sub yal_yan-tifi by yal_yan-tifi.RTL;\012#sub yan_yal-tifi by yan_yal-tifi.RTL;\012#sub yan_yan-tifi by yan_yan-tifi.RTL;\012#sub yan_yaghTuareg-tifi by yan_yaghTuareg-tifi.RTL;\012#sub yan_yazTawellemet-tifi by yan_yazTawellemet-tifi.RTL;\012#sub yar_yat-tifi by yar_yat-tifi.RTL;\012#sub yaq-tifi by yaq-tifi.RTL;\012#sub yal-tifi by yal-tifi.RTL;\012#sub yam_yatAdrar-tifi by yam_yatAdrar-tifi.RTL;\012#sub yan_yatTawellemmet-tifi by yan_yatTawellemmet-tifi.RTL;\012#sub yarr-tifi by yarr-tifi.RTL;\012#sub yas_yatTawellemmet-tifi by yas_yatTawellemmet-tifi.RTL;\012#sub yas_yatAdrar-tifi by yas_yatAdrar-tifi.RTL;\012#sub yach-tifi by yach-tifi.RTL;\012#sub yatt-tifi by yatt-tifi.RTL;\012#sub yay-tifi by yay-tifi.RTL;\012#sub yachBerber-tifi by yachBerber-tifi.RTL;\012#sub yashTawellemmet-tifi by yashTawellemmet-tifi.RTL;\012#sub yasBerber-tifi by yasBerber-tifi.RTL;\012#sub yeyAPT-tifi by yeyAPT-tifi.RTL;\012#sub yapAPT-tifi by yapAPT-tifi.RTL;\012#sub yiBerber-tifi by yiBerber-tifi.RTL;\012#sub yaghhBerber-tifi by yaghhBerber-tifi.RTL;\012#sub yattBerber-tifi by yattBerber-tifi.RTL;\012#sub yakBerber-tifi by yakBerber-tifi.RTL;\012#sub yiHawad-tifi by yiHawad-tifi.RTL;\012#sub yeyHawad-tifi by yeyHawad-tifi.RTL;\012#sub yiTawellemmet-tifi by yeyHawad-tifi.RTL;\012\012\012\012} rtlaMain;";
+code = "lookup rtlaMain{
+
+sub separator-tifi by separator-tifi.RTL;
+sub yab_yat-tifi by yab_yat-tifi.RTL;
+sub yadd-tifi by yadd-tifi.RTL;
+sub yaddh-tifi by yaddh-tifi.RTL;
+sub yag_yat-tifi by yag_yat-tifi.RTL;
+sub yah_yat-tifi by	yah_yat-tifi.RTL;
+sub yahBerberacademy-tifi by yahBerberacademy-tifi.RTL;
+sub yahh-tifi by yahh-tifi.RTL;
+sub yak-tifi by yak-tifi.RTL;
+sub yakTuareg-tifi by yakTuareg-tifi.RTL;
+sub yakhh-tifi by yakhh-tifi.RTL;
+sub yam_yah-tifi by yam_yah-tifi.RTL;
+sub yam_yas-tifi by yam_yas-tifi.RTL;
+sub yam_yat-tifi by yam_yat-tifi.RTL;
+sub yam-tifi by yam-tifi.RTL;
+sub yan_yab-tifi by yan_yab-tifi.RTL;
+sub yan_yadd-tifi by yan_yadd-tifi.RTL;
+sub yan_yah-tifi by yan_yah-tifi.RTL;
+sub yan_yaj-tifi by yan_yaj-tifi.RTL;
+sub yan_yas-tifi by yan_yas-tifi.RTL;
+sub yap-tifi by yap-tifi.RTL;
+sub yar_yan-tifi by yar_yan-tifi.RTL;
+sub yas_yat-tifi by yas_yat-tifi.RTL;
+sub yash_yat-tifi by yash_yat-tifi.RTL;
+sub yash-tifi by yash-tifi.RTL;
+sub yat_yas-tifi by yat_yas-tifi.RTL;
+sub yay_yat-tifi by yay_yat-tifi.RTL;
+sub yazTawellemmet-tifi by yazTawellemmet-tifi.RTL;
+sub ye-tifi by ye-tifi.RTL;
+sub yi-tifi by yi-tifi.RTL;
+sub yu_yat-tifi by yu_yat-tifi.RTL;
+sub yar_yad-tifi by yar_yad-tifi.RTL;
+sub yaw_yat-tifi by yaw_yat-tifi.RTL;
+sub yan_yaghTuareg-tifi by yan_yaghTuareg-tifi.RTL;
+
+
+#sub yal_yal-tifi by yal_yal-tifi.RTL;
+#sub yal_yan-tifi by yal_yan-tifi.RTL;
+#sub yan_yal-tifi by yan_yal-tifi.RTL;
+#sub yan_yan-tifi by yan_yan-tifi.RTL;
+#sub yan_yaghTuareg-tifi by yan_yaghTuareg-tifi.RTL;
+#sub yan_yazTawellemet-tifi by yan_yazTawellemet-tifi.RTL;
+#sub yar_yat-tifi by yar_yat-tifi.RTL;
+#sub yaq-tifi by yaq-tifi.RTL;
+#sub yal-tifi by yal-tifi.RTL;
+#sub yam_yatAdrar-tifi by yam_yatAdrar-tifi.RTL;
+#sub yan_yatTawellemmet-tifi by yan_yatTawellemmet-tifi.RTL;
+#sub yarr-tifi by yarr-tifi.RTL;
+#sub yas_yatTawellemmet-tifi by yas_yatTawellemmet-tifi.RTL;
+#sub yas_yatAdrar-tifi by yas_yatAdrar-tifi.RTL;
+#sub yach-tifi by yach-tifi.RTL;
+#sub yatt-tifi by yatt-tifi.RTL;
+#sub yay-tifi by yay-tifi.RTL;
+#sub yachBerber-tifi by yachBerber-tifi.RTL;
+#sub yashTawellemmet-tifi by yashTawellemmet-tifi.RTL;
+#sub yasBerber-tifi by yasBerber-tifi.RTL;
+#sub yeyAPT-tifi by yeyAPT-tifi.RTL;
+#sub yapAPT-tifi by yapAPT-tifi.RTL;
+#sub yiBerber-tifi by yiBerber-tifi.RTL;
+#sub yaghhBerber-tifi by yaghhBerber-tifi.RTL;
+#sub yattBerber-tifi by yattBerber-tifi.RTL;
+#sub yakBerber-tifi by yakBerber-tifi.RTL;
+#sub yiHawad-tifi by yiHawad-tifi.RTL;
+#sub yeyHawad-tifi by yeyHawad-tifi.RTL;
+#sub yiTawellemmet-tifi by yeyHawad-tifi.RTL;
+
+
+
+} rtlaMain;";
 name = lookup_rtlaMain;
 },
 {
-code = "lookup rtlaIRCAM {\012\012	sub yach-tifi by yach-tifi.RTL;\012	sub yal-tifi by yal-tifi.RTL;\012	sub yaq-tifi by yaq-tifi.RTL;\012	sub yar_yat-tifi by yar_yat-tifi.RTL;\012	sub yarr-tifi by yarr-tifi.RTL;\012	sub yatt-tifi by yatt-tifi.RTL;\012	sub yay-tifi by yay-tifi.RTL;\012	sub yass-tifi by yass-tifi.RTL;\012\012\012} rtlaIRCAM;";
+code = "lookup rtlaIRCAM {
+
+	sub yach-tifi by yach-tifi.RTL;
+	sub yal-tifi by yal-tifi.RTL;
+	sub yaq-tifi by yaq-tifi.RTL;
+	sub yar_yat-tifi by yar_yat-tifi.RTL;
+	sub yarr-tifi by yarr-tifi.RTL;
+	sub yatt-tifi by yatt-tifi.RTL;
+	sub yay-tifi by yay-tifi.RTL;
+	sub yass-tifi by yass-tifi.RTL;
+
+
+} rtlaIRCAM;";
 name = lookup_rtlaIRCAM;
 },
 {
-code = "lookup rtlaAB {\012\012sub yach-tifi by yachBerber-tifi.RTL;\012sub yaghh-tifi by yaghhBerber-tifi.RTL;\012sub yal_yal-tifi by yal_yal-tifi.RTL;\012sub yal_yan-tifi by yal_yan-tifi.RTL;\012sub yan_yal-tifi by yan_yal-tifi.RTL;\012sub yan_yan-tifi by yan_yan-tifi.RTL;\012sub yatt-tifi by yattBerber-tifi.RTL;\012sub yaq-tifi by yaq-tifi.RTL;\012sub yar_yat-tifi by yar_yat-tifi.RTL;\012sub yass-tifi by yass-tifi.RTL;\012\012\012} rtlaAB;";
+code = "lookup rtlaAB {
+
+sub yach-tifi by yachBerber-tifi.RTL;
+sub yaghh-tifi by yaghhBerber-tifi.RTL;
+sub yal_yal-tifi by yal_yal-tifi.RTL;
+sub yal_yan-tifi by yal_yan-tifi.RTL;
+sub yan_yal-tifi by yan_yal-tifi.RTL;
+sub yan_yan-tifi by yan_yan-tifi.RTL;
+sub yatt-tifi by yattBerber-tifi.RTL;
+sub yaq-tifi by yaq-tifi.RTL;
+sub yar_yat-tifi by yar_yat-tifi.RTL;
+sub yass-tifi by yass-tifi.RTL;
+
+
+} rtlaAB;";
 name = lookup_rtlaAB;
 },
 {
-code = "lookup rtlaAdrar {\012\012sub yal_yal-tifi by yal_yal-tifi.RTL;\012sub yal_yan-tifi by yal_yan-tifi.RTL;\012sub yan_yal-tifi by yan_yal-tifi.RTL;\012sub yan_yan-tifi by yan_yan-tifi.RTL;\012sub yach-tifi by yach-tifi.RTL;\012sub yarr-tifi by yarr-tifi.RTL;\012sub yass-tifi by yass-tifi.RTL;\012sub yatt-tifi by yatt-tifi.RTL;\012\012} rtlaAdrar;";
+code = "lookup rtlaAdrar {
+
+sub yal_yal-tifi by yal_yal-tifi.RTL;
+sub yal_yan-tifi by yal_yan-tifi.RTL;
+sub yan_yal-tifi by yan_yal-tifi.RTL;
+sub yan_yan-tifi by yan_yan-tifi.RTL;
+sub yach-tifi by yach-tifi.RTL;
+sub yarr-tifi by yarr-tifi.RTL;
+sub yass-tifi by yass-tifi.RTL;
+sub yatt-tifi by yatt-tifi.RTL;
+
+} rtlaAdrar;";
 name = lookup_rtlaAdrar;
 },
 {
-code = "lookup rtlaHawad {\012\012sub yay-tifi by yayHawad-tifi.RTL;\012sub yal_yal-tifi by yal_yal-tifi.RTL;\012sub yal_yan-tifi by yal_yan-tifi.RTL;\012sub yan_yal-tifi by yan_yal-tifi.RTL;\012sub yan_yan-tifi by yan_yan-tifi.RTL;\012sub yar_yat-tifi by yar_yat-tifi.RTL;\012sub yarr-tifi by yarr-tifi.RTL;\012sub yad-tifi by yadAPT-tifi.RTL;\012\012} rtlaHawad;";
+code = "lookup rtlaHawad {
+
+sub yay-tifi by yayHawad-tifi.RTL;
+sub yal_yal-tifi by yal_yal-tifi.RTL;
+sub yal_yan-tifi by yal_yan-tifi.RTL;
+sub yan_yal-tifi by yan_yal-tifi.RTL;
+sub yan_yan-tifi by yan_yan-tifi.RTL;
+sub yar_yat-tifi by yar_yat-tifi.RTL;
+sub yarr-tifi by yarr-tifi.RTL;
+sub yad-tifi by yadAPT-tifi.RTL;
+
+} rtlaHawad;";
 name = lookup_rtlaHawad;
 },
 {
-code = "lookup rtlaAPT { \012sub yad-tifi by yadAPT-tifi.RTL;\012sub yal_yal-tifi by yal_yal-tifi.RTL;\012sub yal_yan-tifi by yal_yan-tifi.RTL;\012sub yan_yal-tifi by yan_yal-tifi.RTL;\012sub yan_yan-tifi by yan_yan-tifi.RTL;\012sub yay-tifi by yayHawad-tifi.RTL;\012sub yey-tifi by yeyAPT-tifi.RTL;\012sub yarr-tifi by yarr-tifi.RTL;\012} rtlaAPT;";
+code = "lookup rtlaAPT { 
+sub yad-tifi by yadAPT-tifi.RTL;
+sub yal_yal-tifi by yal_yal-tifi.RTL;
+sub yal_yan-tifi by yal_yan-tifi.RTL;
+sub yan_yal-tifi by yan_yal-tifi.RTL;
+sub yan_yan-tifi by yan_yan-tifi.RTL;
+sub yay-tifi by yayHawad-tifi.RTL;
+sub yey-tifi by yeyAPT-tifi.RTL;
+sub yarr-tifi by yarr-tifi.RTL;
+} rtlaAPT;";
 name = lookup_rtlaAPT;
 },
 {
-code = "lookup rtlaTawellemmet {\012\012sub yal_yal-tifi by yal_yal-tifi.RTL;\012sub yal_yan-tifi by yal_yan-tifi.RTL;\012sub yan_yal-tifi by yan_yal-tifi.RTL;\012sub yan_yan-tifi by yan_yan-tifi.RTL;\012sub yan_yat-tifi by yan_yatTawellemmet-tifi.RTL;\012sub yan_yaz-tifi by yan_yazTawellemmet-tifi.RTL;\012sub yach-tifi by yach-tifi.RTL;\012sub yarr-tifi by yarr-tifi.RTL;\012sub yatt-tifi by yatt-tifi.RTL;\012sub yay-tifi by yay-tifi.RTL;\012sub yass-tifi by yass-tifi.RTL;\012} rtlaTawellemmet;";
+code = "lookup rtlaTawellemmet {
+
+sub yal_yal-tifi by yal_yal-tifi.RTL;
+sub yal_yan-tifi by yal_yan-tifi.RTL;
+sub yan_yal-tifi by yan_yal-tifi.RTL;
+sub yan_yan-tifi by yan_yan-tifi.RTL;
+sub yan_yat-tifi by yan_yatTawellemmet-tifi.RTL;
+sub yan_yaz-tifi by yan_yazTawellemmet-tifi.RTL;
+sub yach-tifi by yach-tifi.RTL;
+sub yarr-tifi by yarr-tifi.RTL;
+sub yatt-tifi by yatt-tifi.RTL;
+sub yay-tifi by yay-tifi.RTL;
+sub yass-tifi by yass-tifi.RTL;
+} rtlaTawellemmet;";
 name = lookup_rtlaTawellemmet;
 },
 {
-code = "lookup rtlaGhat {\012\012sub yal_yal-tifi by yal_yal-tifi.RTL;\012sub yal_yan-tifi by yal_yan-tifi.RTL;\012sub yan_yal-tifi by yan_yal-tifi.RTL;\012sub yan_yan-tifi by yan_yan-tifi.RTL;\012sub yar_yat-tifi by yar_yat-tifi.RTL;\012sub yay-tifi by yayHawad-tifi.RTL;\012sub yach-tifi by yach-tifi.RTL;\012sub yarr-tifi by yarr-tifi.RTL;\012sub yass-tifi by yass-tifi.RTL;\012sub yatt-tifi by yatt-tifi.RTL;\012\012} rtlaGhat;";
+code = "lookup rtlaGhat {
+
+sub yal_yal-tifi by yal_yal-tifi.RTL;
+sub yal_yan-tifi by yal_yan-tifi.RTL;
+sub yan_yal-tifi by yan_yal-tifi.RTL;
+sub yan_yan-tifi by yan_yan-tifi.RTL;
+sub yar_yat-tifi by yar_yat-tifi.RTL;
+sub yay-tifi by yayHawad-tifi.RTL;
+sub yach-tifi by yach-tifi.RTL;
+sub yarr-tifi by yarr-tifi.RTL;
+sub yass-tifi by yass-tifi.RTL;
+sub yatt-tifi by yatt-tifi.RTL;
+
+} rtlaGhat;";
 name = lookup_rtlaGhat;
 },
 {
-code = "lookup rtlaRhissaIxa {\012\012sub yal_yal-tifi by yal_yal-tifi.RTL;\012sub yal_yan-tifi by yal_yan-tifi.RTL;\012sub yan_yal-tifi by yan_yal-tifi.RTL;\012sub yan_yan-tifi by yan_yan-tifi.RTL;\012sub yay-tifi by yayRhissaIxa-tifi.RTL;\012sub yach-tifi by yach-tifi.RTL;\012sub yaq-tifi by yaq-tifi.RTL;\012sub yar_yat-tifi by yar_yat-tifi.RTL;\012sub yarr-tifi by yarr-tifi.RTL;\012\012\012} rtlaRhissaIxa;\012";
+code = "lookup rtlaRhissaIxa {
+
+sub yal_yal-tifi by yal_yal-tifi.RTL;
+sub yal_yan-tifi by yal_yan-tifi.RTL;
+sub yan_yal-tifi by yan_yal-tifi.RTL;
+sub yan_yan-tifi by yan_yan-tifi.RTL;
+sub yay-tifi by yayRhissaIxa-tifi.RTL;
+sub yach-tifi by yach-tifi.RTL;
+sub yaq-tifi by yaq-tifi.RTL;
+sub yar_yat-tifi by yar_yat-tifi.RTL;
+sub yarr-tifi by yarr-tifi.RTL;
+
+
+} rtlaRhissaIxa;
+";
 name = lookup_rtlaRhissaIxa;
 },
 {
-code = "lookup rtlaSIL {\012\012\012	sub yad-tifi by yadAPT-tifi.RTL;\012	sub yazz-tifi by yazzSIL-tifi.RTL;\012	sub yal_yal-tifi by yal_yal-tifi.RTL;\012	sub yal_yan-tifi by yal_yan-tifi.RTL;\012	sub yan_yal-tifi by yan_yal-tifi.RTL;\012	sub yan_yan-tifi by yan_yan-tifi.RTL;\012	sub yach-tifi by yach-tifi.RTL;\012	sub yal-tifi by yal-tifi.RTL;\012	sub yaq-tifi by yaq-tifi.RTL;\012	sub yar_yat-tifi by yar_yat-tifi.RTL;\012	sub yarr-tifi by yarr-tifi.RTL;\012	sub yatt-tifi by yatt-tifi.RTL;\012	sub yay-tifi by yay-tifi.RTL;\012\012\012} rtlaSIL;\012";
+code = "lookup rtlaSIL {
+
+
+	sub yad-tifi by yadAPT-tifi.RTL;
+	sub yazz-tifi by yazzSIL-tifi.RTL;
+	sub yal_yal-tifi by yal_yal-tifi.RTL;
+	sub yal_yan-tifi by yal_yan-tifi.RTL;
+	sub yan_yal-tifi by yan_yal-tifi.RTL;
+	sub yan_yan-tifi by yan_yan-tifi.RTL;
+	sub yach-tifi by yach-tifi.RTL;
+	sub yal-tifi by yal-tifi.RTL;
+	sub yaq-tifi by yaq-tifi.RTL;
+	sub yar_yat-tifi by yar_yat-tifi.RTL;
+	sub yarr-tifi by yarr-tifi.RTL;
+	sub yatt-tifi by yatt-tifi.RTL;
+	sub yay-tifi by yay-tifi.RTL;
+
+
+} rtlaSIL;
+";
 name = lookup_rtlaSIL;
 },
 {
-code = "lookup rtlaTuareg {\012\012sub yal_yal-tifi by yal_yal-tifi.RTL;\012sub yal_yan-tifi by yal_yan-tifi.RTL;\012sub yan_yal-tifi by yan_yal-tifi.RTL;\012sub yan_yan-tifi by yan_yan-tifi.RTL;\012sub yach-tifi by yach-tifi.RTL;\012sub yarr-tifi by yarr-tifi.RTL;\012sub yass-tifi by yass-tifi.RTL;\012sub yatt-tifi by yatt-tifi.RTL;\012sub yay-tifi by yay-tifi.RTL;\012sub yan_yat-tifi by yan_yatTawellemmet-tifi.RTL;\012sub yar_yat-tifi by yar_yat-tifi.RTL;\012\012} rtlaTuareg;";
+code = "lookup rtlaTuareg {
+
+sub yal_yal-tifi by yal_yal-tifi.RTL;
+sub yal_yan-tifi by yal_yan-tifi.RTL;
+sub yan_yal-tifi by yan_yal-tifi.RTL;
+sub yan_yan-tifi by yan_yan-tifi.RTL;
+sub yach-tifi by yach-tifi.RTL;
+sub yarr-tifi by yarr-tifi.RTL;
+sub yass-tifi by yass-tifi.RTL;
+sub yatt-tifi by yatt-tifi.RTL;
+sub yay-tifi by yay-tifi.RTL;
+sub yan_yat-tifi by yan_yatTawellemmet-tifi.RTL;
+sub yar_yat-tifi by yar_yat-tifi.RTL;
+
+} rtlaTuareg;";
 name = lookup_rtlaTuareg;
 }
 );
@@ -316,7 +803,6 @@ glyphs = (
 {
 color = 0;
 glyphname = "ya-tifi";
-lastChange = "2022-09-12 13:17:54 +0000";
 layers = (
 {
 anchors = (
@@ -371,7 +857,6 @@ unicode = 2D30;
 {
 color = 0;
 glyphname = "yab-tifi";
-lastChange = "2019-10-07 17:57:14 +0000";
 layers = (
 {
 anchors = (
@@ -408,7 +893,6 @@ unicode = 2D31;
 {
 color = 0;
 glyphname = "yabh-tifi";
-lastChange = "2022-09-12 13:18:00 +0000";
 layers = (
 {
 anchors = (
@@ -485,7 +969,6 @@ unicode = 2D32;
 {
 color = 0;
 glyphname = "yag-tifi";
-lastChange = "2022-09-12 13:18:06 +0000";
 layers = (
 {
 anchors = (
@@ -659,7 +1142,6 @@ unicode = 2D33;
 {
 color = 0;
 glyphname = "yaghh-tifi";
-lastChange = "2022-09-12 13:18:11 +0000";
 layers = (
 {
 anchors = (
@@ -795,7 +1277,6 @@ unicode = 2D34;
 {
 color = 0;
 glyphname = "yajBerberacademy-tifi";
-lastChange = "2022-09-12 13:18:14 +0000";
 layers = (
 {
 anchors = (
@@ -907,7 +1388,6 @@ unicode = 2D35;
 {
 color = 0;
 glyphname = "yaj-tifi";
-lastChange = "2022-09-12 13:18:20 +0000";
 layers = (
 {
 anchors = (
@@ -971,7 +1451,6 @@ unicode = 2D36;
 {
 color = 0;
 glyphname = "yad-tifi";
-lastChange = "2022-09-12 13:18:22 +0000";
 layers = (
 {
 anchors = (
@@ -1050,7 +1529,6 @@ unicode = 2D37;
 {
 color = 0;
 glyphname = "yadh-tifi";
-lastChange = "2022-09-12 13:18:25 +0000";
 layers = (
 {
 anchors = (
@@ -1104,7 +1582,6 @@ unicode = 2D38;
 {
 color = 0;
 glyphname = "yadd-tifi";
-lastChange = "2022-09-12 13:18:36 +0000";
 layers = (
 {
 anchors = (
@@ -1146,7 +1623,6 @@ unicode = 2D39;
 {
 color = 0;
 glyphname = "yaddh-tifi";
-lastChange = "2022-09-12 13:18:54 +0000";
 layers = (
 {
 anchors = (
@@ -1184,7 +1660,6 @@ unicode = 2D3A;
 {
 color = 0;
 glyphname = "yey-tifi";
-lastChange = "2022-09-12 13:19:01 +0000";
 layers = (
 {
 anchors = (
@@ -1363,7 +1838,6 @@ unicode = 2D3B;
 {
 color = 0;
 glyphname = "yaf-tifi";
-lastChange = "2022-09-12 13:19:04 +0000";
 layers = (
 {
 anchors = (
@@ -1409,7 +1883,6 @@ unicode = 2D3C;
 {
 color = 0;
 glyphname = "yak-tifi";
-lastChange = "2022-09-12 13:19:07 +0000";
 layers = (
 {
 anchors = (
@@ -1507,7 +1980,6 @@ unicode = 2D3D;
 {
 color = 0;
 glyphname = "yakTuareg-tifi";
-lastChange = "2022-09-12 13:19:09 +0000";
 layers = (
 {
 anchors = (
@@ -1579,7 +2051,6 @@ unicode = 2D3E;
 {
 color = 0;
 glyphname = "yakhh-tifi";
-lastChange = "2022-09-12 13:19:14 +0000";
 layers = (
 {
 anchors = (
@@ -1678,7 +2149,6 @@ unicode = 2D3F;
 {
 color = 0;
 glyphname = "yah-tifi";
-lastChange = "2022-09-12 13:19:19 +0000";
 layers = (
 {
 anchors = (
@@ -1715,7 +2185,6 @@ unicode = 2D40;
 {
 color = 0;
 glyphname = "yahBerberacademy-tifi";
-lastChange = "2022-09-12 13:19:24 +0000";
 layers = (
 {
 anchors = (
@@ -1761,7 +2230,6 @@ unicode = 2D41;
 {
 color = 0;
 glyphname = "yahTuareg-tifi";
-lastChange = "2022-09-12 13:19:28 +0000";
 layers = (
 {
 anchors = (
@@ -1850,7 +2318,6 @@ unicode = 2D42;
 {
 color = 0;
 glyphname = "yahh-tifi";
-lastChange = "2022-09-12 13:19:32 +0000";
 layers = (
 {
 anchors = (
@@ -1928,7 +2395,6 @@ unicode = 2D43;
 {
 color = 0;
 glyphname = "yaa-tifi";
-lastChange = "2022-09-12 13:19:34 +0000";
 layers = (
 {
 anchors = (
@@ -1966,7 +2432,6 @@ unicode = 2D44;
 {
 color = 0;
 glyphname = "yakh-tifi";
-lastChange = "2022-09-12 13:19:39 +0000";
 layers = (
 {
 anchors = (
@@ -2094,7 +2559,6 @@ unicode = 2D45;
 {
 color = 0;
 glyphname = "yakhTuareg-tifi";
-lastChange = "2022-09-12 13:19:42 +0000";
 layers = (
 {
 anchors = (
@@ -2183,7 +2647,6 @@ unicode = 2D46;
 {
 color = 0;
 glyphname = "yaq-tifi";
-lastChange = "2022-09-12 13:19:45 +0000";
 layers = (
 {
 anchors = (
@@ -2278,7 +2741,6 @@ unicode = 2D47;
 {
 color = 0;
 glyphname = "yaqTuareg-tifi";
-lastChange = "2022-09-12 13:19:48 +0000";
 layers = (
 {
 anchors = (
@@ -2350,7 +2812,6 @@ unicode = 2D48;
 {
 color = 0;
 glyphname = "yi-tifi";
-lastChange = "2022-09-12 13:19:49 +0000";
 layers = (
 {
 anchors = (
@@ -2454,7 +2915,6 @@ unicode = 2D49;
 {
 color = 0;
 glyphname = "yazh-tifi";
-lastChange = "2022-09-12 13:19:53 +0000";
 layers = (
 {
 anchors = (
@@ -2498,7 +2958,6 @@ unicode = 2D4A;
 {
 color = 0;
 glyphname = "yazhAhaggar-tifi";
-lastChange = "2022-09-12 13:19:56 +0000";
 layers = (
 {
 anchors = (
@@ -2596,7 +3055,6 @@ unicode = 2D4B;
 {
 color = 0;
 glyphname = "yazhTuareg-tifi";
-lastChange = "2022-09-12 13:19:59 +0000";
 layers = (
 {
 anchors = (
@@ -2659,7 +3117,6 @@ unicode = 2D4C;
 {
 color = 0;
 glyphname = "yal-tifi";
-lastChange = "2022-09-12 13:20:04 +0000";
 layers = (
 {
 anchors = (
@@ -2746,7 +3203,6 @@ unicode = 2D4D;
 {
 color = 0;
 glyphname = "yam-tifi";
-lastChange = "2022-09-12 13:20:14 +0000";
 layers = (
 {
 anchors = (
@@ -2780,7 +3236,6 @@ unicode = 2D4E;
 {
 color = 0;
 glyphname = "yan-tifi";
-lastChange = "2022-09-12 13:20:18 +0000";
 layers = (
 {
 anchors = (
@@ -2810,7 +3265,6 @@ unicode = 2D4F;
 {
 color = 0;
 glyphname = "yagnTuareg-tifi";
-lastChange = "2022-09-12 13:20:21 +0000";
 layers = (
 {
 anchors = (
@@ -2856,7 +3310,6 @@ unicode = 2D50;
 {
 color = 0;
 glyphname = "yangTuareg-tifi";
-lastChange = "2022-09-12 13:20:24 +0000";
 layers = (
 {
 anchors = (
@@ -2903,7 +3356,6 @@ unicode = 2D51;
 {
 color = 0;
 glyphname = "yap-tifi";
-lastChange = "2022-09-12 13:20:27 +0000";
 layers = (
 {
 anchors = (
@@ -3034,7 +3486,6 @@ unicode = 2D52;
 {
 color = 0;
 glyphname = "yu-tifi";
-lastChange = "2022-09-12 13:20:30 +0000";
 layers = (
 {
 anchors = (
@@ -3123,7 +3574,6 @@ unicode = 2D53;
 {
 color = 0;
 glyphname = "yar-tifi";
-lastChange = "2022-09-12 13:20:34 +0000";
 layers = (
 {
 anchors = (
@@ -3184,7 +3634,6 @@ unicode = 2D54;
 {
 color = 0;
 glyphname = "yarr-tifi";
-lastChange = "2022-09-12 13:20:39 +0000";
 layers = (
 {
 anchors = (
@@ -3220,7 +3669,6 @@ unicode = 2D55;
 {
 color = 0;
 glyphname = "yagh-tifi";
-lastChange = "2022-09-12 13:20:42 +0000";
 layers = (
 {
 anchors = (
@@ -3258,7 +3706,6 @@ unicode = 2D56;
 {
 color = 0;
 glyphname = "yaghTuareg-tifi";
-lastChange = "2022-09-12 13:20:45 +0000";
 layers = (
 {
 anchors = (
@@ -3330,7 +3777,6 @@ unicode = 2D57;
 {
 color = 0;
 glyphname = "yaghAyer-tifi";
-lastChange = "2022-09-12 13:20:50 +0000";
 layers = (
 {
 anchors = (
@@ -3436,7 +3882,6 @@ unicode = 2D58;
 {
 color = 0;
 glyphname = "yas-tifi";
-lastChange = "2022-09-12 13:20:55 +0000";
 layers = (
 {
 anchors = (
@@ -3485,7 +3930,6 @@ unicode = 2D59;
 {
 color = 0;
 glyphname = "yass-tifi";
-lastChange = "2022-09-12 13:20:59 +0000";
 layers = (
 {
 anchors = (
@@ -3512,7 +3956,6 @@ unicode = 2D5A;
 {
 color = 0;
 glyphname = "yash-tifi";
-lastChange = "2022-09-12 13:21:04 +0000";
 layers = (
 {
 anchors = (
@@ -3661,7 +4104,6 @@ unicode = 2D5B;
 {
 color = 0;
 glyphname = "yat-tifi";
-lastChange = "2022-09-12 13:21:08 +0000";
 layers = (
 {
 anchors = (
@@ -3705,7 +4147,6 @@ unicode = 2D5C;
 {
 color = 0;
 glyphname = "yath-tifi";
-lastChange = "2022-09-12 13:21:11 +0000";
 layers = (
 {
 anchors = (
@@ -3830,7 +4271,6 @@ unicode = 2D5D;
 {
 color = 0;
 glyphname = "yach-tifi";
-lastChange = "2022-09-12 13:21:16 +0000";
 layers = (
 {
 anchors = (
@@ -4074,7 +4514,6 @@ unicode = 2D5E;
 {
 color = 0;
 glyphname = "yatt-tifi";
-lastChange = "2022-09-12 13:21:19 +0000";
 layers = (
 {
 anchors = (
@@ -4141,7 +4580,6 @@ unicode = 2D5F;
 {
 color = 0;
 glyphname = "yav-tifi";
-lastChange = "2022-09-12 13:21:22 +0000";
 layers = (
 {
 anchors = (
@@ -4245,7 +4683,6 @@ unicode = 2D60;
 {
 color = 0;
 glyphname = "yaw-tifi";
-lastChange = "2022-09-12 13:21:24 +0000";
 layers = (
 {
 anchors = (
@@ -4279,7 +4716,6 @@ unicode = 2D61;
 {
 color = 0;
 glyphname = "yay-tifi";
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 anchors = (
@@ -4363,7 +4799,6 @@ unicode = 2D62;
 {
 color = 0;
 glyphname = "yaz-tifi";
-lastChange = "2022-09-12 13:21:29 +0000";
 layers = (
 {
 anchors = (
@@ -4485,7 +4920,6 @@ unicode = 2D63;
 {
 color = 0;
 glyphname = "yazTawellemmet-tifi";
-lastChange = "2022-09-12 13:21:33 +0000";
 layers = (
 {
 anchors = (
@@ -4559,7 +4993,6 @@ unicode = 2D64;
 {
 color = 0;
 glyphname = "yazz-tifi";
-lastChange = "2022-09-12 13:21:38 +0000";
 layers = (
 {
 anchors = (
@@ -4700,7 +5133,6 @@ unicode = 2D65;
 {
 color = 0;
 glyphname = "ye-tifi";
-lastChange = "2022-09-12 13:21:41 +0000";
 layers = (
 {
 anchors = (
@@ -4772,7 +5204,6 @@ unicode = 2D66;
 {
 color = 0;
 glyphname = "yo-tifi";
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 anchors = (
@@ -4811,7 +5242,6 @@ unicode = 2D67;
 {
 color = 0;
 glyphname = "labialization-tifi";
-lastChange = "2022-09-12 13:21:52 +0000";
 layers = (
 {
 anchors = (
@@ -4845,7 +5275,6 @@ unicode = 2D6F;
 {
 color = 0;
 glyphname = "yadd-tifi.RTL";
-lastChange = "2022-09-12 13:21:57 +0000";
 layers = (
 {
 anchors = (
@@ -4869,7 +5298,6 @@ note = uni2D39;
 {
 color = 0;
 glyphname = "yaddh-tifi.RTL";
-lastChange = "2022-09-12 13:22:00 +0000";
 layers = (
 {
 anchors = (
@@ -4893,7 +5321,6 @@ note = uni2D3A;
 {
 color = 0;
 glyphname = "yak-tifi.RTL";
-lastChange = "2022-09-12 13:22:03 +0000";
 layers = (
 {
 anchors = (
@@ -4970,7 +5397,6 @@ note = uni2D3D;
 {
 color = 0;
 glyphname = "yakTuareg-tifi.RTL";
-lastChange = "2022-09-12 13:22:10 +0000";
 layers = (
 {
 anchors = (
@@ -4994,7 +5420,6 @@ note = uni2D3E;
 {
 color = 0;
 glyphname = "yakhh-tifi.RTL";
-lastChange = "2022-09-12 13:22:13 +0000";
 layers = (
 {
 anchors = (
@@ -5060,7 +5485,6 @@ note = uni2D3F;
 {
 color = 0;
 glyphname = "yahBerberacademy-tifi.RTL";
-lastChange = "2022-09-12 13:22:17 +0000";
 layers = (
 {
 anchors = (
@@ -5094,7 +5518,6 @@ note = uni2D41;
 {
 color = 0;
 glyphname = "yahh-tifi.RTL";
-lastChange = "2022-09-12 13:22:20 +0000";
 layers = (
 {
 anchors = (
@@ -5178,7 +5601,6 @@ note = uni2D43;
 {
 color = 0;
 glyphname = "yaq-tifi.RTL";
-lastChange = "2022-09-12 13:22:22 +0000";
 layers = (
 {
 anchors = (
@@ -5273,7 +5695,6 @@ note = uni2D47;
 {
 color = 0;
 glyphname = "yi-tifi.RTL";
-lastChange = "2022-09-12 13:22:25 +0000";
 layers = (
 {
 anchors = (
@@ -5341,7 +5762,6 @@ note = uni2D49;
 {
 color = 0;
 glyphname = "yal-tifi.RTL";
-lastChange = "2022-09-12 13:22:29 +0000";
 layers = (
 {
 anchors = (
@@ -5400,7 +5820,6 @@ note = uni2D4D;
 {
 color = 0;
 glyphname = "yam-tifi.RTL";
-lastChange = "2022-09-12 13:22:32 +0000";
 layers = (
 {
 anchors = (
@@ -5424,7 +5843,6 @@ note = uni2D4E;
 {
 color = 0;
 glyphname = "yap-tifi.RTL";
-lastChange = "2022-09-12 13:22:36 +0000";
 layers = (
 {
 anchors = (
@@ -5506,7 +5924,6 @@ rightKerningGroup = yap;
 {
 color = 0;
 glyphname = "yarr-tifi.RTL";
-lastChange = "2022-09-12 13:22:39 +0000";
 layers = (
 {
 anchors = (
@@ -5531,7 +5948,6 @@ rightKerningGroup = yar;
 {
 color = 0;
 glyphname = "yass-tifi.RTL";
-lastChange = "2022-09-12 13:22:43 +0000";
 layers = (
 {
 anchors = (
@@ -5556,7 +5972,6 @@ rightKerningGroup = yar;
 {
 color = 0;
 glyphname = "yash-tifi.RTL";
-lastChange = "2022-09-12 13:22:47 +0000";
 layers = (
 {
 anchors = (
@@ -5618,7 +6033,6 @@ note = uni2D5B;
 {
 color = 0;
 glyphname = "yach-tifi.RTL";
-lastChange = "2022-09-12 13:22:49 +0000";
 layers = (
 {
 anchors = (
@@ -5758,7 +6172,6 @@ note = uni2D5E;
 {
 color = 0;
 glyphname = "yatt-tifi.RTL";
-lastChange = "2022-09-12 13:22:53 +0000";
 layers = (
 {
 anchors = (
@@ -5803,7 +6216,6 @@ note = uni2D5F;
 {
 color = 0;
 glyphname = "yay-tifi.RTL";
-lastChange = "2022-09-12 13:22:56 +0000";
 layers = (
 {
 anchors = (
@@ -5861,7 +6273,6 @@ note = uni2D62;
 {
 color = 0;
 glyphname = "ye-tifi.RTL";
-lastChange = "2022-09-12 13:23:00 +0000";
 layers = (
 {
 anchors = (
@@ -5917,7 +6328,6 @@ note = uni2D66;
 {
 color = 3;
 glyphname = "yab_yat-tifi";
-lastChange = "2022-09-12 13:23:04 +0000";
 layers = (
 {
 anchors = (
@@ -5961,7 +6371,6 @@ rightKerningGroup = ligyat;
 {
 color = 3;
 glyphname = "yag_yat-tifi";
-lastChange = "2022-09-12 13:23:09 +0000";
 layers = (
 {
 anchors = (
@@ -6136,7 +6545,6 @@ rightKerningGroup = ligyat;
 {
 color = 0;
 glyphname = "yaf_yat-tifi";
-lastChange = "2022-09-12 13:23:14 +0000";
 layers = (
 {
 anchors = (
@@ -6189,7 +6597,6 @@ note = uni2D3C2D5C;
 {
 color = 4;
 glyphname = "yaf_yatAdrar-tifi";
-lastChange = "2022-09-12 13:23:19 +0000";
 layers = (
 {
 anchors = (
@@ -6239,7 +6646,6 @@ note = uni2D4A;
 {
 color = 3;
 glyphname = "yaf_yatAhaggar-tifi";
-lastChange = "2022-09-12 13:23:23 +0000";
 layers = (
 {
 anchors = (
@@ -6284,7 +6690,6 @@ note = uni2D4F2D3C;
 {
 color = 8;
 glyphname = "yaf_yatTawellemmet-tifi";
-lastChange = "2022-09-12 13:23:28 +0000";
 layers = (
 {
 anchors = (
@@ -6338,7 +6743,6 @@ note = uni2D4F2D3C;
 {
 color = 0;
 glyphname = "yah_yat-tifi";
-lastChange = "2022-09-12 13:23:47 +0000";
 layers = (
 {
 anchors = (
@@ -6382,7 +6786,6 @@ rightKerningGroup = ligyat;
 {
 color = 0;
 glyphname = "yazhTuareg_yat-tifi";
-lastChange = "2022-09-12 13:23:53 +0000";
 layers = (
 {
 anchors = (
@@ -6471,7 +6874,6 @@ note = uni2D4C2D5C;
 {
 color = 0;
 glyphname = "yal_yal-tifi";
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 anchors = (
@@ -6534,7 +6936,6 @@ rightKerningGroup = yan_yan;
 {
 color = 0;
 glyphname = "yal_yan-tifi";
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 anchors = (
@@ -6588,7 +6989,6 @@ rightKerningGroup = yan_yan;
 {
 color = 0;
 glyphname = "yal_yat-tifi";
-lastChange = "2022-09-12 13:23:59 +0000";
 layers = (
 {
 anchors = (
@@ -6633,7 +7033,6 @@ note = uni2D4D2D5C;
 {
 color = 8;
 glyphname = "yal_yatTawellemmet-tifi";
-lastChange = "2022-09-12 13:24:02 +0000";
 layers = (
 {
 anchors = (
@@ -6747,7 +7146,6 @@ rightKerningGroup = yath;
 {
 color = 8;
 glyphname = "yam_yab-tifi";
-lastChange = "2022-09-12 13:24:06 +0000";
 layers = (
 {
 anchors = (
@@ -6787,7 +7185,6 @@ rightKerningGroup = yar;
 {
 color = 0;
 glyphname = "yam_yah-tifi";
-lastChange = "2022-09-12 13:24:13 +0000";
 layers = (
 {
 anchors = (
@@ -6863,7 +7260,6 @@ note = uni2D4E2D40;
 {
 color = 0;
 glyphname = "yam_yas-tifi";
-lastChange = "2022-09-12 13:24:18 +0000";
 layers = (
 {
 anchors = (
@@ -6968,7 +7364,6 @@ note = uni2D4E2D59;
 {
 color = 0;
 glyphname = "yam_yat-tifi";
-lastChange = "2022-09-12 13:24:22 +0000";
 layers = (
 {
 anchors = (
@@ -7009,7 +7404,6 @@ note = uni2D4E2D5C;
 {
 color = 4;
 glyphname = "yam_yatAdrar-tifi";
-lastChange = "2022-09-12 13:24:26 +0000";
 layers = (
 {
 anchors = (
@@ -7050,7 +7444,6 @@ note = uni2D4E2D5C;
 {
 color = 8;
 glyphname = "yam_yatSIL-tifi";
-lastChange = "2022-09-12 13:24:29 +0000";
 layers = (
 {
 anchors = (
@@ -7116,7 +7509,6 @@ note = uni2D5F;
 {
 color = 3;
 glyphname = "yan_yab-tifi";
-lastChange = "2022-09-12 13:24:33 +0000";
 layers = (
 {
 anchors = (
@@ -7235,7 +7627,6 @@ rightKerningGroup = yar;
 {
 color = 0;
 glyphname = "yan_yag-tifi";
-lastChange = "2022-09-12 13:24:35 +0000";
 layers = (
 {
 anchors = (
@@ -7322,7 +7713,6 @@ note = uni2D4F2D34;
 {
 color = 0;
 glyphname = "yan_yaj-tifi";
-lastChange = "2022-09-12 13:24:39 +0000";
 layers = (
 {
 anchors = (
@@ -7395,7 +7785,6 @@ note = uni2D4F2D36;
 {
 color = 8;
 glyphname = "yan_yad-tifi";
-lastChange = "2022-09-12 13:24:49 +0000";
 layers = (
 {
 anchors = (
@@ -7439,7 +7828,6 @@ note = uni2D61;
 {
 color = 0;
 glyphname = "yan_yadh-tifi";
-lastChange = "2022-09-12 13:24:51 +0000";
 layers = (
 {
 anchors = (
@@ -7475,7 +7863,6 @@ rightKerningGroup = yadh;
 {
 color = 0;
 glyphname = "yan_yadd-tifi";
-lastChange = "2022-09-12 13:24:58 +0000";
 layers = (
 {
 anchors = (
@@ -7514,7 +7901,6 @@ note = uni2D4F2D39;
 {
 color = 0;
 glyphname = "yan_yaf-tifi";
-lastChange = "2022-09-12 13:25:05 +0000";
 layers = (
 {
 anchors = (
@@ -7559,7 +7945,6 @@ note = uni2D4F2D3C;
 {
 color = 0;
 glyphname = "yan_yakTuareg-tifi";
-lastChange = "2022-09-12 13:25:10 +0000";
 layers = (
 {
 anchors = (
@@ -7690,7 +8075,6 @@ note = uni2D4F2D3E;
 {
 color = 0;
 glyphname = "yan_yah-tifi";
-lastChange = "2022-09-12 13:25:13 +0000";
 layers = (
 {
 anchors = (
@@ -7809,7 +8193,6 @@ rightKerningGroup = yar;
 {
 color = 0;
 glyphname = "yan_yazhTuareg-tifi";
-lastChange = "2022-09-12 13:25:27 +0000";
 layers = (
 {
 anchors = (
@@ -7854,7 +8237,6 @@ note = uni2D4F2D4C;
 {
 color = 0;
 glyphname = "yan_yal-tifi";
-lastChange = "2022-09-12 13:25:30 +0000";
 layers = (
 {
 layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
@@ -7896,7 +8278,6 @@ rightKerningGroup = yan_yan;
 {
 color = 0;
 glyphname = "yan_yan-tifi";
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
@@ -7929,7 +8310,6 @@ rightKerningGroup = yan_yan;
 {
 color = 0;
 glyphname = "yan_yaghTuareg-tifi";
-lastChange = "2022-09-12 13:25:34 +0000";
 layers = (
 {
 anchors = (
@@ -7992,7 +8372,6 @@ note = uni2D4F2D57;
 {
 color = 0;
 glyphname = "yan_yas-tifi";
-lastChange = "2022-09-12 13:25:37 +0000";
 layers = (
 {
 anchors = (
@@ -8045,7 +8424,6 @@ rightKerningGroup = yar;
 {
 color = 0;
 glyphname = "yan_yat-tifi";
-lastChange = "2022-09-12 13:25:41 +0000";
 layers = (
 {
 anchors = (
@@ -8078,7 +8456,6 @@ note = uni2D4F2D5C;
 {
 color = 3;
 glyphname = "yan_yach-tifi";
-lastChange = "2022-09-12 13:25:45 +0000";
 layers = (
 {
 anchors = (
@@ -8182,7 +8559,6 @@ note = uni2D63;
 {
 color = 3;
 glyphname = "yan_yaz-tifi";
-lastChange = "2022-09-12 13:25:48 +0000";
 layers = (
 {
 anchors = (
@@ -8288,7 +8664,6 @@ note = uni2D43;
 {
 color = 8;
 glyphname = "yan_yabTuareg-tifi";
-lastChange = "2022-09-12 13:25:51 +0000";
 layers = (
 {
 anchors = (
@@ -8337,7 +8712,6 @@ note = uni2D3C;
 {
 color = 4;
 glyphname = "yan_yadAdrar-tifi";
-lastChange = "2022-09-12 13:25:54 +0000";
 layers = (
 {
 anchors = (
@@ -8437,7 +8811,6 @@ note = uni2D37;
 {
 color = 4;
 glyphname = "yan_yafAdrar-tifi";
-lastChange = "2022-09-12 13:25:57 +0000";
 layers = (
 {
 anchors = (
@@ -8491,7 +8864,6 @@ note = uni2D4A;
 {
 color = 8;
 glyphname = "yan_yafTawellemmet-tifi";
-lastChange = "2022-09-12 13:26:00 +0000";
 layers = (
 {
 anchors = (
@@ -8537,7 +8909,6 @@ note = uni2D3C;
 {
 color = 8;
 glyphname = "yan_yagTawellemmet-tifi";
-lastChange = "2022-09-12 13:26:05 +0000";
 layers = (
 {
 anchors = (
@@ -8634,7 +9005,6 @@ note = uni2D4F2D57;
 {
 color = 6;
 glyphname = "yan_yakAPT-tifi";
-lastChange = "2022-09-12 13:26:09 +0000";
 layers = (
 {
 anchors = (
@@ -8680,7 +9050,6 @@ note = uni2D51;
 {
 color = 6;
 glyphname = "yan_yatAPT-tifi";
-lastChange = "2022-09-12 13:26:13 +0000";
 layers = (
 {
 anchors = (
@@ -8719,7 +9088,6 @@ note = uni2D4F2D36;
 {
 color = 8;
 glyphname = "yan_yatTawellemmet-tifi";
-lastChange = "2022-09-12 13:26:15 +0000";
 layers = (
 {
 anchors = (
@@ -8752,7 +9120,6 @@ note = uni2D5C2D59;
 {
 color = 0;
 glyphname = "yan_yazTawellemmet-tifi";
-lastChange = "2022-09-12 13:26:19 +0000";
 layers = (
 {
 anchors = (
@@ -8820,7 +9187,6 @@ note = uni2D4F2D64;
 {
 color = 0;
 glyphname = "yu_yat-tifi";
-lastChange = "2022-09-12 13:26:23 +0000";
 layers = (
 {
 anchors = (
@@ -8891,7 +9257,6 @@ note = uni2D532D5C;
 {
 color = 10;
 glyphname = "yar_yab-tifi";
-lastChange = "2022-09-12 13:26:26 +0000";
 layers = (
 {
 anchors = (
@@ -8994,7 +9359,6 @@ rightKerningGroup = yar;
 {
 color = 10;
 glyphname = "yar_yaj-tifi";
-lastChange = "2022-09-12 13:26:30 +0000";
 layers = (
 {
 anchors = (
@@ -9090,7 +9454,6 @@ rightKerningGroup = yar;
 {
 color = 10;
 glyphname = "yar_yad-tifi";
-lastChange = "2022-09-12 13:26:34 +0000";
 layers = (
 {
 anchors = (
@@ -9186,7 +9549,6 @@ rightKerningGroup = yar;
 {
 color = 3;
 glyphname = "yar_yak-tifi";
-lastChange = "2022-09-12 13:26:38 +0000";
 layers = (
 {
 anchors = (
@@ -9269,7 +9631,6 @@ rightKerningGroup = yar;
 {
 color = 3;
 glyphname = "yar_yan-tifi";
-lastChange = "2022-09-12 13:26:45 +0000";
 layers = (
 {
 anchors = (
@@ -9378,7 +9739,6 @@ note = uni2D4F2D40;
 {
 color = 10;
 glyphname = "yar_yas-tifi";
-lastChange = "2022-09-12 13:26:50 +0000";
 layers = (
 {
 anchors = (
@@ -9489,7 +9849,6 @@ rightKerningGroup = yar;
 {
 color = 0;
 glyphname = "yar_yat-tifi";
-lastChange = "2022-09-12 13:26:53 +0000";
 layers = (
 {
 anchors = (
@@ -9533,7 +9892,6 @@ rightKerningGroup = ligyat;
 {
 color = 8;
 glyphname = "yar_yatTawellemmet-tifi";
-lastChange = "2022-09-12 13:26:58 +0000";
 layers = (
 {
 anchors = (
@@ -9609,7 +9967,6 @@ rightKerningGroup = yar;
 {
 color = 3;
 glyphname = "yagh_yat-tifi";
-lastChange = "2022-09-12 13:27:01 +0000";
 layers = (
 {
 anchors = (
@@ -9681,7 +10038,6 @@ note = uni2D36;
 {
 color = 0;
 glyphname = "yas_yan-tifi";
-lastChange = "2022-09-12 13:27:13 +0000";
 layers = (
 {
 anchors = (
@@ -9717,7 +10073,6 @@ rightKerningGroup = yar;
 {
 color = 0;
 glyphname = "yas_yat-tifi";
-lastChange = "2022-09-12 13:27:18 +0000";
 layers = (
 {
 anchors = (
@@ -9761,7 +10116,6 @@ rightKerningGroup = ligyat;
 {
 color = 4;
 glyphname = "yas_yatAdrar-tifi";
-lastChange = "2022-09-12 13:27:22 +0000";
 layers = (
 {
 anchors = (
@@ -9921,7 +10275,6 @@ rightKerningGroup = yar;
 {
 color = 8;
 glyphname = "yas_yatTawellemmet-tifi";
-lastChange = "2022-09-12 13:27:26 +0000";
 layers = (
 {
 anchors = (
@@ -10081,7 +10434,6 @@ rightKerningGroup = yar;
 {
 color = 0;
 glyphname = "yash_yat-tifi";
-lastChange = "2022-09-12 13:27:30 +0000";
 layers = (
 {
 anchors = (
@@ -10338,7 +10690,6 @@ rightKerningGroup = ligyat;
 {
 color = 0;
 glyphname = "yat_yas-tifi";
-lastChange = "2022-09-12 13:27:34 +0000";
 layers = (
 {
 anchors = (
@@ -10373,7 +10724,6 @@ note = uni2D5C2D59;
 {
 color = 10;
 glyphname = "yaw_yat-tifi";
-lastChange = "2022-09-12 13:27:41 +0000";
 layers = (
 {
 anchors = (
@@ -10444,7 +10794,6 @@ note = uni2D532D5C;
 {
 color = 0;
 glyphname = "yay_yat-tifi";
-lastChange = "2022-09-12 13:27:43 +0000";
 layers = (
 {
 anchors = (
@@ -10534,7 +10883,6 @@ note = uni2D622D5C;
 {
 color = 0;
 glyphname = "yazz_yat-tifi";
-lastChange = "2022-09-12 13:27:47 +0000";
 layers = (
 {
 anchors = (
@@ -10623,7 +10971,6 @@ note = uni2D4C2D5C;
 {
 color = 3;
 glyphname = "yab_yat-tifi.RTL";
-lastChange = "2022-09-12 13:27:49 +0000";
 layers = (
 {
 anchors = (
@@ -10649,7 +10996,6 @@ rightKerningGroup = yar;
 {
 color = 3;
 glyphname = "yag_yat-tifi.RTL";
-lastChange = "2022-09-12 13:27:55 +0000";
 layers = (
 {
 anchors = (
@@ -10766,7 +11112,6 @@ note = uni2D33;
 {
 color = 0;
 glyphname = "yah_yat-tifi.RTL";
-lastChange = "2022-09-12 13:27:57 +0000";
 layers = (
 {
 anchors = (
@@ -10792,7 +11137,6 @@ rightKerningGroup = yar;
 {
 color = 0;
 glyphname = "yal_yal-tifi.RTL";
-lastChange = "2019-10-04 14:05:43 +0000";
 layers = (
 {
 components = (
@@ -10817,7 +11161,6 @@ note = uni2D4D2D4D;
 {
 color = 0;
 glyphname = "yal_yan-tifi.RTL";
-lastChange = "2019-10-04 14:05:47 +0000";
 layers = (
 {
 components = (
@@ -10842,7 +11185,6 @@ note = uni2D4D2D4F;
 {
 color = 0;
 glyphname = "yam_yah-tifi.RTL";
-lastChange = "2022-09-12 13:28:01 +0000";
 layers = (
 {
 anchors = (
@@ -10866,7 +11208,6 @@ note = uni2D4E2D40;
 {
 color = 0;
 glyphname = "yam_yas-tifi.RTL";
-lastChange = "2022-09-12 13:28:03 +0000";
 layers = (
 {
 anchors = (
@@ -10911,7 +11252,6 @@ note = uni2D4E2D59;
 {
 color = 0;
 glyphname = "yam_yat-tifi.RTL";
-lastChange = "2022-09-12 13:28:08 +0000";
 layers = (
 {
 anchors = (
@@ -10935,7 +11275,6 @@ note = uni2D4E2D5C;
 {
 color = 4;
 glyphname = "yam_yatAdrar-tifi.RTL";
-lastChange = "2022-09-12 13:28:12 +0000";
 layers = (
 {
 anchors = (
@@ -10959,7 +11298,6 @@ note = uni2D4E2D5C;
 {
 color = 8;
 glyphname = "yam_yatSIL-tifi.RTL";
-lastChange = "2022-09-12 13:28:16 +0000";
 layers = (
 {
 anchors = (
@@ -11004,7 +11342,6 @@ note = uni2D5F;
 {
 color = 3;
 glyphname = "yan_yab-tifi.RTL";
-lastChange = "2022-09-12 13:28:19 +0000";
 layers = (
 {
 anchors = (
@@ -11077,7 +11414,6 @@ rightKerningGroup = yan_yab;
 {
 color = 0;
 glyphname = "yan_yaj-tifi.RTL";
-lastChange = "2022-09-12 13:28:23 +0000";
 layers = (
 {
 anchors = (
@@ -11101,7 +11437,6 @@ note = uni2D4F2D36;
 {
 color = 0;
 glyphname = "yan_yadd-tifi.RTL";
-lastChange = "2022-09-12 13:28:26 +0000";
 layers = (
 {
 anchors = (
@@ -11125,7 +11460,6 @@ note = uni2D4F2D39;
 {
 color = 0;
 glyphname = "yan_yah-tifi.RTL";
-lastChange = "2022-09-12 13:28:29 +0000";
 layers = (
 {
 anchors = (
@@ -11198,7 +11532,6 @@ rightKerningGroup = yan_yab;
 {
 color = 0;
 glyphname = "yan_yal-tifi.RTL";
-lastChange = "2022-09-12 13:28:35 +0000";
 layers = (
 {
 anchors = (
@@ -11223,7 +11556,6 @@ note = uni2D4F2D4D;
 {
 color = 0;
 glyphname = "yan_yan-tifi.RTL";
-lastChange = "2022-09-12 13:28:39 +0000";
 layers = (
 {
 anchors = (
@@ -11248,7 +11580,6 @@ note = uni2D4F2D4F;
 {
 color = 0;
 glyphname = "yan_yaghTuareg-tifi.RTL";
-lastChange = "2022-09-12 13:28:33 +0000";
 layers = (
 {
 anchors = (
@@ -11272,7 +11603,6 @@ note = uni2D4F2D57;
 {
 color = 0;
 glyphname = "yan_yas-tifi.RTL";
-lastChange = "2019-10-03 22:08:47 +0000";
 layers = (
 {
 components = (
@@ -11292,7 +11622,6 @@ rightKerningGroup = yar;
 {
 color = 8;
 glyphname = "yan_yatTawellemmet-tifi.RTL";
-lastChange = "2022-09-12 13:28:41 +0000";
 layers = (
 {
 anchors = (
@@ -11316,7 +11645,6 @@ note = uni2D5C2D59;
 {
 color = 0;
 glyphname = "yan_yazTawellemmet-tifi.RTL";
-lastChange = "2022-09-12 13:28:43 +0000";
 layers = (
 {
 anchors = (
@@ -11369,7 +11697,6 @@ note = uni2D4F2D64;
 {
 color = 0;
 glyphname = "yu_yat-tifi.RTL";
-lastChange = "2022-09-12 13:28:45 +0000";
 layers = (
 {
 anchors = (
@@ -11393,7 +11720,6 @@ note = uni2D532D5C;
 {
 color = 10;
 glyphname = "yar_yad-tifi.RTL";
-lastChange = "2022-09-12 13:28:50 +0000";
 layers = (
 {
 anchors = (
@@ -11423,7 +11749,6 @@ rightKerningGroup = yar;
 {
 color = 3;
 glyphname = "yar_yan-tifi.RTL";
-lastChange = "2022-09-12 13:28:52 +0000";
 layers = (
 {
 anchors = (
@@ -11495,7 +11820,6 @@ rightKerningGroup = yar;
 {
 color = 0;
 glyphname = "yar_yat-tifi.RTL";
-lastChange = "2022-09-12 13:28:55 +0000";
 layers = (
 {
 anchors = (
@@ -11521,7 +11845,6 @@ rightKerningGroup = yar;
 {
 color = 0;
 glyphname = "yas_yat-tifi.RTL";
-lastChange = "2022-09-12 13:28:58 +0000";
 layers = (
 {
 anchors = (
@@ -11547,7 +11870,6 @@ rightKerningGroup = yar;
 {
 color = 4;
 glyphname = "yas_yatAdrar-tifi.RTL";
-lastChange = "2022-09-12 13:29:02 +0000";
 layers = (
 {
 anchors = (
@@ -11639,7 +11961,6 @@ rightKerningGroup = yar;
 {
 color = 8;
 glyphname = "yas_yatTawellemmet-tifi.RTL";
-lastChange = "2022-09-12 13:29:05 +0000";
 layers = (
 {
 anchors = (
@@ -11731,7 +12052,6 @@ rightKerningGroup = yar;
 {
 color = 0;
 glyphname = "yash_yat-tifi.RTL";
-lastChange = "2022-09-12 13:29:10 +0000";
 layers = (
 {
 anchors = (
@@ -11756,7 +12076,6 @@ note = uni2D5B2D5C;
 {
 color = 0;
 glyphname = "yat_yas-tifi.RTL";
-lastChange = "2022-09-12 13:29:12 +0000";
 layers = (
 {
 anchors = (
@@ -11780,7 +12099,6 @@ note = uni2D5C2D59;
 {
 color = 10;
 glyphname = "yaw_yat-tifi.RTL";
-lastChange = "2022-09-12 13:29:14 +0000";
 layers = (
 {
 anchors = (
@@ -11804,7 +12122,6 @@ note = uni2D532D5C;
 {
 color = 0;
 glyphname = "yay_yat-tifi.RTL";
-lastChange = "2022-09-12 13:29:16 +0000";
 layers = (
 {
 anchors = (
@@ -11937,7 +12254,6 @@ note = uni2D622D5C;
 },
 {
 glyphname = CR;
-lastChange = "2019-12-16 15:37:20 +0000";
 layers = (
 {
 layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
@@ -11949,7 +12265,6 @@ unicode = 000D;
 },
 {
 glyphname = NULL;
-lastChange = "2019-12-16 15:37:32 +0000";
 layers = (
 {
 layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
@@ -11961,7 +12276,6 @@ unicode = 0000;
 },
 {
 glyphname = righttoleftoverride;
-lastChange = "2019-10-09 14:07:10 +0000";
 layers = (
 {
 layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
@@ -11972,7 +12286,6 @@ unicode = 202E;
 },
 {
 glyphname = uni200C;
-lastChange = "2019-10-11 18:11:58 +0000";
 layers = (
 {
 layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
@@ -11984,7 +12297,6 @@ unicode = 200C;
 },
 {
 glyphname = uni200D;
-lastChange = "2019-10-11 18:12:02 +0000";
 layers = (
 {
 layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
@@ -11996,7 +12308,6 @@ unicode = 200D;
 },
 {
 glyphname = .notdef;
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
@@ -12027,7 +12338,6 @@ note = ".notdef";
 },
 {
 glyphname = space;
-lastChange = "2019-09-24 20:24:48 +0000";
 layers = (
 {
 layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
@@ -12039,7 +12349,6 @@ unicode = 0020;
 },
 {
 glyphname = uni00A0;
-lastChange = "2019-09-24 20:24:52 +0000";
 layers = (
 {
 layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
@@ -12052,7 +12361,6 @@ unicode = 00A0;
 {
 color = 0;
 glyphname = "separator-tifi";
-lastChange = "2019-10-06 16:00:28 +0000";
 layers = (
 {
 background = {
@@ -12103,7 +12411,6 @@ unicode = 2D70;
 {
 color = 0;
 glyphname = "separator-tifi.RTL";
-lastChange = "2019-10-06 16:00:51 +0000";
 layers = (
 {
 background = {
@@ -12143,7 +12450,6 @@ note = uni2D70;
 },
 {
 glyphname = dottedCircle;
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
@@ -12430,7 +12736,6 @@ unicode = 25CC;
 {
 color = 0;
 glyphname = "consonantjoiner-tifi";
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
@@ -12547,7 +12852,6 @@ unicode = 2D7F;
 {
 color = 7;
 glyphname = dieresiscomb;
-lastChange = "2019-12-16 16:08:03 +0000";
 layers = (
 {
 anchors = (
@@ -12640,7 +12944,6 @@ unicode = 0308;
 {
 color = 0;
 glyphname = dotaccentcomb;
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 anchors = (
@@ -12699,7 +13002,6 @@ unicode = 0307;
 {
 color = 0;
 glyphname = dotaccentcomb_macroncomb;
-lastChange = "2022-09-12 13:17:06 +0000";
 layers = (
 {
 anchors = (
@@ -12727,7 +13029,6 @@ note = uni0307;
 {
 color = 6;
 glyphname = acutecomb;
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 anchors = (
@@ -12778,7 +13079,6 @@ unicode = 0301;
 {
 color = 0;
 glyphname = circumflexcomb;
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 anchors = (
@@ -12853,7 +13153,6 @@ unicode = 0302;
 {
 color = 0;
 glyphname = brevecomb;
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 anchors = (
@@ -12935,7 +13234,6 @@ unicode = 0306;
 {
 color = 0;
 glyphname = macroncomb;
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 anchors = (
@@ -12965,7 +13263,6 @@ unicode = 0304;
 {
 color = 0;
 glyphname = hookabovecomb;
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 background = {
@@ -13038,7 +13335,6 @@ unicode = 0309;
 {
 color = 0;
 glyphname = dotbelowcomb;
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 anchors = (
@@ -13097,7 +13393,6 @@ unicode = 0323;
 {
 color = 0;
 glyphname = macronbelowcomb;
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 anchors = (
@@ -13127,7 +13422,6 @@ unicode = 0331;
 {
 color = 6;
 glyphname = caron;
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
@@ -13153,7 +13447,6 @@ unicode = 02C7;
 {
 color = 1;
 glyphname = "labializationBerber-tifi";
-lastChange = "2019-10-11 17:40:08 +0000";
 layers = (
 {
 layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
@@ -13201,7 +13494,6 @@ note = uni0306;
 {
 color = 1;
 glyphname = "yaBerber-tifi";
-lastChange = "2019-10-11 17:59:51 +0000";
 layers = (
 {
 anchors = (
@@ -13238,7 +13530,6 @@ note = uni2D30;
 {
 color = 7;
 glyphname = "yaHawad-tifi";
-lastChange = "2019-09-25 17:53:37 +0000";
 layers = (
 {
 background = {
@@ -13327,7 +13618,6 @@ rightKerningGroup = yath;
 {
 color = 8;
 glyphname = "yaSIL-tifi";
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 components = (
@@ -13364,7 +13654,6 @@ note = uni2D30;
 {
 color = 1;
 glyphname = "yaaBerber-tifi";
-lastChange = "2022-09-12 13:29:32 +0000";
 layers = (
 {
 anchors = (
@@ -13420,7 +13709,6 @@ note = uni2D30;
 {
 color = 1;
 glyphname = "yabBerber-tifi";
-lastChange = "2022-09-12 13:29:36 +0000";
 layers = (
 {
 anchors = (
@@ -13460,7 +13748,6 @@ rightKerningGroup = yar;
 {
 color = 6;
 glyphname = "yachAPT-tifi";
-lastChange = "2022-09-12 13:29:39 +0000";
 layers = (
 {
 anchors = (
@@ -13493,7 +13780,6 @@ note = uni2D4F2D5C;
 {
 color = 1;
 glyphname = "yachBerber-tifi";
-lastChange = "2022-09-12 13:29:43 +0000";
 layers = (
 {
 anchors = (
@@ -13636,7 +13922,6 @@ note = uni2D5B;
 {
 color = 7;
 glyphname = "yachHawad-tifi";
-lastChange = "2022-09-12 13:29:46 +0000";
 layers = (
 {
 anchors = (
@@ -13671,7 +13956,6 @@ rightKerningGroup = yagTuareg1;
 {
 color = 6;
 glyphname = "yadAPT-tifi";
-lastChange = "2022-09-12 13:29:50 +0000";
 layers = (
 {
 anchors = (
@@ -13712,7 +13996,6 @@ note = uni2D39;
 {
 color = 3;
 glyphname = "yadTuareg-tifi";
-lastChange = "2022-09-12 13:29:52 +0000";
 layers = (
 {
 anchors = (
@@ -13745,7 +14028,6 @@ note = uni2D61;
 {
 color = 6;
 glyphname = "yaddAPT-tifi";
-lastChange = "2022-09-12 13:29:56 +0000";
 layers = (
 {
 anchors = (
@@ -13792,7 +14074,6 @@ note = uni2D39;
 {
 color = 4;
 glyphname = "yafAdrar-tifi";
-lastChange = "2022-09-12 13:29:59 +0000";
 layers = (
 {
 anchors = (
@@ -13835,7 +14116,6 @@ rightKerningGroup = yazh;
 {
 color = 1;
 glyphname = "yafBerber-tifi";
-lastChange = "2022-09-12 13:30:03 +0000";
 layers = (
 {
 anchors = (
@@ -13881,7 +14161,6 @@ note = uni2D3C;
 {
 color = 8;
 glyphname = "yafTawellemmet-tifi";
-lastChange = "2022-09-12 13:30:05 +0000";
 layers = (
 {
 anchors = (
@@ -13927,7 +14206,6 @@ note = uni2D4F2D3C;
 {
 color = 8;
 glyphname = "yagTuareg1-tifi";
-lastChange = "2022-09-12 13:30:09 +0000";
 layers = (
 {
 anchors = (
@@ -13992,7 +14270,6 @@ rightKerningGroup = yagTuareg1;
 {
 color = 8;
 glyphname = "yagTuareg2-tifi";
-lastChange = "2022-09-12 13:30:16 +0000";
 layers = (
 {
 anchors = (
@@ -14055,7 +14332,6 @@ note = uni2D4F2D57;
 {
 color = 8;
 glyphname = "yaghTawellemmet-tifi";
-lastChange = "2022-09-12 13:30:19 +0000";
 layers = (
 {
 anchors = (
@@ -14078,7 +14354,6 @@ note = uni2D4A;
 {
 color = 1;
 glyphname = "yaghhBerber-tifi";
-lastChange = "2022-09-12 13:30:23 +0000";
 layers = (
 {
 anchors = (
@@ -14167,7 +14442,6 @@ note = uni2D43;
 {
 color = 8;
 glyphname = "yahTawellemmet-tifi";
-lastChange = "2022-09-12 13:30:25 +0000";
 layers = (
 {
 anchors = (
@@ -14223,7 +14497,6 @@ note = uni2D4A;
 {
 color = 1;
 glyphname = "yakBerber-tifi";
-lastChange = "2022-09-12 13:30:28 +0000";
 layers = (
 {
 anchors = (
@@ -14291,7 +14564,6 @@ note = uni2D4F2D64;
 {
 color = 8;
 glyphname = "yakhTawellemmet-tifi";
-lastChange = "2022-09-12 13:30:31 +0000";
 layers = (
 {
 anchors = (
@@ -14373,7 +14645,6 @@ note = uni2D4D;
 {
 color = 1;
 glyphname = "yalBerber-tifi";
-lastChange = "2022-09-12 13:30:33 +0000";
 layers = (
 {
 anchors = (
@@ -14450,7 +14721,6 @@ note = uni2D4D;
 {
 color = 6;
 glyphname = "yapAPT-tifi";
-lastChange = "2022-09-12 13:30:35 +0000";
 layers = (
 {
 anchors = (
@@ -14481,7 +14751,6 @@ note = uni2D5C2D59;
 {
 color = 1;
 glyphname = "yaqBerber-tifi";
-lastChange = "2022-09-12 13:30:39 +0000";
 layers = (
 {
 anchors = (
@@ -14528,7 +14797,6 @@ note = uni2D4A;
 {
 color = 7;
 glyphname = "yaqHawad-tifi";
-lastChange = "2022-09-12 13:30:42 +0000";
 layers = (
 {
 anchors = (
@@ -14599,7 +14867,6 @@ note = uni2D57;
 {
 color = 1;
 glyphname = "yarrBerber-tifi";
-lastChange = "2022-09-12 13:30:45 +0000";
 layers = (
 {
 anchors = (
@@ -14676,7 +14943,6 @@ rightKerningGroup = yar;
 {
 color = 1;
 glyphname = "yasBerber-tifi";
-lastChange = "2022-09-12 13:30:49 +0000";
 layers = (
 {
 anchors = (
@@ -14861,7 +15127,6 @@ note = uni2D33;
 {
 color = 3;
 glyphname = "yashAdrar-tifi";
-lastChange = "2022-09-12 13:30:52 +0000";
 layers = (
 {
 anchors = (
@@ -15015,7 +15280,6 @@ rightKerningGroup = yashAdrar;
 {
 color = 8;
 glyphname = "yashTawellemmet-tifi";
-lastChange = "2022-09-12 13:30:56 +0000";
 layers = (
 {
 anchors = (
@@ -15207,7 +15471,6 @@ note = uni2D63;
 {
 color = 6;
 glyphname = "yassAPT-tifi";
-lastChange = "2022-09-12 13:31:01 +0000";
 layers = (
 {
 anchors = (
@@ -15259,7 +15522,6 @@ rightKerningGroup = yar;
 {
 color = 7;
 glyphname = "yassHawad-tifi";
-lastChange = "2022-09-12 13:31:06 +0000";
 layers = (
 {
 anchors = (
@@ -15307,7 +15569,6 @@ rightKerningGroup = yar;
 {
 color = 0;
 glyphname = "yattAPT-tifi";
-lastChange = "2022-09-12 13:31:09 +0000";
 layers = (
 {
 anchors = (
@@ -15354,7 +15615,6 @@ note = uni2D5C;
 {
 color = 1;
 glyphname = "yattBerber-tifi";
-lastChange = "2022-09-12 13:31:13 +0000";
 layers = (
 {
 anchors = (
@@ -15419,7 +15679,6 @@ note = uni2D5F;
 {
 color = 7;
 glyphname = "yattHawad-tifi";
-lastChange = "2022-09-12 13:31:22 +0000";
 layers = (
 {
 anchors = (
@@ -15462,7 +15721,6 @@ rightKerningGroup = yat;
 {
 color = 6;
 glyphname = "yavAPT-tifi";
-lastChange = "2022-09-12 13:31:25 +0000";
 layers = (
 {
 anchors = (
@@ -15558,7 +15816,6 @@ note = uni2D63;
 {
 color = 6;
 glyphname = "yawAPT-tifi";
-lastChange = "2022-09-12 13:31:28 +0000";
 layers = (
 {
 anchors = (
@@ -15596,7 +15853,6 @@ note = uni2D61;
 {
 color = 1;
 glyphname = "yawBerber-tifi";
-lastChange = "2022-09-12 13:31:32 +0000";
 layers = (
 {
 anchors = (
@@ -15634,7 +15890,6 @@ note = uni2D61;
 {
 color = 1;
 glyphname = "yayBerber-tifi";
-lastChange = "2022-09-12 13:31:34 +0000";
 layers = (
 {
 anchors = (
@@ -15667,7 +15922,6 @@ note = uni2D61;
 {
 color = 7;
 glyphname = "yayHawad-tifi";
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 anchors = (
@@ -15772,7 +16026,6 @@ rightKerningGroup = yiHawad;
 {
 color = 10;
 glyphname = "yayRhissaIxa-tifi";
-lastChange = "2022-09-12 13:31:40 +0000";
 layers = (
 {
 anchors = (
@@ -15896,7 +16149,6 @@ rightKerningGroup = yashAdrar;
 {
 color = 1;
 glyphname = "yazBerber-tifi";
-lastChange = "2022-09-12 13:31:43 +0000";
 layers = (
 {
 anchors = (
@@ -16011,7 +16263,6 @@ note = uni2D63;
 {
 color = 6;
 glyphname = "yazzAPT-tifi";
-lastChange = "2022-09-12 13:31:46 +0000";
 layers = (
 {
 anchors = (
@@ -16136,7 +16387,6 @@ note = uni2D63;
 {
 color = 1;
 glyphname = "yazzBerber-tifi";
-lastChange = "2022-09-12 13:31:49 +0000";
 layers = (
 {
 anchors = (
@@ -16267,7 +16517,6 @@ rightKerningGroup = yath;
 {
 color = 7;
 glyphname = "yazzHawad-tifi";
-lastChange = "2022-09-12 13:31:51 +0000";
 layers = (
 {
 anchors = (
@@ -16388,7 +16637,6 @@ rightKerningGroup = yaz;
 {
 color = 8;
 glyphname = "yazzSIL-tifi";
-lastChange = "2022-09-12 13:31:53 +0000";
 layers = (
 {
 anchors = (
@@ -16461,7 +16709,6 @@ rightKerningGroup = yazT;
 {
 color = 7;
 glyphname = "yeHawad-tifi";
-lastChange = "2022-09-12 13:31:55 +0000";
 layers = (
 {
 anchors = (
@@ -16572,7 +16819,6 @@ rightKerningGroup = yiHawad;
 {
 color = 1;
 glyphname = "yeRhissaIxa-tifi";
-lastChange = "2022-09-12 13:32:00 +0000";
 layers = (
 {
 anchors = (
@@ -16702,7 +16948,6 @@ rightKerningGroup = yap;
 {
 color = 8;
 glyphname = "yeTawellemmet-tifi";
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 anchors = (
@@ -16791,7 +17036,6 @@ note = uni2D62;
 {
 color = 6;
 glyphname = "yeyAPT-tifi";
-lastChange = "2022-09-12 13:32:06 +0000";
 layers = (
 {
 anchors = (
@@ -16893,7 +17137,6 @@ rightKerningGroup = yar;
 {
 color = 1;
 glyphname = "yeyBerber-tifi";
-lastChange = "2022-09-12 13:32:09 +0000";
 layers = (
 {
 anchors = (
@@ -17037,7 +17280,6 @@ note = uni2D3B;
 {
 color = 7;
 glyphname = "yeyHawad-tifi";
-lastChange = "2022-09-12 13:32:12 +0000";
 layers = (
 {
 anchors = (
@@ -17157,7 +17399,6 @@ rightKerningGroup = yath;
 {
 color = 8;
 glyphname = "yeyTawellemmet-tifi";
-lastChange = "2022-09-12 13:32:14 +0000";
 layers = (
 {
 anchors = (
@@ -17200,7 +17441,6 @@ note = uni2D30;
 {
 color = 1;
 glyphname = "yiBerber-tifi";
-lastChange = "2022-09-12 13:32:16 +0000";
 layers = (
 {
 anchors = (
@@ -17283,7 +17523,6 @@ note = uni2D62;
 {
 color = 7;
 glyphname = "yiHawad-tifi";
-lastChange = "2019-10-11 17:23:25 +0000";
 layers = (
 {
 anchors = (
@@ -17394,7 +17633,6 @@ rightKerningGroup = yiHawad;
 {
 color = 1;
 glyphname = "yiRhissaIxa-tifi";
-lastChange = "2022-09-12 13:32:20 +0000";
 layers = (
 {
 anchors = (
@@ -17524,7 +17762,6 @@ rightKerningGroup = yap;
 {
 color = 8;
 glyphname = "yiTawellemmet-tifi";
-lastChange = "2022-09-12 13:32:22 +0000";
 layers = (
 {
 anchors = (
@@ -17624,7 +17861,6 @@ note = uni2D62;
 {
 color = 8;
 glyphname = "yoTawellemmet-tifi";
-lastChange = "2022-09-12 13:32:24 +0000";
 layers = (
 {
 anchors = (
@@ -17707,7 +17943,6 @@ note = uni2D4D;
 {
 color = 6;
 glyphname = "yuAPT-tifi";
-lastChange = "2022-09-12 13:32:26 +0000";
 layers = (
 {
 anchors = (
@@ -17784,7 +18019,6 @@ note = uni2D4D;
 {
 color = 1;
 glyphname = "yuBerber-tifi";
-lastChange = "2022-09-12 13:32:28 +0000";
 layers = (
 {
 anchors = (
@@ -17838,7 +18072,6 @@ note = uni2D53;
 {
 color = 7;
 glyphname = "yuHawad-tifi";
-lastChange = "2019-09-25 17:53:48 +0000";
 layers = (
 {
 background = {
@@ -17927,7 +18160,6 @@ rightKerningGroup = yath;
 {
 color = 8;
 glyphname = "yuTawellemmet-tifi";
-lastChange = "2019-10-04 15:10:37 +0000";
 layers = (
 {
 components = (
@@ -17948,7 +18180,6 @@ note = uni2D61;
 {
 color = 1;
 glyphname = "yachBerber-tifi.RTL";
-lastChange = "2022-09-12 13:32:35 +0000";
 layers = (
 {
 anchors = (
@@ -18034,7 +18265,6 @@ note = uni2D5B;
 {
 color = 6;
 glyphname = "yadAPT-tifi.RTL";
-lastChange = "2022-09-12 13:32:37 +0000";
 layers = (
 {
 anchors = (
@@ -18058,7 +18288,6 @@ note = uni2D39;
 {
 color = 6;
 glyphname = "yaddAPT-tifi.RTL";
-lastChange = "2022-09-12 13:32:40 +0000";
 layers = (
 {
 anchors = (
@@ -18082,7 +18311,6 @@ note = uni2D39;
 {
 color = 1;
 glyphname = "yaghhBerber-tifi.RTL";
-lastChange = "2022-09-12 13:32:42 +0000";
 layers = (
 {
 anchors = (
@@ -18171,7 +18399,6 @@ note = uni2D43;
 {
 color = 1;
 glyphname = "yakBerber-tifi.RTL";
-lastChange = "2022-09-12 13:32:46 +0000";
 layers = (
 {
 anchors = (
@@ -18201,7 +18428,6 @@ note = uni2D4F2D64;
 {
 color = 6;
 glyphname = "yapAPT-tifi.RTL";
-lastChange = "2022-09-12 13:32:50 +0000";
 layers = (
 {
 anchors = (
@@ -18225,7 +18451,6 @@ note = uni2D5C2D59;
 {
 color = 1;
 glyphname = "yasBerber-tifi.RTL";
-lastChange = "2022-09-12 13:32:54 +0000";
 layers = (
 {
 anchors = (
@@ -18267,7 +18492,6 @@ note = uni2D33;
 {
 color = 8;
 glyphname = "yashTawellemmet-tifi.RTL";
-lastChange = "2022-09-12 13:32:58 +0000";
 layers = (
 {
 anchors = (
@@ -18385,7 +18609,6 @@ note = uni2D63;
 {
 color = 1;
 glyphname = "yattBerber-tifi.RTL";
-lastChange = "2022-09-12 13:33:00 +0000";
 layers = (
 {
 anchors = (
@@ -18430,7 +18653,6 @@ note = uni2D5F;
 {
 color = 7;
 glyphname = "yayHawad-tifi.RTL";
-lastChange = "2022-09-12 13:33:02 +0000";
 layers = (
 {
 anchors = (
@@ -18500,7 +18722,6 @@ rightKerningGroup = yiHawad;
 {
 color = 10;
 glyphname = "yayRhissaIxa-tifi.RTL";
-lastChange = "2022-09-12 13:33:05 +0000";
 layers = (
 {
 anchors = (
@@ -18583,7 +18804,6 @@ rightKerningGroup = yashAdrar;
 {
 color = 0;
 glyphname = "yazTawellemmet-tifi.RTL";
-lastChange = "2022-09-12 13:33:07 +0000";
 layers = (
 {
 anchors = (
@@ -18641,7 +18861,6 @@ note = uni2D64;
 {
 color = 8;
 glyphname = "yazzSIL-tifi.RTL";
-lastChange = "2022-09-12 13:33:09 +0000";
 layers = (
 {
 anchors = (
@@ -18699,7 +18918,6 @@ note = uni2D64;
 {
 color = 7;
 glyphname = "yeHawad-tifi.RTL";
-lastChange = "2019-10-09 15:15:32 +0000";
 layers = (
 {
 background = {
@@ -18763,7 +18981,6 @@ rightKerningGroup = yiHawad;
 {
 color = 1;
 glyphname = "yeRhissaIxa-tifi.RTL";
-lastChange = "2022-09-12 13:33:13 +0000";
 layers = (
 {
 anchors = (
@@ -18845,7 +19062,6 @@ rightKerningGroup = yap;
 {
 color = 8;
 glyphname = "yeTawellemmet-tifi.RTL";
-lastChange = "2019-10-07 21:36:56 +0000";
 layers = (
 {
 background = {
@@ -18897,7 +19113,6 @@ note = uni2D62;
 {
 color = 6;
 glyphname = "yeyAPT-tifi.RTL";
-lastChange = "2022-09-12 13:33:16 +0000";
 layers = (
 {
 anchors = (
@@ -18966,7 +19181,6 @@ note = uni2D5B;
 {
 color = 1;
 glyphname = "yiBerber-tifi.RTL";
-lastChange = "2022-09-12 13:33:18 +0000";
 layers = (
 {
 anchors = (
@@ -19024,7 +19238,6 @@ note = uni2D62;
 {
 color = 7;
 glyphname = "yiHawad-tifi.RTL";
-lastChange = "2019-10-04 14:09:29 +0000";
 layers = (
 {
 background = {
@@ -19088,7 +19301,6 @@ rightKerningGroup = yiHawad;
 {
 color = 1;
 glyphname = "yiRhissaIxa-tifi.RTL";
-lastChange = "2022-09-12 13:33:24 +0000";
 layers = (
 {
 anchors = (
@@ -19170,7 +19382,6 @@ rightKerningGroup = yap;
 {
 color = 8;
 glyphname = "yiTawellemmet-tifi.RTL";
-lastChange = "2022-09-12 13:33:26 +0000";
 layers = (
 {
 anchors = (
