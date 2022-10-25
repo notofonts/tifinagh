@@ -103,7 +103,7 @@ languagesystem latn dflt;";
 name = LanguageSystems;
 },
 {
-code = "lookup ccmp0 {
+code = "lookup rlig0 {
 
 	sub yal-tifi yal-tifi by yal_yal-tifi;
 	sub yal-tifi yan-tifi by yal_yan-tifi;
@@ -111,12 +111,12 @@ code = "lookup ccmp0 {
 	sub yan-tifi yal-tifi by yan_yal-tifi;
 	sub yan-tifi yan-tifi by yan_yan-tifi;
 	
-	} ccmp0;
+	} rlig0;
 ";
-name = lookup_ccmp0;
+name = lookup_rlig0;
 },
 {
-code = "lookup ccmpMain {
+code = "lookup rligMain {
 	sub dotaccentcomb macroncomb by dotaccentcomb_macroncomb;
 
 	sub yab-tifi uni200D yat-tifi by yab_yat-tifi;
@@ -247,12 +247,12 @@ code = "lookup ccmpMain {
 
 	sub yazz-tifi uni200D yat-tifi by yazz_yat-tifi;
 	sub yazz-tifi consonantjoiner-tifi yat-tifi by yazz_yat-tifi;
-} ccmpMain;
+} rligMain;
 ";
-name = lookup_ccmpMain;
+name = lookup_rligMain;
 },
 {
-code = "lookup ccmpTawell {
+code = "lookup rligTawell {
 
 	sub yab-tifi uni200D yat-tifi by yab_yat-tifi;
 	sub yab-tifi consonantjoiner-tifi yat-tifi by yab_yat-tifi;
@@ -382,8 +382,8 @@ code = "lookup ccmpTawell {
 
 	sub yazz-tifi uni200D yat-tifi by yazz_yat-tifi;
 	sub yazz-tifi consonantjoiner-tifi yat-tifi by yazz_yat-tifi;
-} ccmpTawell;";
-name = lookup_ccmpTawell;
+} rligTawell;";
+name = lookup_rligTawell;
 },
 {
 code = "lookup rtlaMain{
@@ -632,8 +632,8 @@ name = lookup_rtlaTuareg;
 );
 features = (
 {
-code = "lookup ccmpMain;";
-name = ccmp;
+code = "lookup rligMain;";
+name = rlig;
 },
 {
 code = "lookup rtlaMain;";
@@ -19465,11 +19465,11 @@ liga
 },
 {
 name = "Replace Prefix";
-value = "lookup_ccmp0; \012\012";
+value = "lookup_rlig0; \012\012";
 },
 {
 name = "Replace Prefix";
-value = "lookup_ccmpTawell; ";
+value = "lookup_rligTawell; ";
 },
 {
 name = "Replace Prefix";
@@ -19537,7 +19537,7 @@ value = (
 },
 {
 name = "Replace Feature";
-value = "ccmp;\012lookup ccmpMain;\012lookup ccmp0;";
+value = "rlig;\012lookup rligMain;\012lookup rlig0;";
 },
 {
 name = "Replace Feature";
@@ -19595,7 +19595,7 @@ value = (
 },
 {
 name = "Replace Prefix";
-value = "lookup_ccmpTawell; ";
+value = "lookup_rligTawell; ";
 },
 {
 name = "Replace Prefix";
@@ -19674,7 +19674,7 @@ value = "rtla;\012lookup rtlaMain;\012lookup rtlaHawad;\012";
 },
 {
 name = "Replace Feature";
-value = "ccmp;\012lookup ccmpMain;\012lookup ccmp0;";
+value = "rlig;\012lookup rligMain;\012lookup rlig0;";
 },
 {
 name = "Decompose Glyphs";
@@ -19730,7 +19730,7 @@ value = (
 },
 {
 name = "Replace Prefix";
-value = "lookup_ccmpTawell; ";
+value = "lookup_rligTawell; ";
 },
 {
 name = "Replace Prefix";
@@ -19782,7 +19782,7 @@ name = Regular;
 customParameters = (
 {
 name = "Replace Feature";
-value = "ccmp;\012lookup ccmpMain;\012lookup ccmp0;";
+value = "rlig;\012lookup rligMain;\012lookup rlig0;";
 },
 {
 name = "Replace Feature";
@@ -19829,7 +19829,7 @@ value = (
 },
 {
 name = "Replace Prefix";
-value = "lookup_ccmpTawell; ";
+value = "lookup_rligTawell; ";
 },
 {
 name = "Replace Prefix";
@@ -19914,7 +19914,7 @@ value = "rtla;\012lookup rtlaMain;\012lookup rtlaSIL;\012";
 },
 {
 name = "Replace Feature";
-value = "ccmp;\012lookup ccmpMain;\012lookup ccmp0;";
+value = "rlig;\012lookup rligMain;\012lookup rlig0;";
 },
 {
 name = "Decompose Glyphs";
@@ -19935,7 +19935,7 @@ value = (
 },
 {
 name = "Replace Prefix";
-value = "lookup_ccmpTawell; ";
+value = "lookup_rligTawell; ";
 },
 {
 name = "Replace Prefix";
@@ -20028,7 +20028,7 @@ value = "rtla;\012lookup rtlaMain;\012lookup rtlaAPT;";
 },
 {
 name = "Replace Feature";
-value = "ccmp;\012lookup ccmpMain;\012lookup ccmp0;";
+value = "rlig;\012lookup rligMain;\012lookup rlig0;";
 },
 {
 name = "Decompose Glyphs";
@@ -20086,7 +20086,7 @@ value = (
 },
 {
 name = "Replace Prefix";
-value = "lookup_ccmpTawell; ";
+value = "lookup_rligTawell; ";
 },
 {
 name = "Replace Prefix";
@@ -20179,7 +20179,7 @@ value = "rtla;\012lookup rtlaMain;\012lookup rtlaTawellemmet;";
 },
 {
 name = "Replace Feature";
-value = "ccmp;\012lookup ccmpTawell;\012lookup ccmp0;";
+value = "rlig;\012lookup rligTawell;\012lookup rlig0;";
 },
 {
 name = "Decompose Glyphs";
@@ -20204,7 +20204,7 @@ value = (
 },
 {
 name = "Replace Prefix";
-value = "lookup_ccmpMain; ";
+value = "lookup_rligMain; ";
 },
 {
 name = "Replace Prefix";
@@ -20275,7 +20275,7 @@ value = "rtla;\012lookup rtlaMain;\012lookup rtlaTuareg;\012";
 },
 {
 name = "Replace Feature";
-value = "ccmp;\012lookup ccmpMain;\012lookup ccmp0;";
+value = "rlig;\012lookup rligMain;\012lookup rlig0;";
 },
 {
 name = "Decompose Glyphs";
@@ -20293,7 +20293,7 @@ value = (
 },
 {
 name = "Replace Prefix";
-value = "lookup_ccmpTawell; ";
+value = "lookup_rligTawell; ";
 },
 {
 name = "Replace Prefix";
@@ -20362,7 +20362,7 @@ value = "rtla;\012lookup rtlaMain;\012lookup rtlaTuareg;\012";
 },
 {
 name = "Replace Feature";
-value = "ccmp;\012lookup ccmpMain;\012lookup ccmp0;";
+value = "rlig;\012lookup rligMain;\012lookup rlig0;";
 },
 {
 name = "Decompose Glyphs";
@@ -20380,7 +20380,7 @@ value = (
 },
 {
 name = "Replace Prefix";
-value = "lookup_ccmpTawell; ";
+value = "lookup_rligTawell; ";
 },
 {
 name = "Replace Prefix";
@@ -20458,7 +20458,7 @@ value = "rtla;\012lookup rtlaMain;\012lookup rtlaTuareg;\012";
 },
 {
 name = "Replace Feature";
-value = "ccmp;\012lookup ccmpMain;\012lookup ccmp0;";
+value = "rlig;\012lookup rligMain;\012lookup rlig0;";
 },
 {
 name = "Decompose Glyphs";
@@ -20476,7 +20476,7 @@ value = (
 },
 {
 name = "Replace Prefix";
-value = "lookup_ccmpTawell; ";
+value = "lookup_rligTawell; ";
 },
 {
 name = "Replace Prefix";
@@ -20528,7 +20528,7 @@ name = Regular;
 customParameters = (
 {
 name = "Replace Feature";
-value = "ccmp;\012lookup ccmpMain;\012lookup ccmp0;";
+value = "rlig;\012lookup rligMain;\012lookup rlig0;";
 },
 {
 name = "Replace Feature";
@@ -20566,7 +20566,7 @@ value = (
 },
 {
 name = "Replace Prefix";
-value = "lookup_ccmpTawell; ";
+value = "lookup_rligTawell; ";
 },
 {
 name = "Replace Prefix";
@@ -20618,7 +20618,7 @@ name = Regular;
 customParameters = (
 {
 name = "Replace Feature";
-value = "ccmp;\012lookup ccmpMain;\012lookup ccmp0;";
+value = "rlig;\012lookup rligMain;\012lookup rlig0;";
 },
 {
 name = "Replace Feature";
@@ -20669,7 +20669,7 @@ value = (
 },
 {
 name = "Replace Prefix";
-value = "lookup_ccmpTawell; ";
+value = "lookup_rligTawell; ";
 },
 {
 name = "Replace Prefix";
