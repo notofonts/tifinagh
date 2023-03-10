@@ -253,6 +253,36 @@ code = "lookup rligMain {
 name = lookup_rligMain;
 },
 {
+code = "lookup rligRTL {
+
+	sub yam-tifi.RTL uni200D yah-tifi by yam_yah-tifi.RTL;
+	sub yam-tifi.RTL consonantjoiner-tifi yah-tifi by yam_yah-tifi.RTL;
+
+	sub yam-tifi.RTL uni200D yas-tifi by yam_yas-tifi.RTL;
+	sub yam-tifi.RTL consonantjoiner-tifi yas-tifi by yam_yas-tifi.RTL;
+	
+	sub yam-tifi.RTL uni200D yat-tifi by yam_yat-tifi.RTL;
+	sub yam-tifi.RTL consonantjoiner-tifi yat-tifi by yam_yat-tifi.RTL;
+
+	sub yan-tifi uni200D yadd-tifi.RTL by yan_yadd-tifi.RTL;
+	sub yan-tifi consonantjoiner-tifi yadd-tifi.RTL by yan_yadd-tifi.RTL;
+
+	#sub yan-tifi.RTL uni200D yazTawellemmet-tifi.RTL by yan_yazTawellemmet-tifi.RTL;
+	#sub yan-tifi.RTL consonantjoiner-tifi yazTawellemmet-tifi.RTL by yan_yazTawellemmet-tifi.RTL;
+	
+	#sub yan-tifi.RTL uni200D yat-tifi by yan_yatTawellemmet-tifi.RTL;
+	#sub yan-tifi.RTL consonantjoiner-tifi yat-tifi by yan_yatTawellemmet-tifi.RTL;
+	
+	sub yash-tifi.RTL uni200D yat-tifi by yash_yat-tifi.RTL;
+	sub yash-tifi.RTL consonantjoiner-tifi yat-tifi by yash_yat-tifi.RTL;
+		
+	sub yay-tifi.RTL uni200D yat-tifi by yay_yat-tifi.RTL;
+	sub yay-tifi.RTL consonantjoiner-tifi yat-tifi by yay_yat-tifi.RTL;		
+} rligRTL;
+";
+name = lookup_rligRTL;
+},
+{
 code = "lookup rligTawell {
 
 	sub yab-tifi uni200D yat-tifi by yab_yat-tifi;
@@ -425,39 +455,10 @@ sub yaw_yat-tifi by yaw_yat-tifi.RTL;
 sub yan_yaghTuareg-tifi by yan_yaghTuareg-tifi.RTL;
 
 
-#sub yal_yal-tifi by yal_yal-tifi.RTL;
-#sub yal_yan-tifi by yal_yan-tifi.RTL;
-#sub yan_yal-tifi by yan_yal-tifi.RTL;
-#sub yan_yan-tifi by yan_yan-tifi.RTL;
-#sub yan_yaghTuareg-tifi by yan_yaghTuareg-tifi.RTL;
-#sub yan_yazTawellemet-tifi by yan_yazTawellemet-tifi.RTL;
-#sub yar_yat-tifi by yar_yat-tifi.RTL;
-#sub yaq-tifi by yaq-tifi.RTL;
-#sub yal-tifi by yal-tifi.RTL;
-#sub yam_yatAdrar-tifi by yam_yatAdrar-tifi.RTL;
-#sub yan_yatTawellemmet-tifi by yan_yatTawellemmet-tifi.RTL;
-#sub yarr-tifi by yarr-tifi.RTL;
-#sub yas_yatTawellemmet-tifi by yas_yatTawellemmet-tifi.RTL;
-#sub yas_yatAdrar-tifi by yas_yatAdrar-tifi.RTL;
-#sub yach-tifi by yach-tifi.RTL;
-#sub yatt-tifi by yatt-tifi.RTL;
-#sub yay-tifi by yay-tifi.RTL;
-#sub yachBerber-tifi by yachBerber-tifi.RTL;
-#sub yashTawellemmet-tifi by yashTawellemmet-tifi.RTL;
-#sub yasBerber-tifi by yasBerber-tifi.RTL;
-#sub yeyAPT-tifi by yeyAPT-tifi.RTL;
-#sub yapAPT-tifi by yapAPT-tifi.RTL;
-#sub yiBerber-tifi by yiBerber-tifi.RTL;
-#sub yaghhBerber-tifi by yaghhBerber-tifi.RTL;
-#sub yattBerber-tifi by yattBerber-tifi.RTL;
-#sub yakBerber-tifi by yakBerber-tifi.RTL;
-#sub yiHawad-tifi by yiHawad-tifi.RTL;
-#sub yeyHawad-tifi by yeyHawad-tifi.RTL;
-#sub yiTawellemmet-tifi by yeyHawad-tifi.RTL;
 
 
-
-} rtlaMain;";
+} rtlaMain;
+";
 name = lookup_rtlaMain;
 },
 {
@@ -633,11 +634,61 @@ name = lookup_rtlaTuareg;
 );
 features = (
 {
-code = "lookup rligMain;";
+code = "lookup rligMain;
+lookup rligRTL;
+
+";
 name = rlig;
 },
 {
-code = "lookup rtlaMain;";
+code = "lookup rtlaMain;
+# We do any \"non-obvious\" RTL-based ligatures (i.e. ones with no
+# .RTL glyphs) here, because we only know we should be
+# doing them as RTL if we're running this lookup.
+# We can do ligatures with .RTL glyphs later.
+
+	sub yab-tifi uni200D yat-tifi by yab_yat-tifi.RTL;
+	sub yab-tifi consonantjoiner-tifi yat-tifi by yab_yat-tifi.RTL;
+
+	sub yag-tifi uni200D yat-tifi by yag_yat-tifi.RTL;
+	sub yag-tifi consonantjoiner-tifi yat-tifi by yag_yat-tifi.RTL;
+
+	sub yan-tifi uni200D yab-tifi by yan_yab-tifi.RTL;
+	sub yan-tifi consonantjoiner-tifi yab-tifi by yan_yab-tifi.RTL;
+	
+	sub yan-tifi uni200D yah-tifi by yan_yah-tifi.RTL;
+	sub yan-tifi consonantjoiner-tifi yah-tifi by yan_yah-tifi.RTL;
+	
+	sub yan-tifi uni200D yaj-tifi by yan_yaj-tifi.RTL;
+	sub yan-tifi consonantjoiner-tifi yaj-tifi by yan_yaj-tifi.RTL;
+	
+	sub yan-tifi uni200D yaghTuareg-tifi by yan_yaghTuareg-tifi.RTL;
+	sub yan-tifi consonantjoiner-tifi yaghTuareg-tifi by yan_yaghTuareg-tifi.RTL;
+	
+	sub yan-tifi uni200D yas-tifi by yan_yas-tifi.RTL;
+	sub yan-tifi consonantjoiner-tifi yas-tifi by yan_yas-tifi.RTL;
+	
+	sub yar-tifi uni200D yan-tifi by yar_yan-tifi.RTL;
+	sub yar-tifi consonantjoiner-tifi yan-tifi by yar_yan-tifi.RTL;
+	
+	sub yar-tifi uni200D yat-tifi by yar_yat-tifi.RTL;
+	sub yar-tifi consonantjoiner-tifi yat-tifi by yar_yat-tifi.RTL;					
+
+	sub yas-tifi uni200D yat-tifi by yas_yat-tifi.RTL;
+	sub yas-tifi consonantjoiner-tifi yat-tifi by yas_yat-tifi.RTL;
+	
+	sub yat-tifi uni200D yas-tifi by yat_yas-tifi.RTL;
+	sub yat-tifi consonantjoiner-tifi yas-tifi by yat_yas-tifi.RTL;
+
+	sub yu-tifi uni200D yat-tifi by yu_yat-tifi.RTL;
+	sub yu-tifi consonantjoiner-tifi yat-tifi by yu_yat-tifi.RTL;
+
+	sub yar-tifi uni200D yad-tifi by yar_yad-tifi.RTL;
+	sub yar-tifi consonantjoiner-tifi yad-tifi by yar_yad-tifi.RTL;	
+	
+	sub yaw-tifi uni200D yat-tifi by yaw_yat-tifi.RTL;
+	sub yaw-tifi consonantjoiner-tifi yat-tifi by yaw_yat-tifi.RTL;
+";
 name = rtla;
 }
 );
