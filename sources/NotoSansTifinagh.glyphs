@@ -13030,7 +13030,7 @@ transform = "{1, 0, 0, 1, -81, 0}";
 },
 {
 name = macroncomb;
-transform = "{1, 0, 0, 1, 306, 0}";
+transform = "{1, 0, 0, 1, 306, 40}";
 }
 );
 layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
