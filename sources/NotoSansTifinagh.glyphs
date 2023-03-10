@@ -1,7 +1,8 @@
 {
-.appVersion = "3109";
+.appVersion = "3180";
 DisplayStrings = (
-"/dottedCircle"
+"/dottedCircle",
+"/hookabovecomb/yi-tifi"
 );
 copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tifinagh)";
 customParameters = (
@@ -13278,6 +13279,12 @@ color = 0;
 glyphname = hookabovecomb;
 layers = (
 {
+anchors = (
+{
+name = _top;
+position = "{-226, 583}";
+}
+);
 background = {
 paths = (
 {
