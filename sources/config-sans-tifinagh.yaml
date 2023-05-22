@@ -1,4 +1,5 @@
 buildVariable: false
+interpolate: true # To build the variant glyphs
 familyName: Noto Sans Tifinagh
 googleFonts: true
 includeSubsets:
