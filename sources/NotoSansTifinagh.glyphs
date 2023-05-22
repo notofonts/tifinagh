@@ -5296,39 +5296,6 @@ unicode = 2D67;
 },
 {
 color = 0;
-glyphname = "labialization-tifi";
-layers = (
-{
-anchors = (
-{
-name = top;
-position = "{177, 714}";
-}
-);
-layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
-paths = (
-{
-closed = 1;
-nodes = (
-"313 537 LINE",
-"313 714 LINE",
-"240 714 LINE",
-"240 610 LINE",
-"119 610 LINE",
-"119 714 LINE",
-"45 714 LINE",
-"45 537 LINE"
-);
-}
-);
-width = 358;
-}
-);
-note = uni2D6F;
-unicode = 2D6F;
-},
-{
-color = 0;
 glyphname = "yadd-tifi.RTL";
 layers = (
 {
@@ -6379,6 +6346,39 @@ width = 622;
 }
 );
 note = uni2D66;
+},
+{
+color = 0;
+glyphname = "labialization-tifi";
+layers = (
+{
+anchors = (
+{
+name = top;
+position = "{177, 714}";
+}
+);
+layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
+paths = (
+{
+closed = 1;
+nodes = (
+"313 537 LINE",
+"313 714 LINE",
+"240 714 LINE",
+"240 610 LINE",
+"119 610 LINE",
+"119 714 LINE",
+"45 714 LINE",
+"45 537 LINE"
+);
+}
+);
+width = 358;
+}
+);
+note = uni2D6F;
+unicode = 2D6F;
 },
 {
 color = 3;
@@ -12308,6 +12308,50 @@ width = 554;
 note = uni2D622D5C;
 },
 {
+glyphname = space;
+layers = (
+{
+layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
+width = 260;
+}
+);
+note = space;
+unicode = 0020;
+},
+{
+glyphname = uni00A0;
+layers = (
+{
+layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
+width = 260;
+}
+);
+note = uni00A0;
+unicode = 00A0;
+},
+{
+glyphname = uni200C;
+layers = (
+{
+layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
+width = 0;
+}
+);
+note = uni200C;
+unicode = 200C;
+},
+{
+glyphname = uni200D;
+layers = (
+{
+layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
+width = 0;
+}
+);
+note = uni200D;
+unicode = 200D;
+},
+{
 glyphname = CR;
 layers = (
 {
@@ -12340,28 +12384,6 @@ width = 600;
 unicode = 202E;
 },
 {
-glyphname = uni200C;
-layers = (
-{
-layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
-width = 0;
-}
-);
-note = uni200C;
-unicode = 200C;
-},
-{
-glyphname = uni200D;
-layers = (
-{
-layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
-width = 0;
-}
-);
-note = uni200D;
-unicode = 200D;
-},
-{
 glyphname = .notdef;
 layers = (
 {
@@ -12390,28 +12412,6 @@ width = 600;
 }
 );
 note = ".notdef";
-},
-{
-glyphname = space;
-layers = (
-{
-layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
-width = 260;
-}
-);
-note = space;
-unicode = 0020;
-},
-{
-glyphname = uni00A0;
-layers = (
-{
-layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
-width = 260;
-}
-);
-note = uni00A0;
-unicode = 00A0;
 },
 {
 color = 0;
@@ -13489,31 +13489,6 @@ width = 0;
 );
 note = uni0331;
 unicode = 0331;
-},
-{
-color = 6;
-glyphname = caron;
-layers = (
-{
-layerId = "87A198ED-C658-42EA-BEAB-8875AC5554B6";
-paths = (
-{
-closed = 1;
-nodes = (
-"97 484 LINE",
-"114 694 LINE",
-"114 714 LINE",
-"20 714 LINE",
-"20 694 LINE",
-"28 484 LINE"
-);
-}
-);
-width = 134;
-}
-);
-note = uni0301;
-unicode = 02C7;
 },
 {
 color = 1;
@@ -20997,7 +20972,6 @@ kerning = {
 "@MMK_R_yaz" = -40;
 "@MMK_R_yazh" = -30;
 "@MMK_R_yiHawad" = -10;
-caron = -30;
 "labialization-tifi" = -40;
 "labializationBerber-tifi" = -20;
 "ya-tifi" = -20;
@@ -21274,12 +21248,6 @@ caron = -30;
 "yaw_yat-tifi" = -40;
 "yaw_yat-tifi.RTL" = -40;
 };
-caron = {
-"yaghhBerber-tifi.RTL" = -40;
-"yahh-tifi.RTL" = -30;
-"yakTuareg-tifi.RTL" = -30;
-"yam_yatAdrar-tifi.RTL" = -30;
-};
 "labialization-tifi" = {
 "@MMK_R_yashAdrar" = -10;
 "yakTuareg-tifi.RTL" = -30;
@@ -21300,7 +21268,6 @@ caron = {
 "@MMK_R_yath" = -30;
 "@MMK_R_yaz" = -30;
 "@MMK_R_yazh" = -10;
-caron = -80;
 "labialization-tifi" = -70;
 "labializationBerber-tifi" = -70;
 "yaSIL-tifi" = -20;
@@ -21392,7 +21359,6 @@ caron = -80;
 "yaa-tifi" = {
 "@MMK_R_yadh" = -50;
 "@MMK_R_yak" = -30;
-caron = -30;
 "labializationBerber-tifi" = -30;
 "yachAPT-tifi" = -60;
 "yagTuareg2-tifi" = -50;
@@ -21547,7 +21513,6 @@ caron = -30;
 "@MMK_R_yashAdrar" = -30;
 "@MMK_R_yat" = -40;
 "@MMK_R_yath" = -30;
-caron = -100;
 "labialization-tifi" = -100;
 "labializationBerber-tifi" = -120;
 "yaSIL-tifi" = -20;
@@ -21810,7 +21775,6 @@ caron = -100;
 "@MMK_R_yashAdrar" = -10;
 "@MMK_R_yat" = -30;
 "@MMK_R_yaz" = -20;
-caron = -40;
 "labializationBerber-tifi" = -40;
 "yach-tifi" = -40;
 "yachAPT-tifi" = -20;
@@ -21923,7 +21887,6 @@ caron = -40;
 "@MMK_R_yar" = -20;
 "@MMK_R_yashAdrar" = -20;
 "@MMK_R_yat" = -30;
-caron = -30;
 "labializationBerber-tifi" = -30;
 "ya-tifi" = -20;
 "yaBerber-tifi" = -20;
@@ -22120,7 +22083,6 @@ caron = -30;
 "@MMK_R_yaz" = -50;
 "@MMK_R_yazh" = -40;
 "@MMK_R_yiHawad" = -20;
-caron = -30;
 "labialization-tifi" = -30;
 "labializationBerber-tifi" = -30;
 "yachAPT-tifi" = -40;
@@ -22210,7 +22172,6 @@ caron = -30;
 "@MMK_R_yar" = -40;
 "@MMK_R_yashAdrar" = -30;
 "@MMK_R_yat" = -30;
-caron = -30;
 "labializationBerber-tifi" = -30;
 "yach-tifi" = -40;
 "yagh-tifi" = -30;
@@ -22950,7 +22911,6 @@ caron = -30;
 "@MMK_R_yat" = -40;
 "@MMK_R_yath" = -30;
 "@MMK_R_yaz" = -20;
-caron = -120;
 "labialization-tifi" = -120;
 "labializationBerber-tifi" = -130;
 "yaSIL-tifi" = -40;
@@ -23447,7 +23407,6 @@ caron = -120;
 "@MMK_R_yath" = -20;
 "@MMK_R_yaz" = -30;
 "@MMK_R_yazh" = -20;
-caron = -40;
 "labialization-tifi" = -60;
 "labializationBerber-tifi" = -40;
 "ya-tifi" = -20;
