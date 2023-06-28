@@ -5,6 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>GFR - Waterfall</title>
     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <style type="text/css">
     
         html{
@@ -144,32 +145,16 @@
 
 	  
 	    @font-face{
-    src: url(NotoSansTifinaghAgrawImazighen-Regular.ttf);
-    font-family: "Noto Sans Tifinagh Agraw Imazighen";
+    src: url(NotoSansTifinaghRhissaIxa-Regular.ttf);
+    font-family: "Noto Sans Tifinagh Rhissa Ixa";
     font-weight: 400;
     
     font-style: normal;
 }
 	  
 	    @font-face{
-    src: url(NotoSansTifinaghAzawagh-Regular.ttf);
-    font-family: "Noto Sans Tifinagh Azawagh";
-    font-weight: 400;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(NotoSansTifinagh-Regular.ttf);
-    font-family: "Noto Sans Tifinagh";
-    font-weight: 400;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(NotoSansTifinaghHawad-Regular.ttf);
-    font-family: "Noto Sans Tifinagh Hawad";
+    src: url(NotoSansTifinaghAPT-Regular.ttf);
+    font-family: "Noto Sans Tifinagh APT";
     font-weight: 400;
     
     font-style: normal;
@@ -184,16 +169,8 @@
 }
 	  
 	    @font-face{
-    src: url(NotoSansTifinaghRhissaIxa-Regular.ttf);
-    font-family: "Noto Sans Tifinagh Rhissa Ixa";
-    font-weight: 400;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(NotoSansTifinaghSIL-Regular.ttf);
-    font-family: "Noto Sans Tifinagh SIL";
+    src: url(NotoSansTifinaghAir-Regular.ttf);
+    font-family: "Noto Sans Tifinagh Air";
     font-weight: 400;
     
     font-style: normal;
@@ -208,16 +185,32 @@
 }
 	  
 	    @font-face{
-    src: url(NotoSansTifinaghTawellemmet-Regular.ttf);
-    font-family: "Noto Sans Tifinagh Tawellemmet";
+    src: url(NotoSansTifinaghAgrawImazighen-Regular.ttf);
+    font-family: "Noto Sans Tifinagh Agraw Imazighen";
     font-weight: 400;
     
     font-style: normal;
 }
 	  
 	    @font-face{
-    src: url(NotoSansTifinaghAir-Regular.ttf);
-    font-family: "Noto Sans Tifinagh Air";
+    src: url(NotoSansTifinaghSIL-Regular.ttf);
+    font-family: "Noto Sans Tifinagh SIL";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSansTifinaghHawad-Regular.ttf);
+    font-family: "Noto Sans Tifinagh Hawad";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSansTifinagh-Regular.ttf);
+    font-family: "Noto Sans Tifinagh";
     font-weight: 400;
     
     font-style: normal;
@@ -232,8 +225,16 @@
 }
 	  
 	    @font-face{
-    src: url(NotoSansTifinaghAPT-Regular.ttf);
-    font-family: "Noto Sans Tifinagh APT";
+    src: url(NotoSansTifinaghTawellemmet-Regular.ttf);
+    font-family: "Noto Sans Tifinagh Tawellemmet";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSansTifinaghAzawagh-Regular.ttf);
+    font-family: "Noto Sans Tifinagh Azawagh";
     font-weight: 400;
     
     font-style: normal;
@@ -246,23 +247,7 @@
 
 	  
 	    .Regular{
-    font-family: "Noto Sans Tifinagh SIL", "Adobe NotDef";
-    font-weight: 400;
-    
-    font-style: normal;
-    font-variation-settings: "wght" 400;
-}
-	  
-	    .Regular{
-    font-family: "Noto Sans Tifinagh Tawellemmet", "Adobe NotDef";
-    font-weight: 400;
-    
-    font-style: normal;
-    font-variation-settings: "wght" 400;
-}
-	  
-	    .Regular{
-    font-family: "Noto Sans Tifinagh Azawagh", "Adobe NotDef";
+    font-family: "Noto Sans Tifinagh Ghat", "Adobe NotDef";
     font-weight: 400;
     
     font-style: normal;
@@ -278,7 +263,23 @@
 }
 	  
 	    .Regular{
-    font-family: "Noto Sans Tifinagh Hawad", "Adobe NotDef";
+    font-family: "Noto Sans Tifinagh", "Adobe NotDef";
+    font-weight: 400;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 400;
+}
+	  
+	    .Regular{
+    font-family: "Noto Sans Tifinagh Azawagh", "Adobe NotDef";
+    font-weight: 400;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 400;
+}
+	  
+	    .Regular{
+    font-family: "Noto Sans Tifinagh Tawellemmet", "Adobe NotDef";
     font-weight: 400;
     
     font-style: normal;
@@ -294,23 +295,7 @@
 }
 	  
 	    .Regular{
-    font-family: "Noto Sans Tifinagh", "Adobe NotDef";
-    font-weight: 400;
-    
-    font-style: normal;
-    font-variation-settings: "wght" 400;
-}
-	  
-	    .Regular{
     font-family: "Noto Sans Tifinagh Air", "Adobe NotDef";
-    font-weight: 400;
-    
-    font-style: normal;
-    font-variation-settings: "wght" 400;
-}
-	  
-	    .Regular{
-    font-family: "Noto Sans Tifinagh Rhissa Ixa", "Adobe NotDef";
     font-weight: 400;
     
     font-style: normal;
@@ -326,7 +311,7 @@
 }
 	  
 	    .Regular{
-    font-family: "Noto Sans Tifinagh APT", "Adobe NotDef";
+    font-family: "Noto Sans Tifinagh SIL", "Adobe NotDef";
     font-weight: 400;
     
     font-style: normal;
@@ -334,7 +319,23 @@
 }
 	  
 	    .Regular{
-    font-family: "Noto Sans Tifinagh Ghat", "Adobe NotDef";
+    font-family: "Noto Sans Tifinagh Rhissa Ixa", "Adobe NotDef";
+    font-weight: 400;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 400;
+}
+	  
+	    .Regular{
+    font-family: "Noto Sans Tifinagh Hawad", "Adobe NotDef";
+    font-weight: 400;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 400;
+}
+	  
+	    .Regular{
+    font-family: "Noto Sans Tifinagh APT", "Adobe NotDef";
     font-weight: 400;
     
     font-style: normal;
@@ -1495,17 +1496,37 @@
 		fontToggle.addEventListener("click", switchFonts);
 	}
 
-    const divs = document.querySelectorAll('.node');
-    divs.forEach(el => el.addEventListener('click', event => {
-    var children = event.target.querySelectorAll(".node");
-    children.forEach(function(e) {
-        if (e.style.display === "none") {
-            e.style.display = "block";
-        } else {
-            e.style.display = "none";
-        }
-    })
-    }));
+	function render(node, toplevel) {
+		var wrapper = $("<div> </div>");
+		if (!node) { return wrapper }
+		if (Array.isArray(node)) {
+			var before = $("<span/>");
+			before.addClass("attr-before");
+			before.html(" " + node[0] + " ");
+			var after = $("<span/>");
+			after.addClass("attr-after");
+			after.append(node[1]);
+			wrapper.append(before);
+			wrapper.append(after);
+			return wrapper
+		}
+		for (const [key, value] of Object.entries(node)) {
+			var display = $("<div/>");
+			display.addClass("node")
+			if (!toplevel && ! key.match(/^\d+$/)) {
+				display.hide()
+			}
+			display.append(key);
+			display.append(render(value, false).children());
+			wrapper.append(display)
+		}
+		return wrapper
+
+	}
+	$(function() {
+		$("#difftable").append(render(fontdiff, true).children())
+		$(".node").on("click", function(event){ $(this).children().toggle(); event.stopPropagation() })
+	});
     
 	
 

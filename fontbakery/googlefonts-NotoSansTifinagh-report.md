@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.12a0
+Fontbakery version: 0.8.13
 
 <details><summary><b>[1] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Verify that family names in the name table are consistent across all fonts in the family. Checks Typographic Family name (nameID 16) if present,  otherwise uses Font Family name (nameID 1) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.adobe.fonts/check/family/consistent_family_name">com.adobe.fonts/check/family/consistent_family_name</a>)</summary><div>
 
@@ -42,12 +42,7 @@ Fontbakery version: 0.8.12a0
 
 * 'Noto Sans Tifinagh Tawellemmet' was found in:
   - NotoSansTifinaghTawellemmet-Regular.ttf (nameID 1) [code: inconsistent-family-name]
-</div></details><br></div></details><details><summary><b>[8] NotoSansTifinagh-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Version number has increased since previous release on Google Fonts? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump">com.google.fonts/check/version_bump</a>)</summary><div>
-
-
-* 🔥 **FAIL** Version number 2.0050048828125 is equal to version on Google Fonts.
-* 🔥 **FAIL** Version number 2.0050048828125 is equal to version on Google Fonts GitHub repo.
-</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] NotoSansTifinagh-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -56,7 +51,7 @@ Fontbakery version: 0.8.12a0
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: ị̃ ị̆ ị̇ ị̉ ị̊ ị̋ ị̌ ị̒ ĩ̦ ĭ̦ i̦̇ ỉ̦ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ ỉ̧ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̒ į̣̀ į̣́ į̣̂ į̣̃ į̣̄ į̣̆ į̣̇ į̣̈ į̣̉ į̣̊ į̣̋ į̣̌ į̣̒ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -151,7 +146,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: ị̃ ị̆ ị̇ ị̉ ị̊ ị̋ ị̌ ị̒ ĩ̦ ĭ̦ i̦̇ ỉ̦ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ ỉ̧ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̒ į̣̀ į̣́ į̣̂ į̣̃ į̣̄ į̣̆ į̣̇ į̣̈ į̣̉ į̣̊ į̣̋ į̣̌ į̣̒ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -253,7 +248,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: ị̃ ị̆ ị̇ ị̉ ị̊ ị̋ ị̌ ị̒ ĩ̦ ĭ̦ i̦̇ ỉ̦ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ ỉ̧ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̒ į̣̀ į̣́ į̣̂ į̣̃ į̣̄ į̣̆ į̣̇ į̣̈ į̣̉ į̣̊ į̣̋ į̣̌ į̣̒ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -355,7 +350,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: ị̃ ị̆ ị̇ ị̉ ị̊ ị̋ ị̌ ị̒ ĩ̦ ĭ̦ i̦̇ ỉ̦ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ ỉ̧ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̒ į̣̀ į̣́ į̣̂ į̣̃ į̣̄ į̣̆ į̣̇ į̣̈ į̣̉ į̣̊ į̣̋ į̣̌ į̣̒ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -429,7 +424,7 @@ minus
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: ị̃ ị̆ ị̇ ị̉ ị̊ ị̋ ị̌ ị̒ ĩ̦ ĭ̦ i̦̇ ỉ̦ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ ỉ̧ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̒ į̣̀ į̣́ į̣̂ į̣̃ į̣̄ į̣̆ į̣̇ į̣̈ į̣̉ į̣̊ į̣̋ į̣̌ į̣̒ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -531,7 +526,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: ị̃ ị̆ ị̇ ị̉ ị̊ ị̋ ị̌ ị̒ ĩ̦ ĭ̦ i̦̇ ỉ̦ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ ỉ̧ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̒ į̣̀ į̣́ į̣̂ į̣̃ į̣̄ į̣̆ į̣̇ į̣̈ į̣̉ į̣̊ į̣̋ į̣̌ į̣̒ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -633,7 +628,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: ị̃ ị̆ ị̇ ị̉ ị̊ ị̋ ị̌ ị̒ ĩ̦ ĭ̦ i̦̇ ỉ̦ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ ỉ̧ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̒ į̣̀ į̣́ į̣̂ į̣̃ į̣̄ į̣̆ į̣̇ į̣̈ į̣̉ į̣̊ į̣̋ į̣̌ į̣̒ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -735,7 +730,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: ị̃ ị̆ ị̇ ị̉ ị̊ ị̋ ị̌ ị̒ ĩ̦ ĭ̦ i̦̇ ỉ̦ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ ỉ̧ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̒ į̣̀ į̣́ į̣̂ į̣̃ į̣̄ į̣̆ į̣̇ į̣̈ į̣̉ į̣̊ į̣̋ į̣̌ į̣̒ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -837,7 +832,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: ị̃ ị̆ ị̇ ị̉ ị̊ ị̋ ị̌ ị̒ ĩ̦ ĭ̦ i̦̇ ỉ̦ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ ỉ̧ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̒ į̣̀ į̣́ į̣̂ į̣̃ į̣̄ į̣̆ į̣̇ į̣̈ į̣̉ į̣̊ į̣̋ į̣̌ į̣̒ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -939,7 +934,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: ị̃ ị̆ ị̇ ị̉ ị̊ ị̋ ị̌ ị̒ ĩ̦ ĭ̦ i̦̇ ỉ̦ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ ỉ̧ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̒ į̣̀ į̣́ į̣̂ į̣̃ į̣̄ į̣̆ į̣̇ į̣̈ į̣̉ į̣̊ į̣̋ į̣̌ į̣̒ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1041,7 +1036,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: ị̃ ị̆ ị̇ ị̉ ị̊ ị̋ ị̌ ị̒ ĩ̦ ĭ̦ i̦̇ ỉ̦ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ ỉ̧ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̒ į̣̀ į̣́ į̣̂ į̣̃ į̣̄ į̣̆ į̣̇ į̣̈ į̣̉ į̣̊ į̣̋ į̣̌ į̣̒ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1143,7 +1138,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: ị̃ ị̆ ị̇ ị̉ ị̊ ị̋ ị̌ ị̒ ĩ̦ ĭ̦ i̦̇ ỉ̦ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ ỉ̧ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̒ į̣̀ į̣́ į̣̂ į̣̃ į̣̄ į̣̆ į̣̇ į̣̈ į̣̉ į̣̊ į̣̋ į̣̌ į̣̒ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1242,8 +1237,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 26 | 70 | 1416 | 74 | 1167 | 0 |
-| 0% | 1% | 3% | 51% | 3% | 42% | 0% |
+| 0 | 25 | 70 | 1416 | 74 | 1180 | 0 |
+| 0% | 1% | 3% | 51% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
