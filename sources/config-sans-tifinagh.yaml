@@ -1,9 +1,10 @@
 buildVariable: false
-interpolate: true # To build the variant glyphs
 familyName: Noto Sans Tifinagh
 googleFonts: true
 includeSubsets:
 - from: Noto Sans
   name: GF_Latin_Core
+interpolate: true
+recipeProvider: noto
 sources:
 - NotoSansTifinagh.glyphs
