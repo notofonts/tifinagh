@@ -850,7 +850,7 @@ verticalStems = (
 87,
 72
 );
-widthValue = 5;
+widthValue = 100;
 xHeight = 536;
 }
 );
